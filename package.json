@@ -1,0 +1,8 @@
+{
+  "name": "de-rn",
+  "version": "0.0.1",
+  "author": "Felix Henninger",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
