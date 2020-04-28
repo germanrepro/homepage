@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+      de/rn · {% block title %}
+        {%- if page %}
+          {{ page.title }}
+        {% elif section %}
+          {{ section.title }}
+        {% elif title %}
+          {{ title }}
+        {% endif -%}
+      {% endblock %}
+    </title>
+
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/main.css">
+
+    <!-- Scripts -->
+    {% include "partials/scripts.html" %}
+  </head>
+  <body>
+    {% include "partials/header.html" %}
+    {% block content %}
+      <div class="container">
+        {% if page %}
+          {{ page.content | safe }}
+        {% elif section %}
+          {{ section.content | safe }}
+        {% else %}
+          Unspecified content type
+        {% endif %}
+      </div>
+    {% endblock %}
+    {% include "partials/footer.html" %}
+  </body>
+</html>
