@@ -19,6 +19,13 @@ $jumbotron-bg: $dark;
 .navbar {
   font-family: $font-family-sans-serif;
 }
+.navbar .nav-item, .navbar .navbar-brand {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+.navbar:hover .nav-item, .navbar:hover .navbar-brand {
+  opacity: 0.9;
+}
 
 .jumbotron p.lead {
   opacity: 0.6;
