@@ -1,3 +1,18 @@
 @charset "utf-8";
 
+// Typography
+$font-family-serif: "Merriweather", "Times New Roman", serif;
+$font-family-sans-serif: "Merriweather Sans", Arial;
+$font-family-base: $font-family-serif !default;
+$headings-font-family: $font-family-sans-serif;
+$line-height-base: 1.8;
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.navbar {
+  font-family: $font-family-sans-serif;
+}
+
+.jumbotron p.lead {
+  opacity: 0.6;
+}
+
