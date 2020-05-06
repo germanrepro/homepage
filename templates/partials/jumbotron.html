@@ -1,4 +1,5 @@
-<div class="jumbotron jumbotron-fluid mb-5">
+<div class="jumbotron jumbotron-fluid mb-5 position-relative">
+  <canvas class="background"></canvas>
   <div class="container">
     <h1 class="display-4">
       German<br>
@@ -10,4 +11,15 @@
       rigorous research in Germany
     </p>
   </div>
+  <script defer type="text/javascript">
+    var particles = Particles.init({
+      selector: '.jumbotron .background',
+      color: '#ffffff',
+      maxParticles: 300,
+      speed: 0.4,
+      connectParticles: true,
+      minDistance: 60,
+      sizeVariations: 2,
+    });
+  </script>
 </div>
