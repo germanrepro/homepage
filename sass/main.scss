@@ -1,11 +1,17 @@
 @charset "utf-8";
 
 // Typography
+$spacer: 1rem; // As in raw bootstrap
+
 $font-family-serif: "Merriweather", "Times New Roman", serif;
 $font-family-sans-serif: "Merriweather Sans", Arial;
 $font-family-base: $font-family-serif !default;
-$headings-font-family: $font-family-sans-serif;
 $line-height-base: 1.8;
+
+$headings-font-family: $font-family-sans-serif;
+$headings-margin-bottom: $spacer;
+
+$hr-margin-y: 2 * $spacer;
 
 // Colors
 $dark: rgb(31, 52, 86);
