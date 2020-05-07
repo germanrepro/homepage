@@ -15,11 +15,43 @@
     var particles = Particles.init({
       selector: '.jumbotron .background',
       color: '#ffffff',
-      maxParticles: 300,
+      maxParticles: 260,
       speed: 0.4,
       connectParticles: true,
       minDistance: 60,
       sizeVariations: 2,
+      responsive: [
+        {
+          breakpoint: 1400,
+          options: {
+            maxParticles: 200,
+          },
+        },
+        {
+          breakpoint: 1200,
+          options: {
+            maxParticles: 150,
+          },
+        },
+        {
+          breakpoint: 992,
+          options: {
+            maxParticles: 100,
+          },
+        },
+        {
+          breakpoint: 768,
+          options: {
+            maxParticles: 75,
+          },
+        },
+        {
+          breakpoint: 576,
+          options: {
+            maxParticles: 50,
+          },
+        },
+      ]
     });
   </script>
 </div>
