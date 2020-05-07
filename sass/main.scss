@@ -36,6 +36,9 @@ $jumbotron-bg: $dark;
 
 
 // Jumbotron -------------------------------------------------------------------
+.jumbotron h1 {
+  text-shadow: 0 0 $spacer $dark;
+}
 .jumbotron canvas.background {
   position: absolute;
   display: block;
