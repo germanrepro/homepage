@@ -6,11 +6,12 @@ template = "landing.html"
 
 ## Mission
 
-Quos beatae suscipit et nihil sequi architecto ex ullam. Odio commodi cupiditate aut nihil molestias totam eum et. Ab aliquam est fuga atque molestiae accusantium sit. Quisquam molestias repellat sed qui.
+The German Reproducibility Network is a peer-led consortium that promotes the securing and further development of robust research.
 
-Libero est nostrum dolores. Eius quia consequatur perferendis. Enim voluptas consequatur ipsa et explicabo a deserunt.
+The aim of the interdisciplinary network is to create the structural conditions for robust research. The GRN focuses on the promotion of training activities at the local level and the dissemination of best practices by providing data, materials and analyses. The cooperation with stakeholders and scientific institutions ensures an efficient and transparent pursuit of our goals.
 
-Est id molestiae quia tempora qui dolor possimus. Odio nulla atque ipsum fuga enim atque totam. Et unde officia est aut quisquam totam itaque. Ducimus velit voluptas quisquam iste possimus optio est ea.
+Our consortium currently consists of Felix Schönbrodt, Ulrich Dirnagl, Rima-Maria Rahal, Bernadette Fritzsch, Klaus Tochtermann, Jutta Graf and Christian Fiebach.
+
 
 ----
 
