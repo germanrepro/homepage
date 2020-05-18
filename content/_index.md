@@ -1,6 +1,6 @@
 +++
 title = "German Reproducibility Network"
-description = "To conduct and promote rigorous research in Germany"
+description = "Working together for trustworthy and useful research"
 template = "landing.html"
 +++
 
