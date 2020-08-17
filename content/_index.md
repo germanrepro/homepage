@@ -6,11 +6,10 @@ template = "landing.html"
 
 ## Mission
 
-To promote quality, value, rigor, reliability, robustness and transparency of research in Germany.
+The German Reproducibility Network (GRN) is a cross-disciplinary consortium that aims at increasing trustworthiness and transparency of scientific research by investigating and encouraging the factors that contribute to robust research. We promote training activities and disseminate best practices, conduct and support meta-scientific research, and work with stakeholders to ensure coordination of efforts. GRN’s activities span multiple levels, including researchers, institutions and other stakeholders (e.g., funders, publishers, and Academic Societies).
 
-The German Reproducibility Network is a peer-led interdisciplinary consortium that aims at increasing the trustworthyness and usefulness of research by investigating the factors that contribute to robust research. We promote training activities and disseminate best practice, and work with stakeholders to ensure coordination of efforts across the sector. GRN’s activities span multiple levels, including researchers, institutions and other stakeholders (e.g., funders and publishers).
+GRN is modelled after its UK counterpart, the UK Reproducibility Network. It focuses primarily on the German research landscape, but is at the same time part of an international network of associations working together to improve research quality and reproducibility. For the purpose of networking with European initiatives, the following statutes ("Terms of Reference") are formulated in English.
 
-GRN is part of an international network of networks working together to improve research quality and reproducibility.
 
 ----
 
