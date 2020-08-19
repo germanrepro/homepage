@@ -8,14 +8,14 @@ template = "landing.html"
 
 The German Reproducibility Network (GRN) is a cross-disciplinary consortium that aims at increasing trustworthiness and transparency of scientific research by investigating and encouraging the factors that contribute to robust research. We promote training activities and disseminate best practices, conduct and support meta-scientific research, and work with stakeholders to ensure coordination of efforts. GRN’s activities span multiple levels, including researchers, institutions and other stakeholders (e.g., funders, publishers, and Academic Societies).
 
-GRN is modelled after its UK counterpart, the UK Reproducibility Network. It focuses primarily on the German research landscape, but is at the same time part of an international network of associations working together to improve research quality and reproducibility. For the purpose of networking with European initiatives, the following statutes ("Terms of Reference") are formulated in English.
-
 
 ----
 
-## Network
+## Founding members
 
-<img src="placeholder.svg" class="img-thumbnail m-2">
+TODO: Logos einbauen: in Grautöne verwandeln, Größe anpassen.
+
+<img src="DGPsLogo_web.jpg" alt="DGPs" class="img-thumbnail m-2">
 <img src="placeholder.svg" class="img-thumbnail m-2">
 <img src="placeholder.svg" class="img-thumbnail m-2">
 <img src="placeholder.svg" class="img-thumbnail m-2">
@@ -25,3 +25,14 @@ GRN is modelled after its UK counterpart, the UK Reproducibility Network. It foc
 <img src="placeholder.svg" class="img-thumbnail m-2">
 
 ----
+
+## International partners
+
+TODO: Links zu anderen Netzwerken: UKRN + Swiss (https://www.swissrn.org/)
+
+---
+
+Contact us: [info@reproducibilitynetwork.de](mailto:info@reproducibilitynetwork.de)
+
+TODO: Unnötige Menüpunkte raus
+TODO: Bei UK und SWiss schauen und kopieren.
