@@ -16,6 +16,9 @@ The German Reproducibility Network (GRN) is a cross-disciplinary consortium that
 TODO: Logos einbauen: in Grautöne verwandeln, Größe anpassen.
 
 <img src="DGPsLogo_web.jpg" alt="DGPs" class="img-thumbnail m-2">
+
+Contact: [Prof. Dr. Christian Fiebach](https://www.dgps.de/index.php?id=christianfiebach)
+
 <img src="placeholder.svg" class="img-thumbnail m-2">
 <img src="placeholder.svg" class="img-thumbnail m-2">
 <img src="placeholder.svg" class="img-thumbnail m-2">
