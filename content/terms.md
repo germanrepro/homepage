@@ -10,7 +10,7 @@ Version 0.1 - first draft
 
 2020-02-15
 
-Note: This currently is a living document which might change. Refer to version if necessary.
+*Note: This currently is a living document which might change. Refer to version if necessary*
 
 ### Präambel
 Das “Deutsche Reproduzierbarkeitsnetzwerk” (GRN) ist eine disziplin-übergreifende Initiative mit dem Ziel, die Vertrauenswürdigkeit und Transparenz der wissenschaftlichen Forschung zu erhöhen, indem sie Faktoren untersucht und fördert, die zu einer robusteren Forschung beitragen. Wir fördern Ausbildungsaktivitäten und vermitteln bewährte Praktiken der Methodenkompetenz, praktizieren und unterstützen metawissenschaftliche Forschung und arbeiten mit Interessenvertreterinnen und -vertretern zusammen, um die Beteiligung, Umsetzung und Koordination auf mehreren Ebenen zu gewährleisten. Das GRN strebt entsprechend Kooperationen mit Forschern und Forscherinnen, Institutionen und anderen Interessengruppen (z.B. Forschungsförderer, Verlage und wissenschaftliche Gesellschaften) an.

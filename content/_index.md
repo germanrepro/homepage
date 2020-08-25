@@ -18,24 +18,24 @@ The German Reproducibility Network (GRN) is a cross-disciplinary consortium that
 
 Contact: [Prof. Dr. Christian Fiebach](https://www.dgps.de/index.php?id=christianfiebach)
 
-<img src="helmholtz.png" class="img-thumbnail m-2">
+<img src="helmholtz.png" alt="Helmholtz Gemeinschaft" class="img-thumbnail m-2">
 
 Contact: [Dr. Bernadette Fritzsch](https://os.helmholtz.de/open-science-in-der-helmholtz-gemeinschaft/akteure-und-ihre-rollen/)
 
-<img src="leibniz_os.png" class="img-thumbnail m-2">
+<img src="leibniz_os.png" alt="Leibniz Research Alliance" class="img-thumbnail m-2">
 
 Contact: [Prof. Dr. Klaus Tochtermann](http://www.zbw.eu/de/forschung/klaus-tochtermann/)
 
-<img src="lmu_osc.png" class="img-thumbnail m-2">
+<img src="lmu_osc.png" alt="LMU" class="img-thumbnail m-2">
 
 Contact: [PD Dr. Felix Schönbrodt](https://www.osc.uni-muenchen.de/members/individual-members/schoenbrodt/index.html)
 
-<img src="nosi_.png" class="img-thumbnail m-2">
+<img src="nosi_.png" alt="NOSI" class="img-thumbnail m-2">
 
 Contact: [Dr. Susann Fiedler](https://www.coll.mpg.de/susann-fiedler)
       and  [Dr. Rima-Maria Rahal](https://www.coll.mpg.de/135848/dr-rima-maria-rahal)
 
-<img src="quest_.png" class="img-thumbnail m-2">
+<img src="quest_.png" alt="QUEST Center" class="img-thumbnail m-2">
 
 Contact: [Prof. Dr. Ulrich Dirnagl](https://www.bihealth.org/de/forschung/quest-center/team/quest-office/)
 
@@ -45,13 +45,17 @@ Contact: [Prof. Dr. Ulrich Dirnagl](https://www.bihealth.org/de/forschung/quest-
 
 ## International partners
 
-[UK Reproducibility Network] (https://www.ukrn.org/)
-[Swiss Reproducibility Network] (https://www.swissrn.org/)
-[Australian Reproducibility Network] (http://aus-rn.org/)
-[Slovak Reproducibility Network] (webpage coming soon)
+
+[UK Reproducibility Network](https://www.ukrn.org/)
+
+[Swiss Reproducibility Network](https://www.swissrn.org/)
+
+[Australian Reproducibility Network](http://aus-rn.org/)
+
+###### Slovak Reproducibility Network (*webpage coming soon*)
 ---
 
 Contact us: [info@reproducibilitynetwork.de](mailto:info@reproducibilitynetwork.de)
 
-TODO: Unnötige Menüpunkte raus
+
 TODO: Bei UK und SWiss schauen und kopieren.
