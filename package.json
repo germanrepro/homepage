@@ -3,6 +3,6 @@
   "version": "0.0.1",
   "author": "Felix Henninger",
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.5.2"
   }
 }
