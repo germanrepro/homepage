@@ -16,11 +16,10 @@ $headings-margin-bottom: $spacer;
 $hr-margin-y: 2 * $spacer;
 
 // Colors
-$dark: rgb(31, 52, 86);
-$navbar-dark-color: white;
+$highlight-light: #d61d7e;
+$highlight-dark: #3771c8; //#222464;
 
-$jumbotron-color: white;
-$jumbotron-bg: $dark;
+$jumbotron-color: black;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -34,17 +33,31 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
   margin-top: 2*$headings-margin-bottom;
 }
 
+// Highlight utility classes
+.highlight-light {
+  color: $highlight-light;
+}
+.highlight-dark {
+  color: $highlight-dark;
+}
+
 // Navigation ------------------------------------------------------------------
 .navbar {
   font-family: $font-family-sans-serif;
 }
 .navbar .nav-item, .navbar .navbar-brand {
   letter-spacing: 0.0075rem;
-  opacity: 0.7;
+  opacity: 0.75;
   transition: opacity 0.5s;
 }
 .navbar:hover .nav-item, .navbar:hover .navbar-brand {
-  opacity: 0.9;
+  opacity: 1.0;
+}
+.navbar .nav-item .nav-link {
+  color: rgba(0, 0, 0, 0.75);
+}
+.navbar .nav-item .nav-link:hover {
+  color: rgba(0, 0, 0, 1.0);
 }
 .navbar img.logo {
   position: relative;
@@ -54,7 +67,7 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
 
 // Jumbotron -------------------------------------------------------------------
 .jumbotron h1 {
-  text-shadow: 0 0 $spacer $dark;
+  text-shadow: 0 0 $spacer $light;
   line-height: 1.25;
 }
 .jumbotron canvas.background {
