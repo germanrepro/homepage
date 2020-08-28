@@ -59,20 +59,18 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
 .navbar .nav-item .nav-link:hover {
   color: rgba(0, 0, 0, 1.0);
 }
-.navbar img.logo {
-  position: relative;
-  top: 2px;
-}
 
 // Alignment
-.navbar .container {
-  justify-content: center;
+.navbar > .container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
 }
-.navbar > .container > .order-0 > :last-child {
-  margin-right: auto
+.navbar > .container > .order-2 {
+  margin-left: auto;
 }
-.navbar > .container > .order-2 > :first-child {
-  margin-right: auto
+.navbar-brand {
+  margin: 0;
+  padding-top: 5px;
 }
 
 
