@@ -59,6 +59,10 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
 .navbar .nav-item .nav-link:hover {
   color: rgba(0, 0, 0, 1.0);
 }
+.navbar .nav-item .nav-link.btn:hover {
+  color: rgba(255, 255, 255, 1.0);
+  background: $gray-600;
+}
 
 // Alignment
 .navbar > .container {
