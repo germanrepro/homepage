@@ -1,5 +1,4 @@
-<div class="jumbotron jumbotron-fluid mb-5 position-relative bg-white">
-  <canvas class="background"></canvas>
+<div class="jumbotron jumbotron-fluid mb-5 position-relative bg-pattern-light">
   <div class="container">
     <h1 class="display-4">
       German<br>
@@ -11,47 +10,4 @@
       transparency of scientific research in Germany.
     </p>
   </div>
-  <script defer type="text/javascript">
-    var particles = Particles.init({
-      selector: '.jumbotron .background',
-      color: '#999999',
-      maxParticles: Math.ceil(window.innerWidth/6),
-      speed: 0.2,
-      connectParticles: true,
-      minDistance: 60,
-      sizeVariations: 2,
-      responsive: [
-        {
-          breakpoint: 1400,
-          options: {
-            maxParticles: 280,
-          },
-        },
-        {
-          breakpoint: 1200,
-          options: {
-            maxParticles: 220,
-          },
-        },
-        {
-          breakpoint: 992,
-          options: {
-            maxParticles: 180,
-          },
-        },
-        {
-          breakpoint: 768,
-          options: {
-            maxParticles: 110,
-          },
-        },
-        {
-          breakpoint: 576,
-          options: {
-            maxParticles: 80,
-          },
-        },
-      ]
-    });
-  </script>
 </div>

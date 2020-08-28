@@ -41,6 +41,25 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
   color: $highlight-dark;
 }
 
+// Colors ----------------------------------------------------------------------
+
+:root {
+  // TODO figure out why SASS variables can't be set as CSS variables
+  --highlight-light: #d61d7e;
+  --highlight-dark: #3771c8;
+}
+
+// Patterns --------------------------------------------------------------------
+
+.bg-pattern-light {
+  background: white url(backgrounds/network_light.png);
+  background-position: center center;
+}
+.bg-pattern-dark {
+  background: #d2d9e0 url(backgrounds/network_dark.png);
+  background-position: center;
+}
+
 // Navigation ------------------------------------------------------------------
 .navbar {
   font-family: $font-family-sans-serif;
@@ -82,14 +101,6 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
 .jumbotron h1 {
   text-shadow: 0 0 $spacer $light;
   line-height: 1.25;
-}
-.jumbotron canvas.background {
-  position: absolute;
-  display: block;
-  opacity: 0.4;
-  top: 0;
-  left: 0;
-  z-index: 0;
 }
 .jumbotron p.lead {
   opacity: 0.6;
