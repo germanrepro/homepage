@@ -64,6 +64,17 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
   top: 2px;
 }
 
+// Alignment
+.navbar .container {
+  justify-content: center;
+}
+.navbar > .container > .order-0 > :last-child {
+  margin-right: auto
+}
+.navbar > .container > .order-2 > :first-child {
+  margin-right: auto
+}
+
 
 // Jumbotron -------------------------------------------------------------------
 .jumbotron h1 {
