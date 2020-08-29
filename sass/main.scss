@@ -99,6 +99,7 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
 
 // Jumbotron -------------------------------------------------------------------
 .jumbotron {
+  text-shadow: 0 0 $spacer $light;
   padding: 20vh 0;
   background:
     url(backgrounds/network_light_logo.png),
@@ -108,12 +109,12 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
     no-repeat,
     repeat;
   background-position: center center;
-}
-.jumbotron h1 {
-  text-shadow: 0 0 $spacer $light;
-  line-height: 1.25;
-}
-.jumbotron p.lead {
-  opacity: 0.6;
+
+  h1 {
+    line-height: 1.25;
+  }
+  p.lead {
+    color: #555;
+  }
 }
 
