@@ -98,6 +98,16 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
 
 
 // Jumbotron -------------------------------------------------------------------
+.jumbotron {
+  background:
+    url(backgrounds/network_light_logo.png),
+    url(backgrounds/network_light.png),
+    white;
+  background-repeat:
+    no-repeat,
+    repeat;
+  background-position: center center;
+}
 .jumbotron h1 {
   text-shadow: 0 0 $spacer $light;
   line-height: 1.25;
