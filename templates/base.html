@@ -25,6 +25,7 @@
     {% include "partials/scripts.html" %}
   </head>
   <body>
+    <div class="wrapper">
     {% include "partials/header.html" %}
     {% block content %}
       <div class="container">
@@ -37,6 +38,7 @@
         {% endif %}
       </div>
     {% endblock %}
+    </div>
     {% include "partials/footer.html" %}
   </body>
 </html>
