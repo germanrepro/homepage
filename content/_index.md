@@ -19,7 +19,7 @@ template = "landing.html"
 <div class="container py-5"></div>
 
 <!-- Target groups -->
-<div style="background: #d2d9e0" class="p-5">
+<div style="background: #d2d9e0" class="p-5 container-border">
   <div class="container card-group card-network">
     <div class="card">
       <div class="card-header">
