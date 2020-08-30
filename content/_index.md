@@ -4,11 +4,19 @@ description = "To conduct and promote rigorous research in Germany"
 template = "landing.html"
 +++
 
-## Mission
+<!-- Mission -->
+<div id="mission" class="container pt-5">
+  <div class="row">
+    <div class="col-3">
+      <h2>Mission</h2>
+    </div>
+    <div class="col-9">
+      The German Reproducibility Network (GRN) is a <strong class="highlight-light">cross-disciplinary consortium that aims to increase trustworthiness and transparency of scientific research</strong> by investigating and encouraging the factors that contribute to robust research. We promote training activities and disseminate best practices, conduct and support meta-scientific research, and work with stakeholders to ensure coordination of efforts. GRN’s activities span multiple levels, including researchers, institutions and other stakeholders (e.g., funders, publishers, and Academic Societies).
+    </div>
+  </div>
+</div>
 
-The German Reproducibility Network is a peer-led consortium that promotes the securing and further development of robust research.
 
-The aim of the interdisciplinary network is to create the structural conditions for robust research. The GRN focuses on the promotion of training activities at the local level and the dissemination of best practices by providing data, materials and analyses. The cooperation with stakeholders and scientific institutions ensures an efficient and transparent pursuit of our goals.
 
 Our consortium currently consists of Felix Schönbrodt, Ulrich Dirnagl, Rima-Maria Rahal, Bernadette Fritzsch, Klaus Tochtermann, Jutta Graf and Christian Fiebach.
 
