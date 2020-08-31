@@ -28,15 +28,13 @@
     <div class="wrapper">
     {% include "partials/header.html" %}
     {% block content %}
-      <div class="container">
-        {% if page %}
-          {{ page.content | safe }}
-        {% elif section %}
-          {{ section.content | safe }}
-        {% else %}
-          Unspecified content type
-        {% endif %}
-      </div>
+      {% if page %}
+        {{ page.content | safe }}
+      {% elif section %}
+        {{ section.content | safe }}
+      {% else %}
+        Unspecified content type
+      {% endif %}
     {% endblock %}
     </div>
     {% include "partials/footer.html" %}
