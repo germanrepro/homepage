@@ -138,6 +138,88 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
   }
 }
 
+// Network ---------------------------------------------------------------------
+
+.network .card {
+  border: none;
+  font-size: $small-font-size;
+  @include media-breakpoint-down(md) {
+    text-align: center;
+    margin: $spacer*1 0;
+  }
+}
+.network .card .card-body {
+  padding: $spacer 0;
+}
+
+// Hover effects
+.network .card img, .network .card .card-body {
+  transition-duration: .5s;
+  /* Use an exponential transition function
+     to move the bulk of the action forward */
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  /* Add a slight delay on mouseout */
+  transition-delay: 80ms;
+}
+
+.network .card img {
+  margin: 1px;
+  max-width: 300px;
+  filter: grayscale(100%) opacity(75%) contrast(10%) brightness(0.2);
+  transition-property: filter;
+}
+
+.network .card:hover img {
+  filter: grayscale(0%) opacity(100%);
+  transition-delay: 0ms;
+}
+
+.network .card .card-body {
+  opacity: 0;
+  transition-property: opacity;
+}
+.network .card:hover .card-body {
+  opacity: 0.8;
+}
+
+.network .card-columns {
+  display: grid;
+  grid-auto-rows: 1fr;
+  @include media-breakpoint-down(md) {
+    margin-top: 2*$spacer;
+  }
+  @include media-breakpoint-up(md) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3*$spacer 4*$spacer;
+  }
+
+  // Align logos
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @include media-breakpoint-up(md) {
+      justify-content: flex-start;
+    }
+  }
+}
+
+
+// Cards -----------------------------------------------------------------------
+.card-group.card-network .card img {
+  max-width: 120px;
+}
+.card-group.card-network .card .card-header {
+  text-align: center;
+  background-color: white;
+  margin: 1rem;
+  padding: 3rem 2rem;
+}
+
+.card-group.card-network .card p.card-text {
+  font-size: 1rem;
+}
 
 // Footer ----------------------------------------------------------------------
 

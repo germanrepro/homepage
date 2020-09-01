@@ -60,20 +60,34 @@ template = "landing.html"
   </div>
 </div>
 
-Our consortium currently consists of Felix Schönbrodt, Ulrich Dirnagl, Rima-Maria Rahal, Bernadette Fritzsch, Klaus Tochtermann, Jutta Graf and Christian Fiebach.
-
-
-----
-
-## Network
-
-<img src="placeholder.svg" class="img-thumbnail m-2">
-<img src="placeholder.svg" class="img-thumbnail m-2">
-<img src="placeholder.svg" class="img-thumbnail m-2">
-<img src="placeholder.svg" class="img-thumbnail m-2">
-<img src="placeholder.svg" class="img-thumbnail m-2">
-<img src="placeholder.svg" class="img-thumbnail m-2">
-<img src="placeholder.svg" class="img-thumbnail m-2">
-<img src="placeholder.svg" class="img-thumbnail m-2">
-
-----
+<!-- Network -->
+<div id="members" class="network container my-5 py-5">
+  <div class="row">
+    <div class="col-lg-3">
+      <h2>Founding members</h2>
+    </div>
+    <div class="col-lg-9">
+      <p>Please click on any logo to view the respective organization's representatives in DE-RN.</p>
+      <div class="card-columns">
+        <div class="card">
+          <img src="/logos/dgps.png" class="card-img-top mt-3">
+        </div>
+        <div class="card">
+          <img src="/logos/helmholtz.png" class="card-img-top mt-2">
+        </div>
+        <div class="card">
+          <img src="/logos/leibnitz.png" class="card-img-top mr-3">
+        </div>
+        <div class="card">
+          <img src="/logos/lmu-osc.png" class="card-img-top mt-3">
+        </div>
+        <div class="card">
+          <img src="/logos/nosi.png" class="card-img-top">
+        </div>
+        <div class="card">
+          <img src="/logos/quest.png" class="card-img-top">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
