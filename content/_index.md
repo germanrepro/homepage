@@ -91,3 +91,18 @@ template = "landing.html"
     </div>
   </div>
 </div>
+
+<!-- International partners -->
+<div id="partners" class="container my-5 py-5">
+  <div class="row">
+    <div class="col-lg-3">
+      <h2>International partners</h2>
+    </div>
+    <div class="col-lg-9 mt-1">
+      <a href="https://www.ukrn.org/" target="_blank"><strong>UK</strong> Reproducibility Network</a><br>
+      <a href="https://www.swissrn.org/" target="_blank"><strong>Swiss</strong> Reproducibility Network</a><br>
+      <a href="https://www.aus-rn.org/" target="_blank"><strong>Australian</strong> Reproducibility Network</a><br>
+      <strong>Slovak</strong> Reproducibility Network<br>
+    </div>
+  </div>
+</div>
