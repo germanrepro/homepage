@@ -1,9 +1,17 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="container">
-    <a class="navbar-brand order-1" href="#">
+    <a class="navbar-brand order-lg-1" href="/">
       <img src="/logos/dern_logo_v2.svg" style="height: 50px" class="logo">
     </a>
-    <ul class="navbar-nav order-0 mt-2 mt-lg-0">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse" data-target=".navbar-nav.collapse"
+      aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="navbar-nav collapse navbar-collapse order-lg-0 mt-2 mt-lg-0">
       <li class="nav-item">
         <a class="nav-link" href="/#mission">Mission</a>
       </li>
@@ -11,12 +19,12 @@
         <a class="nav-link" href="/#members">Members</a>
       </li>
     </ul>
-    <ul class="navbar-nav order-2 mt-2 mt-lg-0">
+    <ul class="navbar-nav collapse navbar-collapse order-lg-2 mb-2 mb-lg-0">
       <li class="nav-item">
         <a class="nav-link" href="/terms">Terms of Reference</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link btn btn-outline-secondary ml-2 px-3" href="/join">
+        <a class="nav-link btn btn-outline-secondary ml-lg-2 px-3" href="/join">
           Join
         </a>
       </li>

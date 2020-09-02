@@ -105,10 +105,20 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
 
 // Alignment
 .navbar > .container {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  @include media-breakpoint-down(md) {
+    .navbar-collapse.show, .navbar-collapse.collapsing {
+      display: block;
+    }
+    li.nav-item {
+      padding: 0 0.5*$spacer;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+  }
 }
-.navbar > .container > .order-2 {
+.navbar > .container > .order-lg-2 {
   margin-left: auto;
 }
 .navbar-brand {
