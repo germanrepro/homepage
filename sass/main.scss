@@ -225,18 +225,30 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
 
 
 // Cards -----------------------------------------------------------------------
-.card-group.card-network .card img {
-  max-width: 120px;
-}
-.card-group.card-network .card .card-header {
-  text-align: center;
-  background-color: white;
-  margin: 1rem;
-  padding: 3rem 2rem;
-}
+.card-group.card-network {
+  // Undo card group earlier (at md instead of sm)
+  @include media-breakpoint-down(md) {
+    display: block;
 
-.card-group.card-network .card p.card-text {
-  font-size: 1rem;
+    .card {
+      margin: 2*$spacer 0;
+      border-left-width: 1px;
+      border-radius: $card-border-radius;
+    }
+  }
+
+  .card .card-header {
+    text-align: center;
+    background-color: white;
+    margin: 1rem;
+    padding: 3rem 2rem;
+  }
+  .card img {
+    max-width: 120px;
+  }
+  .card p.card-text {
+    font-size: 1rem;
+  }
 }
 
 // Footer ----------------------------------------------------------------------
