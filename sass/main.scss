@@ -131,14 +131,22 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
 .jumbotron {
   text-shadow: 0 0 $spacer $light;
   padding: 20vh 0;
-  background:
-    url(backgrounds/network_light_logo.png),
-    url(backgrounds/network_light.png),
-    white;
-  background-repeat:
-    no-repeat,
-    repeat;
-  background-position: center center;
+  @include media-breakpoint-down(md) {
+    background:
+      url(backgrounds/network_light.png),
+      white;
+    background-position: center;
+  }
+  @include media-breakpoint-up(lg) {
+    background:
+      url(backgrounds/network_light_logo.png),
+      url(backgrounds/network_light.png),
+      white;
+    background-repeat:
+      no-repeat,
+      repeat;
+    background-position: center center;
+  }
 
   h1 {
     line-height: 1.25;
