@@ -7,10 +7,10 @@ template = "landing.html"
 <!-- Mission -->
 <div id="mission" class="container pt-5">
   <div class="row">
-    <div class="col-3">
+    <div class="col-lg-3">
       <h2>Mission</h2>
     </div>
-    <div class="col-9">
+    <div class="col-lg-9">
       The German Reproducibility Network <span class="text-muted">(DE-RN)</span> is a <strong class="highlight-light">cross-disciplinary consortium that aims to increase trustworthiness and transparency of scientific research</strong> by investigating and encouraging the factors that contribute to robust research. We promote training activities and disseminate best practices, conduct and support meta-scientific research, and work with stakeholders to ensure coordination of efforts. DE-RN’s activities span multiple levels, including researchers, institutions and other stakeholders (e.g., funders, publishers, and Academic Societies).
     </div>
   </div>
