@@ -69,23 +69,71 @@ template = "landing.html"
     <div class="col-lg-9">
       <p>Please click on any logo to view the respective organization's representatives in DE-RN.</p>
       <div class="card-columns">
-        <div class="card">
-          <img src="/logos/dgps.png" class="card-img-top mt-3">
+        <div class="card"
+          data-toggle="popover"
+          data-placement="bottom"
+          data-content="<a href='https://www.dgps.de/index.php?id=christianfiebach' target='_blank'>Prof. Dr. Christian Fiebach</a>"
+          data-html="true"
+        >
+          <img
+            src="/logos/dgps.png"
+            class="card-img-top mt-3"
+          >
         </div>
-        <div class="card">
-          <img src="/logos/helmholtz.png" class="card-img-top mt-2">
+        <div class="card"
+          data-toggle="popover"
+          data-placement="bottom"
+          data-content="<a href='https://os.helmholtz.de/open-science-in-der-helmholtz-gemeinschaft/akteure-und-ihre-rollen/' target='_blank'>Dr. Bernadette Fritzsch</a>"
+          data-html="true"
+        >
+          <img
+            src="/logos/helmholtz.png"
+            class="card-img-top mt-2"
+          >
         </div>
-        <div class="card">
-          <img src="/logos/leibnitz.png" class="card-img-top mr-3">
+        <div class="card"
+          data-toggle="popover"
+          data-placement="bottom"
+          data-content="<a href='http://www.zbw.eu/de/forschung/klaus-tochtermann/' target='_blank'>Prof. Dr. Klaus Tochtermann</a>"
+          data-html="true"
+        >
+          <img
+            src="/logos/leibnitz.png"
+            class="card-img-top mr-3"
+          >
         </div>
-        <div class="card">
-          <img src="/logos/lmu-osc.png" class="card-img-top mt-3">
+        <div class="card"
+          data-toggle="popover"
+          data-placement="bottom"
+          data-content="<a href='https://www.osc.uni-muenchen.de/members/individual-members/schoenbrodt/index.html' target='_blank'>PD Dr. Felix Schönbrodt</a>"
+          data-html="true"
+        >
+          <img
+            src="/logos/lmu-osc.png"
+            class="card-img-top mt-3"
+          >
         </div>
-        <div class="card">
-          <img src="/logos/nosi.png" class="card-img-top">
+        <div class="card"
+          data-toggle="popover"
+          data-placement="bottom"
+          data-content="<a href='https://www.coll.mpg.de/susann-fiedler' target='_blank'>Dr. Susann Fiedler</a> and<br> <a href='https://www.coll.mpg.de/135848/dr-rima-maria-rahal' target='_blank'>Dr. Rima-Maria Rahal</a>"
+          data-html="true"
+        >
+          <img
+            src="/logos/nosi.png"
+            class="card-img-top"
+          >
         </div>
-        <div class="card">
-          <img src="/logos/quest.png" class="card-img-top">
+        <div class="card"
+          data-toggle="popover"
+          data-placement="bottom"
+          data-content="<a href='https://www.bihealth.org/de/forschung/quest-center/team/quest-office/'>Prof. Dr. Ulrich Dirnagl</a>"
+          data-html="true"
+        >
+          <img
+            src="/logos/quest.png"
+            class="card-img-top"
+          >
         </div>
       </div>
     </div>
