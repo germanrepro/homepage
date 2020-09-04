@@ -158,6 +158,10 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
       repeat;
     background-position: center center;
   }
+  @include media-breakpoint-down(lg) {
+    // Nudge backgrounds inward on small screens
+    background-position: calc(50% - 50px) 50%;
+  }
 
   h1 {
     line-height: 1.25;
