@@ -30,7 +30,7 @@ template = "landing.html"
         >
       </div>
       <div class="card-body">
-        <h5 class="card-title text-center">Researchers</h5>
+        <strong class="h5 d-block card-title text-center">Researchers</strong>
         <p class="card-text">We <strong>support researchers</strong> in educating themselves about open science practices, and founding local open science communities.</p>
       </div>
     </div>
@@ -43,7 +43,7 @@ template = "landing.html"
         >
       </div>
       <div class="card-body">
-        <h5 class="card-title text-center">Grassroots Networks</h5>
+        <strong class="h5 d-block card-title text-center">Grassroots Networks</strong>
         <p class="card-text">We <strong>connect local initiatives</strong> to a national network, and foster connections between them.</p>
       </div>
     </div>
@@ -56,7 +56,7 @@ template = "landing.html"
         >
       </div>
       <div class="card-body pb-5">
-        <h5 class="card-title text-center">Institutions</h5>
+        <strong class="h5 d-block card-title text-center">Institutions</strong>
         <p class="card-text">We <strong>advise institutions</strong> on how to embed open science practices in their work.</p>
       </div>
     </div>
@@ -69,7 +69,7 @@ template = "landing.html"
         >
       </div>
       <div class="card-body">
-        <h5 class="card-title text-center">Other Stakeholders</h5>
+        <strong class="h5 d-block card-title text-center">Other Stakeholders</strong>
         <p class="card-text">We <strong>represent the open science community</strong> toward other stakeholders in the wider scientific landscape.</p>
       </div>
     </div>
