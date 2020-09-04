@@ -77,6 +77,7 @@ template = "landing.html"
         >
           <img
             src="/logos/dgps.png"
+            alt="Logo of the Deutsche Gesellschaft für Psychologie"
             class="card-img-top mt-3"
           >
         </div>
@@ -88,6 +89,7 @@ template = "landing.html"
         >
           <img
             src="/logos/helmholtz.png"
+            alt="Logo of the Helmholtz Association"
             class="card-img-top mt-2"
           >
         </div>
@@ -99,6 +101,7 @@ template = "landing.html"
         >
           <img
             src="/logos/leibnitz.png"
+            alt="Logo of the Leibniz Association"
             class="card-img-top mr-3"
           >
         </div>
@@ -110,6 +113,7 @@ template = "landing.html"
         >
           <img
             src="/logos/lmu-osc.png"
+            alt="Logo of the Open Science Center at LMU Munich"
             class="card-img-top mt-3"
           >
         </div>
@@ -121,6 +125,7 @@ template = "landing.html"
         >
           <img
             src="/logos/nosi.png"
+            alt="Logo of the Network of Open Science Initiatives"
             class="card-img-top"
           >
         </div>
@@ -132,6 +137,7 @@ template = "landing.html"
         >
           <img
             src="/logos/quest.png"
+            alt="Logo of the Quest Center"
             class="card-img-top"
           >
         </div>
