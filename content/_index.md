@@ -23,7 +23,11 @@ template = "landing.html"
   <div class="container card-group card-network">
     <div class="card">
       <div class="card-header">
-        <img src="icons/microscope.svg" alt="...">
+        <img
+          src="icons/microscope.svg"
+          alt="..."
+          loading="lazy"
+        >
       </div>
       <div class="card-body">
         <h5 class="card-title text-center">Researchers</h5>
@@ -32,7 +36,11 @@ template = "landing.html"
     </div>
     <div class="card">
       <div class="card-header">
-        <img src="icons/chart-network.svg" alt="...">
+        <img
+          src="icons/chart-network.svg"
+          alt="..."
+          loading="lazy"
+        >
       </div>
       <div class="card-body">
         <h5 class="card-title text-center">Grassroots Networks</h5>
@@ -41,7 +49,11 @@ template = "landing.html"
     </div>
     <div class="card">
       <div class="card-header">
-        <img src="icons/landmark.svg" alt="...">
+        <img
+          src="icons/landmark.svg"
+          alt="..."
+          loading="lazy"
+        >
       </div>
       <div class="card-body pb-5">
         <h5 class="card-title text-center">Institutions</h5>
@@ -50,7 +62,11 @@ template = "landing.html"
     </div>
     <div class="card">
       <div class="card-header">
-        <img src="icons/users.svg" alt="...">
+        <img
+          src="icons/users.svg"
+          alt="..."
+          loading="lazy"
+        >
       </div>
       <div class="card-body">
         <h5 class="card-title text-center">Other Stakeholders</h5>
@@ -79,6 +95,7 @@ template = "landing.html"
             src="/logos/dgps.png"
             alt="Logo of the Deutsche Gesellschaft für Psychologie"
             class="card-img-top mt-3"
+            loading="lazy"
           >
         </div>
         <div class="card"
@@ -91,6 +108,7 @@ template = "landing.html"
             src="/logos/helmholtz.png"
             alt="Logo of the Helmholtz Association"
             class="card-img-top mt-2"
+            loading="lazy"
           >
         </div>
         <div class="card"
@@ -103,6 +121,7 @@ template = "landing.html"
             src="/logos/leibnitz.png"
             alt="Logo of the Leibniz Association"
             class="card-img-top mr-3"
+            loading="lazy"
           >
         </div>
         <div class="card"
@@ -115,6 +134,7 @@ template = "landing.html"
             src="/logos/lmu-osc.png"
             alt="Logo of the Open Science Center at LMU Munich"
             class="card-img-top mt-3"
+            loading="lazy"
           >
         </div>
         <div class="card"
@@ -127,6 +147,7 @@ template = "landing.html"
             src="/logos/nosi.png"
             alt="Logo of the Network of Open Science Initiatives"
             class="card-img-top"
+            loading="lazy"
           >
         </div>
         <div class="card"
@@ -139,6 +160,7 @@ template = "landing.html"
             src="/logos/quest.png"
             alt="Logo of the Quest Center"
             class="card-img-top"
+            loading="lazy"
           >
         </div>
       </div>
