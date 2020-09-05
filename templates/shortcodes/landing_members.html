@@ -1,0 +1,32 @@
+<div
+  {% if id %}id="{{ id }}"{% endif %}
+  class="container my-5 py-5{% if class %} {{ class }}{% endif %}"
+>
+  <div class="row">
+    <div class="col-lg-3">
+      <h2>Founding members</h2>
+    </div>
+    <div class="col-lg-9 mt-1{% if body_class %} {{ body_class }}{% endif %}">
+      {{ body | safe }}
+      <div class="card-columns logo-masonry">
+        {% set data = load_data(path=data_path) %}
+        {%- for member in data.members %}
+          <div class="card"
+            data-toggle="popover"
+            data-placement="bottom"
+            data-content="{{ member.overlay_info | safe | replace(from='"', to="'") }}"
+            data-html="true"
+          >
+            <img
+              src="{{ member.logo }}"
+              alt="Logo of the {{ member.name }}"
+              class="card-img-top mt-3"
+              loading="lazy"
+            >
+          </div>
+        {% endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+

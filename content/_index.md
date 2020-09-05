@@ -78,88 +78,11 @@ template = "landing.html"
 {% end %}
 
 <!-- Members -->
-{% landing_section(title="Founding members", id="members") %}
+{% landing_members(
+  title="Founding members", id="members",
+  data_path="content/_data/members.toml"
+) %}
   <p>Please click on any logo to view the respective organization's representatives in DE-RN.</p>
-  <div class="card-columns logo-masonry">
-    <div class="card"
-      data-toggle="popover"
-      data-placement="bottom"
-      data-content="<a href='https://www.dgps.de/index.php?id=christianfiebach' target='_blank'>Prof. Dr. Christian Fiebach</a>"
-      data-html="true"
-    >
-      <img
-        src="/logos/dgps.png"
-        alt="Logo of the Deutsche Gesellschaft für Psychologie"
-        class="card-img-top mt-3"
-        loading="lazy"
-      >
-    </div>
-    <div class="card"
-      data-toggle="popover"
-      data-placement="bottom"
-      data-content="<a href='https://os.helmholtz.de/open-science-in-der-helmholtz-gemeinschaft/akteure-und-ihre-rollen/' target='_blank'>Dr. Bernadette Fritzsch</a>"
-      data-html="true"
-    >
-      <img
-        src="/logos/helmholtz.png"
-        alt="Logo of the Helmholtz Association"
-        class="card-img-top mt-2"
-        loading="lazy"
-      >
-    </div>
-    <div class="card"
-      data-toggle="popover"
-      data-placement="bottom"
-      data-content="<a href='http://www.zbw.eu/de/forschung/klaus-tochtermann/' target='_blank'>Prof. Dr. Klaus Tochtermann</a>"
-      data-html="true"
-    >
-      <img
-        src="/logos/leibniz.png"
-        alt="Logo of the Leibniz Association"
-        class="card-img-top mr-3"
-        loading="lazy"
-      >
-    </div>
-    <div class="card"
-      data-toggle="popover"
-      data-placement="bottom"
-      data-content="<a href='https://www.osc.uni-muenchen.de/members/individual-members/schoenbrodt/index.html' target='_blank'>PD Dr. Felix Schönbrodt</a>"
-      data-html="true"
-    >
-      <img
-        src="/logos/lmu-osc.png"
-        alt="Logo of the Open Science Center at LMU Munich"
-        class="card-img-top mt-3"
-        loading="lazy"
-      >
-    </div>
-    <div class="card"
-      data-toggle="popover"
-      data-placement="bottom"
-      data-content="<a href='https://www.coll.mpg.de/susann-fiedler' target='_blank'>Dr. Susann Fiedler</a> and<br> <a href='https://www.coll.mpg.de/135848/dr-rima-maria-rahal' target='_blank'>Dr. Rima-Maria Rahal</a>"
-      data-html="true"
-    >
-      <img
-        src="/logos/nosi.png"
-        alt="Logo of the Network of Open Science Initiatives"
-        class="card-img-top"
-        loading="lazy"
-      >
-    </div>
-    <div class="card"
-      data-toggle="popover"
-      data-placement="bottom"
-      data-content="<a href='https://www.bihealth.org/de/forschung/quest-center/team/quest-office/'>Prof. Dr. Ulrich Dirnagl</a>"
-      data-html="true"
-    >
-      <img
-        src="/logos/quest.png"
-        alt="Logo of the Quest Center"
-        class="card-img-top"
-        loading="lazy"
-      >
-    </div>
-  </div>
 {% end %}
 
 <!-- International partners -->

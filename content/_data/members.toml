@@ -1,0 +1,53 @@
+# This file contains the data used to build the members grid. It is built
+# following the TOML file format (https://toml.io/en/).
+#
+# Please start every new member with a [[members]] heading, and include
+# a name, the path to their logo (these are located in the /static/logos
+# directory), and the information that is shown in the overlay when visitors
+# click on the logo.
+#
+# Please note that the logos must have a transparency layer set (implying
+# that they should be saved as PNG or WebP images) for the hover effects
+# to work. A white background alone will not result in a pleasing effect.
+
+[[members]]
+name = "Deutsche Gesellschaft für Psychologie"
+logo = "/logos/dgps.png"
+overlay_info = """
+  <a href='https://www.dgps.de/index.php?id=christianfiebach' target='_blank'>Prof. Dr. Christian Fiebach</a>
+  """
+
+[[members]]
+name = "Helmholtz Association"
+logo = "/logos/helmholtz.png"
+overlay_info = """
+  <a href='https://os.helmholtz.de/open-science-in-der-helmholtz-gemeinschaft/akteure-und-ihre-rollen/' target='_blank'>Dr. Bernadette Fritzsch</a>
+  """
+
+[[members]]
+name = "Leibniz Association"
+logo = "/logos/leibniz.png"
+overlay_info = """
+  <a href='http://www.zbw.eu/de/forschung/klaus-tochtermann/' target='_blank'>Prof. Dr. Klaus Tochtermann</a>
+  """
+
+[[members]]
+name = "Open Science Center at LMU Munich"
+logo = "/logos/lmu-osc.png"
+overlay_info = """
+  <a href='https://www.osc.uni-muenchen.de/members/individual-members/schoenbrodt/index.html' target='_blank'>PD Dr. Felix Schönbrodt</a>
+  """
+
+[[members]]
+name = "Network of Open Science Initiatives"
+logo = "/logos/nosi.png"
+overlay_info = """
+  <a href='https://www.coll.mpg.de/susann-fiedler' target='_blank'>Dr. Susann Fiedler</a> and<br> <a href='https://www.coll.mpg.de/135848/dr-rima-maria-rahal' target='_blank'>Dr. Rima-Maria Rahal</a>
+  """
+
+[[members]]
+name = "Quest Center"
+logo = "/logos/quest.png"
+overlay_info = """
+  <a href='https://www.bihealth.org/de/forschung/quest-center/team/quest-office/'>Prof. Dr. Ulrich Dirnagl</a>
+  """
