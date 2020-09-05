@@ -80,7 +80,7 @@ template = "landing.html"
 <!-- Members -->
 {% landing_section(title="Founding members", id="members") %}
   <p>Please click on any logo to view the respective organization's representatives in DE-RN.</p>
-  <div class="card-columns">
+  <div class="card-columns logo-masonry">
     <div class="card"
       data-toggle="popover"
       data-placement="bottom"
