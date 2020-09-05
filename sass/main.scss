@@ -156,7 +156,7 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
     background-repeat:
       no-repeat,
       repeat;
-    background-position: center center;
+    background-position: calc(50% + 22px) 50%;
   }
   @include media-breakpoint-down(lg) {
     // Nudge backgrounds inward on small screens
