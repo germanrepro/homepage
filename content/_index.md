@@ -114,7 +114,7 @@ template = "landing.html"
       data-html="true"
     >
       <img
-        src="/logos/leibnitz.png"
+        src="/logos/leibniz.png"
         alt="Logo of the Leibniz Association"
         class="card-img-top mr-3"
         loading="lazy"
