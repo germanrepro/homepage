@@ -1,5 +1,11 @@
 {% extends "base.html" %}
 
+{% block extrahead %}
+<!-- Preload backgrounds -->
+<link rel="preload" href="/backgrounds/network_light.png" as="image">
+<link rel="preload" href="/backgrounds/network_light_logo.png" as="image">
+{% endblock %}
+
 {% block content %}
   {% include "partials/jumbotron.html" %}
   {{ super() }}
