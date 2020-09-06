@@ -279,6 +279,15 @@ footer {
   font-size: $small-font-size;
 }
 
+footer .row {
+  opacity: 0.9;
+}
+
+footer a {
+  color: $gray-600;
+  text-decoration: underline;
+}
+
 // Popovers --------------------------------------------------------------------
 
 .popover {
