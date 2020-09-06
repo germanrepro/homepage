@@ -227,6 +227,7 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
     a {
       width: 100%;
       height: 100%;
+      cursor: pointer;
 
       display: flex;
       flex-direction: row;
