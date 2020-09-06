@@ -219,7 +219,7 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
   }
   @include media-breakpoint-up(md) {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 3*$spacer 4*$spacer;
+    grid-gap: 1.5*$spacer 3*$spacer;
   }
 
   // Align logos inside the card vertically and horizontally (below md)
