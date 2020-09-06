@@ -47,6 +47,7 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
 .h4:not(:first-child), .h5:not(:first-child), .h6:not(:first-child) {
   margin-top: 2*$headings-margin-bottom;
 }
+// Now undo the damage everywhere (see popovers below)
 
 // Highlight utility classes
 .highlight-light {
@@ -196,26 +197,20 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
   transition-delay: 80ms;
 }
 
-.card-columns.logo-masonry .card img {
+.card-columns.logo-masonry .card a img {
   margin: 1px;
   max-width: 300px;
   filter: grayscale(100%) opacity(75%) contrast(10%) brightness(0.2);
   transition-property: filter;
 }
 
-.card-columns.logo-masonry .card:hover img {
+.card-columns.logo-masonry .card a:hover img,
+.card-columns.logo-masonry .card a:focus img {
   filter: grayscale(0%) opacity(100%);
   transition-delay: 0ms;
 }
 
-.card-columns.logo-masonry .card .card-body {
-  opacity: 0;
-  transition-property: opacity;
-}
-.card-columns.logo-masonry .card:hover .card-body {
-  opacity: 0.8;
-}
-
+// Grid layout
 .card-columns.logo-masonry {
   display: grid;
   grid-auto-rows: 1fr;
@@ -227,14 +222,23 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
     grid-gap: 3*$spacer 4*$spacer;
   }
 
-  // Align logos
-  div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    @include media-breakpoint-up(md) {
-      justify-content: flex-start;
+  // Align logos inside the card vertically and horizontally (below md)
+  div.card {
+    a {
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      &:focus {
+        outline: none;
+      }
+      @include media-breakpoint-up(md) {
+        justify-content: flex-start;
+      }
     }
   }
 }
@@ -272,4 +276,13 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
 footer {
   font-family: $font-family-sans-serif;
   font-size: $small-font-size;
+}
+
+// Popovers --------------------------------------------------------------------
+
+.popover {
+  min-width: 300px;
+}
+.popover-header {
+  margin-top: 0 !important;
 }

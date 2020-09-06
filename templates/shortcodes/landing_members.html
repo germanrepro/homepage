@@ -11,18 +11,25 @@
       <div class="card-columns logo-masonry">
         {% set data = load_data(path=data_path) %}
         {%- for member in data.members %}
-          <div class="card"
-            data-toggle="popover"
-            data-placement="bottom"
-            data-content="{{ member.overlay_info | safe | replace(from='"', to="'") }}"
-            data-html="true"
-          >
-            <img
-              src="{{ member.logo }}"
-              alt="Logo of the {{ member.name }}"
-              class="card-img-top mt-3"
-              loading="lazy"
+          <div class="card">
+            <a
+              data-toggle="popover"
+              data-trigger="focus"
+              tabindex="0"
+              data-placement="bottom"
+              title="{{ member.name }}"
+              data-content="
+                {{ member.overlay_info | safe | replace(from='"', to="'") }}
+              "
+              data-html="true"
             >
+              <img
+                src="{{ member.logo }}"
+                alt="Logo of the {{ member.name }}"
+                class="card-img-top mt-3"
+                loading="lazy"
+              >
+            </a>
           </div>
         {% endfor -%}
       </div>
