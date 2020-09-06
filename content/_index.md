@@ -80,7 +80,7 @@ template = "landing.html"
 <!-- Members -->
 {% landing_members(
   title="Founding members", id="members",
-  data_path="content/_data/members.toml"
+  data_path="data/members.toml"
 ) %}
   <p>Please click on any logo to view the respective organization's representatives in DE-RN.</p>
 {% end %}

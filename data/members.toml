@@ -1,0 +1,73 @@
+# This file contains the data used to build the members grid. It is built
+# following the TOML file format (https://toml.io/en/).
+#
+# Please start every new member with a [[members]] heading, and include
+# a name, the path to their logo (these are located in the /static/logos
+# directory), and the information that is shown in the overlay when visitors
+# click on the logo.
+#
+# Please note that the logos must have a transparency layer set (implying
+# that they should be saved as PNG or WebP images) for the hover effects
+# to work. A white background alone will not result in a pleasing effect.
+
+[[members]]
+name = "Deutsche Gesellschaft für Psychologie"
+url = "https://www.dgps.de/"
+logo = "/logos/dgps.png"
+
+  [[members.contacts]]
+  name = "Prof. Dr. Christian Fiebach"
+  url = "https://www.dgps.de/index.php?id=christianfiebach"
+
+
+[[members]]
+name = "Helmholtz Association"
+url = "https://www.helmholtz.de/"
+logo = "/logos/helmholtz.png"
+
+  [[members.contacts]]
+  name = "Dr. Bernadette Fritzsch"
+  url = "https://os.helmholtz.de/open-science-in-der-helmholtz-gemeinschaft/akteure-und-ihre-rollen/"
+
+
+[[members]]
+name = "Leibniz Association"
+url = "https://www.leibniz-gemeinschaft.de/en/"
+logo = "/logos/leibniz.png"
+
+  [[members.contacts]]
+  name = "Prof. Dr. Klaus Tochtermann"
+  url = "http://www.zbw.eu/de/forschung/klaus-tochtermann/"
+
+
+[[members]]
+name = "Open Science Center at LMU Munich"
+url = "https://www.osc.uni-muenchen.de"
+logo = "/logos/lmu-osc.png"
+
+  [[members.contacts]]
+  name = "PD Dr. Felix Schönbrodt"
+  url = "https://www.osc.uni-muenchen.de/members/individual-members/schoenbrodt/index.html"
+
+
+[[members]]
+name = "Network of Open Science Initiatives"
+logo = "/logos/nosi.png"
+
+  [[members.contacts]]
+  name = "Dr. Susann Fiedler"
+  url = "https://www.coll.mpg.de/susann-fiedler"
+
+  [[members.contacts]]
+  name = "Dr. Rima-Maria Rahal"
+  url = "https://www.coll.mpg.de/135848/dr-rima-maria-rahal"
+
+
+[[members]]
+name = "Quest Center"
+url = "https://www.bihealth.org/de/forschung/quest-center"
+logo = "/logos/quest.png"
+
+  [[members.contacts]]
+  name = "Prof. Dr. Ulrich Dirnagl"
+  url = "https://www.bihealth.org/de/forschung/quest-center/team/quest-office/"

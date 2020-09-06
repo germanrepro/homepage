@@ -17,9 +17,24 @@
               data-trigger="focus"
               tabindex="0"
               data-placement="bottom"
-              title="{{ member.name }}"
+              title="
+                {%- if member.url -%}
+                  <a href='{{ member.url }}' target='_blank' rel='noopener noreferrer' class='float-right'>↗︎</a>
+                  {{ member.name }}
+                {%- else -%}
+                  {{ member.name }}
+                {%- endif -%}
+              "
               data-content="
-                {{ member.overlay_info | safe | replace(from='"', to="'") }}
+                {%- for contact in member.contacts -%}
+                  {%- if loop.first -%}
+                  {%- elif loop.last -%}
+                    {# #} and {# #}
+                  {%- else -%}
+                    {# #}, {# #}
+                  {%- endif -%}
+                  <a href='{{ contact.url }}' target='_blank' rel='noopener noreferrer'>{{ contact.name }}</a>
+                {%- endfor -%}
               "
               data-html="true"
             >
