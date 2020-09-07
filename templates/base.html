@@ -1,16 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>
-      DE-RN · {% block title %}
-        {%- if page %}
+    <title>DE-RN · {# (I perserve the space) #}
+      {%- block title -%}
+        {%- if page -%}
           {{ page.title }}
-        {% elif section %}
+        {%- elif section -%}
           {{ section.title }}
-        {% elif title %}
-          {{ title }}
-        {% endif -%}
-      {% endblock %}
+        {%- endif -%}
+      {%- endblock -%}
     </title>
 
     <!-- Meta tags -->
