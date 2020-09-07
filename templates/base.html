@@ -16,6 +16,11 @@
     <!-- Meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% if page and page.description -%}
+      <meta name="description" content="{{ page.description }}">
+    {%- elif section and section.description -%}
+      <meta name="description" content="{{ section.description }}">
+    {%- endif %}
 
     <!-- Custom CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap" rel="stylesheet">
