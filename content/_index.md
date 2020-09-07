@@ -87,8 +87,8 @@ template = "landing.html"
 
 <!-- International partners -->
 {% landing_section(title="International partners") %}
-  <a href="https://www.ukrn.org/" target="_blank"><strong>UK</strong> Reproducibility Network</a><br>
-  <a href="https://www.swissrn.org/" target="_blank"><strong>Swiss</strong> Reproducibility Network</a><br>
-  <a href="https://www.aus-rn.org/" target="_blank"><strong>Australian</strong> Reproducibility Network</a><br>
+  <a href="https://www.ukrn.org/" target="_blank" rel="noreferrer"><strong>UK</strong> Reproducibility Network</a><br>
+  <a href="https://www.swissrn.org/" target="_blank" rel="noreferrer"><strong>Swiss</strong> Reproducibility Network</a><br>
+  <a href="https://www.aus-rn.org/" target="_blank" rel="noreferrer"><strong>Australian</strong> Reproducibility Network</a><br>
   <strong>Slovak</strong> Reproducibility Network<br>
 {% end %}
