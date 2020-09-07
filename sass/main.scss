@@ -86,6 +86,11 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
   background: #d2d9e0 url(backgrounds/network_dark.png);
   background-position: center;
 }
+.bg-pattern-fade {
+  background:
+    linear-gradient(#ffffff00, #ffffffff),
+    url(backgrounds/network_light.png);
+}
 .container-border {
   border-color: $gray-100;
   border-width: 1px;

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Not found{% endblock %}
+{% block content %}
+  <div class="bg-pattern-fade">
+    <div class="container" style="padding-top: 20vh; padding-bottom: 20vh">
+      <div class="row">
+        <div class="col">
+          <h1 class="display-4 mt-5">
+            Not found
+            <small class="text-muted">
+              &thinsp;(<span class="text-monospace">404</span>)
+            </small>
+          </h1>
+          <p class="lead">
+            We can't find the page you're looking for. Sorry for that!
+          </p>
+          <hr>
+          <p>
+            Could you kindly <a href="/contact">let us know</a> what's missing? We'd be thrilled to fix things for everyone.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
