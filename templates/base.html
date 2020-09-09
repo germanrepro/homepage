@@ -27,18 +27,18 @@
     {% block extrahead %}{% endblock %}
   </head>
   <body>
-    <div class="wrapper">
     {% include "partials/header.html" %}
-    {% block content %}
-      {% if page %}
-        {{ page.content | safe }}
-      {% elif section %}
-        {{ section.content | safe }}
-      {% else %}
-        Unspecified content type
-      {% endif %}
-    {% endblock %}
-    </div>
+    <main>
+      {% block content %}
+        {%- if page -%}
+          {{ page.content | safe }}
+        {%- elif section -%}
+          {{ section.content | safe }}
+        {%- else -%}
+          Unspecified content type
+        {%- endif -%}
+      {% endblock %}
+    </main>
     {% include "partials/footer.html" %}
 
     <!-- Scripts -->
