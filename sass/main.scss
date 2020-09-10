@@ -37,6 +37,13 @@ body > .footer {
   grid-row-start: 2;
   grid-row-end: 3;
 }
+.mx-lg-negative {
+  @include media-breakpoint-up(lg) {
+    // Assumes 960px container width
+    margin-left: -80px;
+    width: 890px;
+  }
+}
 
 // Typography ------------------------------------------------------------------
 
