@@ -1,3 +1,4 @@
 /zola
 /public/*
 /node_modules/*
+/static/fonts/*
