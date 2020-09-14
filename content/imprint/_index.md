@@ -5,6 +5,12 @@ title = "Imprint / Impressum / Datenschutzerklärung"
 template = "page.html"
 +++
 
+<!-- Tracking opt-out  -  doesn't work yet (not displayed) -->
+<iframe
+        style="border: 0; height: 200px; width: 600px;"
+        src="https://tellmi.psy.lmu.de/matomo/index.php?module=CoreAdminHome&action=optOut&language=de&backgroundColor=&fontColor=&fontSize=&fontFamily="
+        ></iframe>
+
 <h1>Impressum</h1>
 
 <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
