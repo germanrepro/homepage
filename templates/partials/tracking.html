@@ -1,6 +1,10 @@
 <!-- Matomo -->
 <script type="text/javascript">
   var _paq = window._paq = window._paq || [];
+
+  // Don't track users without consent
+  _paq.push(['requireConsent']);
+
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
   _paq.push(["setCookieDomain", "*.www.reproducibilitynetwork.de"]);
@@ -13,5 +17,47 @@
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
+
+  _paq.push([function () {
+    if (this.isUserOptedOut()) {
+      // Ask for opt-in
+      const wrapper = document.querySelector('footer .cookie-consent-wrapper')
+      const optIn = document.createElement('div')
+      optIn.innerHTML = `
+        <div class="cookie-consent container shadow-sm">
+          <div class="row">
+            <div class="col-lg-6">
+              <strong>We'd like to collect statistics about our visitors.</strong><br>Can we do that, and set a cookie to identify you on this site?<br>
+              <span class="text-muted">You can always change your choice in the <a href="/imprint/">privacy settings</a>.
+            </div>
+            <div class="col-lg-6 mt-3 mt-lg-0">
+              <div class="btn-group row w-100 ml-0" role="group">
+                <button type="button" class="btn btn-outline-success" id="matomo-tracking-optin">That's ok</button>
+                <button type="button" class="btn btn-outline-danger" id="matomo-tracking-optout">No thanks</button>
+                <button type="button" class="btn btn-outline-secondary" id="matomo-tracking-details">Tell me more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      `
+
+      optIn.querySelector('button#matomo-tracking-optin')
+        .addEventListener('click', () => {
+          _paq.push(['forgetUserOptOut'])
+          wrapper.innerHTML = ''
+        })
+
+      optIn.querySelector('button#matomo-tracking-optout')
+        .addEventListener('click', () => {
+          _paq.push(['optUserOut'])
+          wrapper.innerHTML = ''
+        })
+
+      optIn.querySelector('button#matomo-tracking-details')
+        .addEventListener('click', () => window.location = '/imprint/')
+
+      wrapper.appendChild(optIn)
+    }
+  }])
 </script>
 <!-- End Matomo Code -->

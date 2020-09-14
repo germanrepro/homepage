@@ -306,6 +306,27 @@ footer a {
   text-decoration: underline;
 }
 
+// Cookie consent
+.cookie-consent-wrapper {
+  position: fixed;
+  bottom: 2 * $spacer;
+  width: 100%
+}
+.cookie-consent {
+  font-size: 1.1rem;
+  padding: $spacer;
+  border: $card-border-width solid $card-border-color;
+  border-radius: $border-radius;
+  background-color: $card-bg;
+}
+.cookie-consent .btn-group {
+  height: 100%;
+}
+.cookie-consent .btn {
+  flex-basis: 0;
+  align-self: stretch;
+}
+
 // Popovers --------------------------------------------------------------------
 
 .popover {
