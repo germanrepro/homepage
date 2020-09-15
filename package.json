@@ -12,6 +12,7 @@
   },
   "scripts": {
     "copy_fonts": "shx mkdir -p static/fonts/files && shx cp node_modules/typeface-merriweather/files/* static/fonts/files && shx cp node_modules/typeface-merriweather-sans/files/* static/fonts/files && shx cat node_modules/typeface-merriweather/index.css >> static/fonts/fonts.css && shx cat node_modules/typeface-merriweather-sans/index.css >> static/fonts/fonts.css",
-    "copy_scripts": "shx mkdir -p static/scripts && shx cp node_modules/jquery/dist/jquery.slim.min.js static/scripts && shx cp node_modules/popper.js/dist/umd/popper.min.js static/scripts && shx cp node_modules/bootstrap/dist/js/bootstrap.min.js static/scripts"
+    "copy_scripts": "shx mkdir -p static/scripts && shx cp node_modules/jquery/dist/jquery.slim.min.js static/scripts && shx cp node_modules/popper.js/dist/umd/popper.min.js static/scripts && shx cp node_modules/bootstrap/dist/js/bootstrap.min.js static/scripts",
+    "copy_static": "npm run copy_fonts && npm run copy_scripts"
   }
 }

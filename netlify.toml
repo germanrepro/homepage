@@ -3,7 +3,7 @@
 # to have a `base` variable but you do need the `publish` and `command`
 base    = "/"
 publish = "/public"
-command = "npm run copy_fonts && zola build"
+command = "npm run copy_static && zola build"
 
 [build.environment]
 # Set the version name that you want to use and Netlify will automatically use it
@@ -15,4 +15,4 @@ ZOLA_VERSION = "0.10.1"
 # `$DEPLOY_PRIME_URL`.
 
 [context.deploy-preview]
-command = "npm run copy_fonts && zola build --base-url $DEPLOY_PRIME_URL"
+command = "npm run copy_static && zola build --base-url $DEPLOY_PRIME_URL"
