@@ -1,8 +1,5 @@
 +++
 title = "Terms of Reference"
-
-# This page needs a template attribute so as not to be rendered as a section
-template = "page.html"
 +++
 
 # Terms of Reference
