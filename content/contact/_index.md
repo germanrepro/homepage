@@ -32,7 +32,7 @@ You're warmly invited to write us, we'll get back to you by email. You can also 
   <div class="form-row">
     <div class="form-group col">
       <label for="email">Your email address</label>
-      <small class="text-muted mb-2">&ensp;·&ensp;Please let us know how we can get in touch.</small>
+      <small class="text-muted mb-2">&ensp;·&ensp;We accept anonymous messages, but please be aware that we can't respond.</small>
       <input type="email" class="form-control" name="email" id="email">
     </div>
   </div>
