@@ -27,8 +27,6 @@ of research integrity and improvement across all Faculties.
 
 3.  Ensuring dedicated expert academic and research professional support and mentoring at all career stages, including support for GRN *Reproducibility Initiatives* and promotion of local and national GRN and GRN-supported activities.
 
-[[https://royalsociety.org/\~/media/policy/projects/research-culture-images/integrity-in-practice-september-2018.pdf?la=en-GB]{.ul}](https://royalsociety.org/~/media/policy/projects/research-culture-images/integrity-in-practice-september-2018.pdf?la=en-GB)
-
 Annex 4: Model Role Description -- Reproducibility Initiative Speaker
 ---------------------------------------------------------------------
 
@@ -159,11 +157,57 @@ with the *Steering Group* .....
 Annex 8: Role Definitions and German Translation
 ------------------------------------------------
 
-  **Groups within GRN**          **Represented by \...**                                 **Deutsch**                                                              **repräsentiert durch**
-  ------------------------------ ------------------------------------------------------- ------------------------------------------------------------------------ -----------------------------------------------------------
-  Steering Group                 Members of \...                                         Steuerungsgruppe                                                         Mitglieder der \...
-  Reproducibility Initiatives    Initiative Speaker                                      Reproducibility Initiatives                                              Sprecher/in der Initiative
-  Research Institutions          Academic Coordinator for Research Improvement           Forschungsinstitutionen                                                  Wissenschaftliche/r Koordinator/in für Forschungsqualität
-  Academic Societies             Academic Society Coordinator for Research Improvement   wissenschaftl. Fachgesellschaft                                          Koordinator/in für Forschungsqualität
-  Stakeholders                   Representative                                          forschungsbezogene Interessengruppen (im Folgenden "Stakeholder") \...   Repräsentant/in
-  Stakeholder Engagement Group                                                           Stakeholder-Dialoggruppe
+<table class="table mx-lg-negative mt-5 mb-4">
+  <colgroup>
+    <col style="width: 25%">
+    <col style="width: 25%">
+    <col style="width: 25%">
+    <col style="width: 25%">
+  </colgroup>
+  <thead>
+    <tr>
+      <th scope="col">Groups within GRN</th>
+      <th scope="col">Represented by ...</th>
+      <th scope="col">Deutsch</th>
+      <th scope="col">repräsentiert durch</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Steering Group</td>
+      <td>Members of ...</td>
+      <td>Steuerungsgruppe</td>
+      <td>Mitglieder der ...</td>
+    </tr>
+    <tr>
+      <td>Reproducibility Initiatives</td>
+      <td>Initiative Speaker</td>
+      <td>Reproducibility Initiatives</td>
+      <td>Sprecher/in der Initiative</td>
+    </tr>
+    <tr>
+      <td>Research Institutions</td>
+      <td>Academic Coordinator for Research Improvement</td>
+      <td>Forschungsinstitutionen</td>
+      <td>Wissenschaftliche/r Koordinator/in&nbsp;für Forschungsqualität</td>
+    </tr>
+    <tr>
+      <td>Academic Societies</td>
+      <td>Academic Society Coordinator for Research Improvement</td>
+      <td>wissenschaftl. Fachgesellschaft</td>
+      <td>Koordinator/in für Forschungsqualität</td>
+    </tr>
+    <tr>
+      <td>Stakeholders</td>
+      <td>Representative</td>
+      <td>forschungsbezogene Interessengruppen (im Folgenden &ldquo;Stakeholder&rdquo;)</td>
+      <td>Repräsentant/in</td>
+    </tr>
+    <tr>
+      <td>Stakeholder Engagement Group</td>
+      <td></td>
+      <td>Stakeholder-Dialoggruppe</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
