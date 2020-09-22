@@ -5,15 +5,7 @@ template = "landing.html"
 +++
 
 {% landing_jumbotron() %}
-  <h1 class="display-4 mt-3">
-    German<br>
-    <span class="highlight-light">Re&shy;pro&shy;ducibil&shy;i&shy;ty</span><br>
-    Network
-  </h1>
-  <p class="lead mt-4 mb-0">
-    To promote rigor, reliability, robustness, and <br class="d-none d-md-inline">
-    transparency of scientific research in Germany.
-  </p>
+  <img src="/logos/de-rn/RN_German_fh.svg" style="height: 325px">
 {% end %}
 
 <!-- Mission -->
