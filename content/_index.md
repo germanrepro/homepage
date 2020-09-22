@@ -5,7 +5,7 @@ template = "landing.html"
 +++
 
 {% landing_jumbotron() %}
-  <img src="/logos/de-rn/RN_German_fh.svg" style="height: 325px">
+  <img src="/logos/de-rn/RN_German.png" style="position: relative; left: -24px;">
 {% end %}
 
 <!-- Mission -->
