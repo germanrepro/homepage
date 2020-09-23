@@ -44,6 +44,9 @@
                 class="card-img-top mt-3"
                 loading="lazy"
               >
+              {% if member.subtitle -%}
+                <p class="text-muted small mt-2">{{ member.subtitle }}</p>
+              {%- endif %}
             </a>
           </div>
         {% endfor -%}

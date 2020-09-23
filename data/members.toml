@@ -71,3 +71,13 @@ logo = "/logos/quest.png"
   [[members.contacts]]
   name = "Prof. Dr. Ulrich Dirnagl"
   url = "https://www.bihealth.org/de/forschung/quest-center/team/quest-office/"
+
+[[members]]
+name = "Berlin University Alliance"
+url = "https://www.berlin-university-alliance.de/"
+logo = "/logos/bua.png"
+subtitle = "Funded through the Berlin University Alliance as part of the Excellence Strategy of the German federal and state governments"
+
+  [[members.contacts]]
+  name = "BUA Administration"
+  url = "https://www.berlin-university-alliance.de/contact/index.html"
