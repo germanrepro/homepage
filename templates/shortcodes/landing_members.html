@@ -33,7 +33,11 @@
                   {%- else -%}
                     {# #}, {# #}
                   {%- endif -%}
-                  <a href='{{ contact.url }}' target='_blank' rel='noopener noreferrer'>{{ contact.name }}</a>
+                  {%- if contact.url -%}
+                    <a href='{{ contact.url }}' target='_blank' rel='noopener noreferrer'>{{ contact.name }}</a>
+                  {%- else -%}
+                    {{ contact.name }}
+                  {%- endif -%}
                 {%- endfor -%}
               "
               data-html="true"

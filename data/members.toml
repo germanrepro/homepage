@@ -79,5 +79,14 @@ logo = "/logos/bua.png"
 subtitle = "Funded through the Berlin University Alliance as part of the Excellence Strategy of the German federal and state governments"
 
   [[members.contacts]]
-  name = "BUA Administration"
-  url = "https://www.berlin-university-alliance.de/contact/index.html"
+  name = "Prof.Dr. Ulrich Dirnagl (Charite)"
+  url = "mailto:ulrich.dirnagl@charite.de"
+
+  [[members.contacts]]
+  name = "Prof. Dr. Martin Reinhart (HU)"
+
+  [[members.contacts]]
+  name = "Prof. Dr. Beatrice Gründler (FU)"
+
+  [[members.contacts]]
+  name = "Prof. Dr. Manfred Hauswirth (TU)"
