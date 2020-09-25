@@ -37,8 +37,8 @@ template = "landing.html"
       >
     </div>
     <div class="card-body">
-      <strong class="h5 d-block card-title text-center">Grassroots Networks</strong>
-      <p class="card-text">We <strong>connect local initiatives</strong> to a national network, and foster connections between them.</p>
+      <strong class="h5 d-block card-title text-center">Reproducibility Initiatives</strong>
+      <p class="card-text">We <strong>connect local or topic-centered Reproducibility Initiatives</strong> to a national network, and foster connections between them.</p>
     </div>
   </div>
   <div class="card">
