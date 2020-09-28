@@ -76,7 +76,7 @@ logo = "/logos/quest.png"
 name = "Berlin University Alliance"
 url = "https://www.berlin-university-alliance.de/"
 logo = "/logos/bua.png"
-subtitle = "Funded through the Berlin University Alliance as part of the Excellence Strategy of the German federal and state governments"
+subtitle = "Funded under the Excellence Strategy of the Federal Government and the Länder by the Berlin University Alliance"
 
   [[members.contacts]]
   name = "Prof.Dr. Ulrich Dirnagl (Charite)"
