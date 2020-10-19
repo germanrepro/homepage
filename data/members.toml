@@ -31,9 +31,9 @@ logo = "/logos/helmholtz.png"
 
 
 [[members]]
-name = "Leibniz Association"
-url = "https://www.leibniz-gemeinschaft.de/en/"
-logo = "/logos/leibniz.png"
+name = "Leibniz Information Centre for Economics"
+url = "https://www.zbw.eu/en/"
+logo = "/logos/zbw.svg"
 
   [[members.contacts]]
   name = "Prof. Dr. Klaus Tochtermann"
