@@ -8,7 +8,7 @@
     </div>
     <div class="col-lg-9 mt-1{% if body_class %} {{ body_class }}{% endif %}">
       {{ body | safe }}
-      <div class="card-columns logo-masonry">
+      <div class="card-columns logo-masonry mt-5">
         {% set data = load_data(path=data_path) %}
         {%- for member in data.members %}
           <div class="card">
@@ -39,18 +39,18 @@
                     {{ contact.name }}
                   {%- endif -%}
                 {%- endfor -%}
+                {% if member.subtitle -%}
+                  <p class='text-muted small mt-2 mb-2'>{{ member.subtitle }}</p>
+                {%- endif %}
               "
               data-html="true"
             >
               <img
                 src="{{ member.logo }}"
                 alt="Logo of the {{ member.name }}"
-                class="card-img-top mt-3"
+                class="card-img-top my-3"
                 loading="lazy"
               >
-              {% if member.subtitle -%}
-                <p class="text-muted small mt-2">{{ member.subtitle }}</p>
-              {%- endif %}
             </a>
           </div>
         {% endfor -%}
