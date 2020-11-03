@@ -74,6 +74,7 @@ template = "landing.html"
   title="Founding members", id="members",
   data_path="data/members.toml"
 ) %}
+  <img src="/images/team.jpg" class="rounded mb-4">
   <p>Please click on any logo to view the respective organization's representatives in DE-RN.</p>
 {% end %}
 
