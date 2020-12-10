@@ -31,6 +31,16 @@ logo = "/logos/helmholtz.png"
 
 
 [[members]]
+name = "Helmholtz Artificial Intelligence Cooperation Unit"
+url = "https://www.helmholtz.ai/"
+logo = "/logos/helmholtz-ai.png"
+
+  [[members.contacts]]
+  name = "Dr. Heidi Seibold"
+  url = "https://www.helmholtz.ai/themenmenue/our-research/research-groups/seibolds-group/index.html"
+
+
+[[members]]
 name = "Leibniz Information Centre for Economics"
 url = "https://www.zbw.eu/en/"
 logo = "/logos/zbw.svg"
