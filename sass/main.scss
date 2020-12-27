@@ -39,9 +39,16 @@ body > .footer {
 }
 .mx-lg-negative {
   @include media-breakpoint-up(lg) {
-    // Assumes 960px container width
     margin-left: -80px;
-    width: 890px;
+    width: 776px;
+  }
+  @include media-breakpoint-up(xl) {
+    margin-left: -80px;
+    width: 916px;
+  }
+  @include media-breakpoint-up(xxl) {
+    margin-left: -80px;
+    width: 1036px;
   }
 }
 
