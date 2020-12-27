@@ -13,19 +13,21 @@
         {%- for member in data.members %}
           <div class="card">
             <a
-              data-toggle="popover"
-              data-trigger="focus"
               tabindex="0"
-              data-placement="bottom"
+              role="button"
+              data-bs-toggle="popover"
+              data-bs-trigger="focus"
+              data-bs-placement="bottom"
+              data-bs-html="true"
               title="
                 {%- if member.url -%}
-                  <a href='{{ member.url }}' target='_blank' rel='noopener noreferrer' class='float-right'>↗︎</a>
+                  <a href='{{ member.url }}' target='_blank' rel='noopener noreferrer' class='float-end'>↗︎</a>
                   {{ member.name }}
                 {%- else -%}
                   {{ member.name }}
                 {%- endif -%}
               "
-              data-content="
+              data-bs-content="
                 {%- for contact in member.contacts -%}
                   {%- if loop.first -%}
                   {%- elif loop.last -%}
@@ -43,7 +45,6 @@
                   <p class='text-muted small mt-2 mb-2'>{{ member.subtitle }}</p>
                 {%- endif %}
               "
-              data-html="true"
             >
               <img
                 src="{{ member.logo }}"
