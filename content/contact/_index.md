@@ -15,28 +15,22 @@ You're warmly invited to write us, we'll get back to you by email. You can also 
   <p class="d-none">
     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
   </p>
-  <div class="form-row">
-    <div class="form-group col">
-      <label for="subject">Subject</label>
-      <small class="text-muted mb-2">&ensp;·&ensp;How can we help?</small>
-      <input type="text" class="form-control form-control-lg" name="subject" id="subject">
-    </div>
+  <div class="mb-3">
+    <label for="subject">Subject</label>
+    <small class="text-muted mb-2">&ensp;·&ensp;How can we help?</small>
+    <input type="text" class="form-control form-control-lg mt-2" name="subject" id="subject">
   </div>
-  <div class="form-row">
-    <div class="form-group col">
-      <label for="message">Message</label>
-      <small class="text-muted mb-2"></small>
-      <textarea class="form-control" name="message" id="message" rows="6"></textarea>
-    </div>
+  <div class="mb-3">
+    <label for="message">Message</label>
+    <small class="text-muted"></small>
+    <textarea class="form-control mt-2" name="message" id="message" rows="6"></textarea>
   </div>
-  <div class="form-row">
-    <div class="form-group col">
-      <label for="email">Your email address</label>
-      <small class="text-muted mb-2">&ensp;·&ensp;We accept anonymous messages, but please be aware that we can't respond.</small>
-      <input type="email" class="form-control" name="email" id="email">
-    </div>
+  <div class="mb-3">
+    <label for="email">Your email address</label>
+    <small class="text-muted">&ensp;·&ensp;We accept anonymous messages, but please be aware that we can't respond.</small>
+    <input type="email" class="form-control mt-2" name="email" id="email">
   </div>
   <div>
-    <button type="submit" class="btn btn-outline-primary btn-block mt-4">Send</button>
+    <button type="submit" class="btn btn-outline-primary w-100 mt-4">Send</button>
   </div>
 </form>
