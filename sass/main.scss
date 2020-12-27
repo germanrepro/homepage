@@ -161,7 +161,7 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
 .jumbotron {
   text-shadow: 0 0 $spacer $light;
   padding: 20vh 0;
-  @include media-breakpoint-down(md) {
+  @include media-breakpoint-down(lg) {
     background:
       url(backgrounds/network_light.png),
       white;
@@ -175,11 +175,15 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
     background-repeat:
       no-repeat,
       repeat;
-    background-position: calc(50% + 22px) 50%;
+    background-position: calc(50% + 115px) 50%;
   }
-  @include media-breakpoint-down(lg) {
+  @include media-breakpoint-between(md, xl) {
     // Nudge backgrounds inward on small screens
-    background-position: calc(50% - 50px) 50%;
+    background-position: calc(50% - 65px) 50%;
+  }
+  @include media-breakpoint-between(xl, xxl) {
+    // Nudge backgrounds inward on small screens
+    background-position: calc(50% + 25px) 50%;
   }
 
   h1 {
