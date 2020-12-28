@@ -1,8 +1,5 @@
 +++
 title = "Imprint / Impressum / Datenschutzerklärung"
-
-# This page needs a template attribute so as not to be rendered as a section
-template = "page.html"
 +++
 
 <!-- Tracking opt-out  -  doesn't work yet (not displayed) -->

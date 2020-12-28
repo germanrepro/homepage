@@ -1,8 +1,5 @@
 +++
 title = "Contact the German Reproducibility Network"
-
-# This page needs a template attribute so as not to be rendered as a section
-template = "page.html"
 +++
 
 # We'd love to hear from you!
