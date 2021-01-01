@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros/expand_url.html" as macros %}
 
 {% block content %}
   <div class="container my-5">
@@ -11,11 +12,15 @@
       <div class="col-lg px-lg-4 py-5">
         <h2 class="h3">News</h2>
         {% set posts = get_section(path="activity/news/_index.md") -%}
-        {% for post in posts.pages | slice(end=5) %}
-          <h3 class="h5 fw-lighter">{{ post.title }}</h3>
+        {% for post in posts.pages | slice(end=4) %}
           {% if post.extra.header_image %}
-            <img src="{{ post.components | slice(end=-1) | join(sep='/') }}/{{ post.extra.header_image }}" class="rounded w-100 py-2">
+            {%- set img = macros::expand_url(page=post, file=post.extra.header_image) -%}
+            <img
+              src="{{ resize_image(path=img, width=390, op='fit_width') }}"
+              class="rounded w-100 border {% if loop.index == 1 %}mt-2{% else %}mt-5{% endif %}"
+            >
           {% endif %}
+          <h3 class="h5 fw-normal mt-4">{{ post.title }}</h3>
           {% if post.summary %}
             {{ post.summary | safe }}
             <a href="{{ post.permalink }}#continue-reading" class="small d-block">
@@ -38,6 +43,13 @@
         {% for event in events.pages | reverse %}
           {% if event.date and event.date | date(format="%s") | int >= now()  | date(format="%s") | int %}
             {% set_global event_count = event_count + 1 %}
+            {% if event.extra.header_image %}
+              {%- set img = macros::expand_url(page=event, file=event.extra.header_image) -%}
+              <img
+                src="{{ resize_image(path=img, width=390, op='fit_width') }}"
+                class="rounded w-100 border {% if loop.index == 1 %}mt-2{% else %}mt-5{% endif %}"
+              >
+            {% endif %}
             <h3 class="h5 fw-lighter">
               {{ event.title }}
               <small class="text-muted">
@@ -52,7 +64,7 @@
             {% else %}
               {{ event.content | safe }}
             {% endif %}
-            {% if event_count >= 5 %}
+            {% if event_count >= 4 %}
               {% break %}
             {% endif %}
           {% endif %}
@@ -69,7 +81,7 @@
           <a
             class="twitter-timeline text-dark text-decoration-none"
             data-lang="en"
-            data-height="550"
+            data-height="600"
             data-dnt="true"
             href="https://twitter.com/GermanRepro?ref_src=twsrc%5Etfw"
           >

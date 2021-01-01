@@ -7,7 +7,7 @@
         <h1>{{ page.title | safe }}</h1>
         {% if page.extra.header_image %}
           <div class="my-4 mx-lg-negative">
-            <img src="{{ page.extra.header_image }}" class="rounded w-100">
+            <img src="/{{ page.components | slice(end=-1) | join(sep='/') }}/{{ page.extra.header_image }}" class="rounded w-100 border">
           </div>
         {% endif %}
         {{ page.content | safe }}
