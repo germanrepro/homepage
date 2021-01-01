@@ -3,3 +3,4 @@
 /node_modules/*
 /static/fonts/*
 /static/scripts/*
+/static/processed_images/*
