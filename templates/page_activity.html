@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        {{ page.content | safe }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg px-lg-4 py-5">
+        <h2 class="h3">News</h2>
+        {% set posts = get_section(path="activity/news/_index.md") -%}
+        {% for post in posts.pages | slice(end=5) %}
+          <h3 class="h5 fw-lighter">{{ post.title }}</h3>
+          {% if post.extra.header_image %}
+            <img src="{{ post.components | slice(end=-1) | join(sep='/') }}/{{ post.extra.header_image }}" class="rounded w-100 py-2">
+          {% endif %}
+          {% if post.summary %}
+            {{ post.summary | safe }}
+            <a href="{{ post.permalink }}#continue-reading" class="small d-block">
+              Continue &rarr;
+            </a>
+          {% else %}
+            {{ post.content | safe }}
+          {% endif %}
+        {% else %}
+          <div class="text-muted">
+            No entries right now.<br>
+            <i class="fw-light">We're working on it!</i>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="col-lg px-lg-4 py-5">
+        <h2 class="h3">Upcoming</h2>
+        {% set events = get_section(path="activity/events/_index.md") -%}
+        {% set_global event_count = 0 %}
+        {% for event in events.pages | reverse %}
+          {% if event.date and event.date | date(format="%s") | int >= now()  | date(format="%s") | int %}
+            {% set_global event_count = event_count + 1 %}
+            <h3 class="h5 fw-lighter">
+              {{ event.title }}
+              <small class="text-muted">
+                · {{ event.date | date(format="%B %d, %Y") }}
+              </small>
+            </h3>
+            {% if event.summary %}
+              {{ event.summary | safe }}
+              <a href="{{ event.permalink }}#continue-reading" class="small d-block">
+                Find out more &rarr;
+              </a>
+            {% else %}
+              {{ event.content | safe }}
+            {% endif %}
+            {% if event_count >= 5 %}
+              {% break %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% if event_count == 0 %}
+          <div class="text-muted">
+            No upcoming events at present.<br>
+            <i class="font-weight-light">Stay tuned!</i>
+          </div>
+        {% endif %}
+      </div>
+      <div class="col-lg px-lg-4 py-5">
+        <h2 class="h3">
+          <a
+            class="twitter-timeline text-dark text-decoration-none"
+            data-lang="en"
+            data-height="550"
+            data-dnt="true"
+            href="https://twitter.com/GermanRepro?ref_src=twsrc%5Etfw"
+          >
+            Twitter
+          </a>
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </h2>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+

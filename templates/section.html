@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <h1>
+          {{ section.title }}
+          {% if section.options.generate_feed %}
+            Feed
+            <a href="atom.xml">Feed</a>
+          {% else %}
+            No feed
+          {% endif %}
+        </h1>
+        <p class="lead">{{ section.description }}</p>
+        {% if section.content %}
+          {{ section.content | safe }}
+        {% endif %}
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        {% for page in section.pages %}
+          <h2 class="h3">{{ page.title }}</h2>
+          {{ page.summary | safe }}
+          <a href="{{ page.permalink }}#continue-reading" class="pull-right">
+            <i class="fas fa-arrow-right fa-sm"></i>
+            More inside …
+          </a>
+        {% else %}
+          Sorry, we don't have content to share in this section.
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endblock %}
