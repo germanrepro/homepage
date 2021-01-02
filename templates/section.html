@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros/expand_url.html" as macros %}
 
 {% block content %}
   <div class="container my-5">
@@ -6,12 +7,6 @@
       <div class="col-lg-8 offset-lg-2">
         <h1>
           {{ section.title }}
-          {% if section.options.generate_feed %}
-            Feed
-            <a href="atom.xml">Feed</a>
-          {% else %}
-            No feed
-          {% endif %}
         </h1>
         <p class="lead">{{ section.description }}</p>
         {% if section.content %}
@@ -22,17 +17,59 @@
     </div>
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
-        {% for page in section.pages %}
-          <h2 class="h3">{{ page.title }}</h2>
-          {{ page.summary | safe }}
-          <a href="{{ page.permalink }}#continue-reading" class="pull-right">
-            <i class="fas fa-arrow-right fa-sm"></i>
-            More inside …
-          </a>
+        {% if paginator %}
+          {% set content = paginator.pages %}
+        {% else %}
+          {% set content = section.pages %}
+        {% endif %}
+        {% for page in content %}
+          <article class="my-5 {% if loop.first %}mt-2{% endif %}">
+            <h2 class="h3">
+              {{ page.title }}
+            </h2>
+            {% if page.extra.header_image %}
+              {%- set img = macros::expand_url(page=page, file=page.extra.header_image) -%}
+              <div class="mx-lg-negative pb-4">
+                <img
+                  src="{{ resize_image(path=img, width=1034, op='fit_width') }}"
+                  class="rounded w-100 border"
+                >
+              </div>
+            {% endif %}
+            {% if page.summary %}
+              {{ page.summary | safe }}
+              <a href="{{ page.permalink }}#continue-reading" class="pull-right">
+                <i class="fas fa-arrow-right fa-sm"></i>
+                Continue reading …
+              </a>
+            {% else %}
+              {{ page.content | safe }}
+            {% endif %}
+          </article>
         {% else %}
           Sorry, we don't have content to share in this section.
         {% endfor %}
       </div>
     </div>
+    {% if paginator %}
+      <div class="row my-3 pb-3">
+        <div class="col-lg-8 offset-lg-2">
+          <nav class="btn-group w-100" aria-label="Section pagination">
+            <a
+              href="{{ paginator.previous }}"
+              class="btn btn-outline-primary text-start{% if not paginator.previous %} disabled{% endif %}"
+            >
+              &larr; Previous
+            </a>
+            <a
+              href="{{ paginator.next }}"
+              class="btn btn-outline-primary text-end{% if not paginator.next %} disabled{% endif %}"
+            >
+              Next &rarr;
+            </a>
+          </nav>
+        </div>
+      </div>
+    {% endif %}
   </div>
 {% endblock %}
