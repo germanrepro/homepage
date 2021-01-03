@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros/expand_url.html" as macros %}
 
 {% block content %}
   <div class="container my-5">
@@ -6,8 +7,12 @@
       <div class="col-lg-8 offset-lg-2">
         <h1>{{ page.title | safe }}</h1>
         {% if page.extra.header_image %}
+          {%- set img = macros::expand_url(page=page, file=page.extra.header_image) -%}
           <div class="my-4 mx-lg-negative">
-            <img src="/{{ page.components | slice(end=-1) | join(sep='/') }}/{{ page.extra.header_image }}" class="rounded w-100 border">
+            <img
+              src="{{ resize_image(path=img, width=1034, op='fit_width') }}"
+              class="rounded w-100 border"
+            >
           </div>
         {% endif %}
         {{ page.content | safe }}
