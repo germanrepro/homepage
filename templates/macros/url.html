@@ -1,1 +1,1 @@
-{% macro expand_url(page, file, type="text") %}{{ page.components | slice(end=-1) | join(sep='/') }}/{{ file }}{% endmacro expand_url %}
+{% macro expand_url(page, file) %}{{ page.components | slice(end=-1) | join(sep='/') }}/{{ file }}{% endmacro expand_url %}
