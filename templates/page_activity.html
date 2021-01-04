@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% import "macros/url.html" as macros %}
+{% import "macros/media.html" as media %}
 
 {% block content %}
   <div class="container my-5">
@@ -13,22 +14,27 @@
         <h2 class="h3">News</h2>
         {% set posts = get_section(path="activity/news/_index.md") -%}
         {% for post in posts.pages | slice(end=4) %}
-          {% if post.extra.header_image %}
-            {%- set img = macros::expand_url(page=post, file=post.extra.header_image) -%}
-            <img
-              src="{{ resize_image(path=img, width=390, op='fit_width') }}"
-              class="rounded w-100 border {% if loop.index == 1 %}mt-2{% else %}mt-5{% endif %}"
-            >
-          {% endif %}
-          <h3 class="h5 fw-normal mt-4">{{ post.title }}</h3>
-          {% if post.summary %}
-            {{ post.summary | safe }}
-            <a href="{{ post.permalink }}#continue-reading" class="small d-block">
-              Continue &rarr;
-            </a>
-          {% else %}
-            {{ post.content | safe }}
-          {% endif %}
+          <article class="{% if loop.first %}mt-4{% else %}mt-5{% endif %} pb-1">
+            {% if post.extra.header_image %}
+              {%- set img = macros::expand_url(page=post, file=post.extra.header_image) -%}
+              {{-
+                media::picture(
+                  img=img,
+                  widths=[270, 330, 390, 694],
+                  class="rounded w-100 border"
+                )
+              -}}
+            {% endif %}
+            <h3 class="h5 fw-normal mt-4">{{ post.title }}</h3>
+            {% if post.summary %}
+              {{ post.summary | safe }}
+              <a href="{{ post.permalink }}#continue-reading" class="small d-block">
+                Continue &rarr;
+              </a>
+            {% else %}
+              {{ post.content | safe }}
+            {% endif %}
+          </article>
         {% else %}
           <div class="text-muted">
             No entries right now.<br>
@@ -41,33 +47,38 @@
         {% set events = get_section(path="activity/events/_index.md") -%}
         {% set_global event_count = 0 %}
         {% for event in events.pages | reverse %}
-          {% if event.date and event.date | date(format="%s") | int >= now()  | date(format="%s") | int %}
-            {% set_global event_count = event_count + 1 %}
-            {% if event.extra.header_image %}
-              {%- set img = macros::expand_url(page=event, file=event.extra.header_image) -%}
-              <img
-                src="{{ resize_image(path=img, width=390, op='fit_width') }}"
-                class="rounded w-100 border {% if loop.index == 1 %}mt-2{% else %}mt-5{% endif %}"
-              >
+          <article class="{% if loop.first %}mt-4{% else %}mt-5{% endif %} pb-1">
+            {% if event.date and event.date | date(format="%s") | int >= now()  | date(format="%s") | int %}
+              {% set_global event_count = event_count + 1 %}
+              {% if event.extra.header_image %}
+                {%- set img = macros::expand_url(page=event, file=event.extra.header_image) -%}
+                {{-
+                  media::picture(
+                    img=macros::expand_url(page=event, file=event.extra.header_image),
+                    widths=[270, 330, 390, 694],
+                    class="rounded w-100 border"
+                  )
+                -}}
+              {% endif %}
+              <h3 class="h5 fw-lighter">
+                {{ event.title }}
+                <small class="text-muted">
+                  · {{ event.date | date(format="%B %d, %Y") }}
+                </small>
+              </h3>
+              {% if event.summary %}
+                {{ event.summary | safe }}
+                <a href="{{ event.permalink }}#continue-reading" class="small d-block">
+                  Find out more &rarr;
+                </a>
+              {% else %}
+                {{ event.content | safe }}
+              {% endif %}
+              {% if event_count >= 4 %}
+                {% break %}
+              {% endif %}
             {% endif %}
-            <h3 class="h5 fw-lighter">
-              {{ event.title }}
-              <small class="text-muted">
-                · {{ event.date | date(format="%B %d, %Y") }}
-              </small>
-            </h3>
-            {% if event.summary %}
-              {{ event.summary | safe }}
-              <a href="{{ event.permalink }}#continue-reading" class="small d-block">
-                Find out more &rarr;
-              </a>
-            {% else %}
-              {{ event.content | safe }}
-            {% endif %}
-            {% if event_count >= 4 %}
-              {% break %}
-            {% endif %}
-          {% endif %}
+          </article>
         {% endfor %}
         {% if event_count == 0 %}
           <div class="text-muted">

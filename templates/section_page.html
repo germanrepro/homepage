@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% import "macros/url.html" as macros %}
+{% import "macros/media.html" as media %}
 
 {% block content %}
   <div class="container my-5">
@@ -9,10 +10,13 @@
         {% if page.extra.header_image %}
           {%- set img = macros::expand_url(page=page, file=page.extra.header_image) -%}
           <div class="my-4 mx-lg-negative">
-            <img
-              src="{{ resize_image(path=img, width=1034, op='fit_width') }}"
-              class="rounded w-100 border"
-            >
+            {{-
+              media::picture(
+                img=img,
+                widths=[514, 694, 774, 914, 1034],
+                class="w-100 rounded border"
+              )
+            -}}
           </div>
         {% endif %}
         {{ page.content | safe }}
