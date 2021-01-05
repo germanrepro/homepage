@@ -22,5 +22,16 @@
         {{ page.content | safe }}
       </div>
     </div>
+    {% if page.date %}
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <hr class="mb-3">
+          <small class="font-sans text-muted">
+            {% if page.extra.author %}{{ page.extra.author }}, {% endif %}
+            {{ page.date | date(format="%B %_d, %Y") }}
+          </small>
+        </div>
+      </div>
+    {% endif %}
   </div>
 {% endblock %}
