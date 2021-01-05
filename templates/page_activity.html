@@ -63,7 +63,7 @@
               <h3 class="h5 fw-lighter">
                 {{ event.title }}
                 <small class="text-muted">
-                  · {{ event.date | date(format="%B %d, %Y") }}
+                  · {{ event.date | date(format="%B %_d, %Y") }}
                 </small>
               </h3>
               {% if event.summary %}
