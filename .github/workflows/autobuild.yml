@@ -1,0 +1,13 @@
+name: Automatic rebuild
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Midnight every day
+
+jobs:
+  build:
+    name: Automatic rebuild
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger rebuild
+        run: curl -X POST -d '{}' ${{ secrets.REBUILD_HOOK_URL }}
