@@ -4,10 +4,10 @@ title = "Terms of Reference"
 
 # Terms of Reference
 
-Version 0.1 - first draft, 2020-02-15
+Version 0.1, 2020-02-15
 
 <div class="alert alert-warning" role="alert">
-  <strong>Note: This currently is a living document which might change.</strong> Refer to version if necessary.
+  <strong>This is the current state of our Terms of Reference, which we consider a living document.</strong> Please be aware that it is subject to changes as our organization evolves.
 </div>
 
 ## Contents
