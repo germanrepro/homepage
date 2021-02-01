@@ -1,5 +1,5 @@
 +++
-title = "DE-RN on Twitter"
+title = "German Reproducibility Network on Twitter"
 date = 2021-01-25
 
 [extra]

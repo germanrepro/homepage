@@ -13,7 +13,7 @@ title = "Join the German Reproducibility Network"
 
 <div class="d-grid gap-2">
   <a
-    href="mailto:info@reproducibilitynetwork.de?subject=Joining the German Reproducibility Network&amp;body=Dear%20DE-RN%20team,%0D%0A%0D%0AI%20represent%20[a%20group%20or%20organization%20working%20in%20the%20Open%20Science%20context]%20and%20we'd%20like%20to%20participate%20in%20the%20network%20and%20join%20forces.%20Could%20you%20get%20in%20touch%20and%20help%20make%20that%20happen?%0D%0A%0D%0AMany%20thanks,%0D%0A%0D%0A"
+    href="mailto:info@reproducibilitynetwork.de?subject=Joining the German Reproducibility Network&amp;body=Dear%20GRN%20team,%0D%0A%0D%0AI%20represent%20[a%20group%20or%20organization%20working%20in%20the%20Open%20Science%20context]%20and%20we'd%20like%20to%20participate%20in%20the%20network%20and%20join%20forces.%20Could%20you%20get%20in%20touch%20and%20help%20make%20that%20happen?%0D%0A%0D%0AMany%20thanks,%0D%0A%0D%0A"
     class="btn btn-outline-primary btn-block my-4 py-3"
   >
     If you would like to join, please <strong>get in touch!</strong>

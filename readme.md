@@ -1,7 +1,7 @@
-German Reproducibility Network Website (DE-RN)
-==============================================
+German Reproducibility Network (GRN) Website
+============================================
 
-This repository contains the raw files used to build the DE-RN homepage.
+This repository contains the raw files used to build the GRN homepage.
 
 Usage
 -----

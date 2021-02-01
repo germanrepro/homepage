@@ -5,12 +5,12 @@ template = "landing.html"
 +++
 
 {% landing_jumbotron() %}
-  <img src="/logos/de-rn/RN_German.png" style="position: relative; left: -24px;">
+  <img src="/logos/grn/RN_German.png" style="position: relative; left: -24px;">
 {% end %}
 
 <!-- Mission -->
 {% landing_section(title="Mission", id="mission") %}
-  The German Reproducibility Network <span class="text-muted">(DE-RN)</span> is a <strong class="highlight-light">cross-disciplinary consortium that aims to increase trustworthiness and transparency of scientific research</strong> by investigating and encouraging the factors that contribute to robust research. We promote training activities and disseminate best practices, conduct and support meta-scientific research, and work with stakeholders to ensure coordination of efforts. DE-RN’s activities span multiple levels, including researchers, institutions and other stakeholders (e.g., funders, publishers, and Academic Societies).
+  The German Reproducibility Network <span class="text-muted">(GRN)</span> is a <strong class="highlight-light">cross-disciplinary consortium that aims to increase trustworthiness and transparency of scientific research</strong> by investigating and encouraging the factors that contribute to robust research. We promote training activities and disseminate best practices, conduct and support meta-scientific research, and work with stakeholders to ensure coordination of efforts. GRN’s activities span multiple levels, including researchers, institutions and other stakeholders (e.g., funders, publishers, and Academic Societies).
 {% end %}
 
 <!-- Audience groups -->
@@ -75,7 +75,7 @@ template = "landing.html"
   data_path="data/members.toml"
 ) %}
   <img src="/images/team.jpg" class="rounded mb-4 w-100">
-  <p>Please click on any logo to view the respective organization's representatives in DE-RN.</p>
+  <p>Please click on any logo to view the respective organization's representatives in GRN.</p>
 {% end %}
 
 <!-- International partners -->
