@@ -9,3 +9,15 @@
     {% if attrs != "" %}{{ attrs | safe }}{% endif %}
   >
 {% endmacro picture %}
+
+{% macro picture_fill(img, widths, class="", attrs="") %}
+  <img
+    srcset="{% for w in widths -%}
+      {{ resize_image(path=img, width=w, height=w, op='fill') }} {{ w }}w
+      {%- if not loop.last %}, {% endif -%}
+      {%- endfor %}"
+    src="{{ resize_image(path=img, width=widths | last, op='fit_width') }}"
+    {% if class != "" %}class="{{ class | safe }}"{% endif %}
+    {% if attrs != "" %}{{ attrs | safe }}{% endif %}
+  >
+{% endmacro picture %}
