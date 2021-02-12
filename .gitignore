@@ -2,5 +2,6 @@
 /public/*
 /node_modules/*
 /static/fonts/*
+/static/icons/fa/*
 /static/scripts/*
 /static/processed_images/*

@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "author": "Felix Henninger",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
     "@popperjs/core": "^2.5.0",
     "bootstrap": "^5.0.0-beta1",
     "jquery": "^3.5.1",
@@ -13,6 +14,7 @@
   "scripts": {
     "copy_fonts": "shx mkdir -p static/fonts/files && shx cp node_modules/typeface-merriweather/files/* static/fonts/files && shx cp node_modules/typeface-merriweather-sans/files/* static/fonts/files && shx cat node_modules/typeface-merriweather/index.css >> static/fonts/fonts.css && shx cat node_modules/typeface-merriweather-sans/index.css >> static/fonts/fonts.css",
     "copy_scripts": "shx mkdir -p static/scripts && shx cp node_modules/jquery/dist/jquery.slim.min.js static/scripts && shx cp node_modules/@popperjs/core/dist/umd/popper-lite.min.js static/scripts && shx cp node_modules/bootstrap/dist/js/bootstrap.min.js static/scripts",
-    "copy_static": "npm run copy_fonts && npm run copy_scripts"
+    "copy_icons": "shx mkdir -p static/icons/fa && shx cp -R node_modules/@fortawesome/fontawesome-free/webfonts/ static/icons/fa && shx cp -R node_modules/@fortawesome/fontawesome-free/css/ static/icons/fa",
+    "copy_static": "npm run copy_fonts && npm run copy_icons && npm run copy_scripts"
   }
 }
