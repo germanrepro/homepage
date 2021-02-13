@@ -361,3 +361,22 @@ footer a {
 .popover a {
   text-decoration: none;
 }
+
+// Members grid
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20%);
+  @include media-breakpoint-down(xl) {
+    grid-template-columns: repeat(auto-fill, 25%);
+  }
+  @include media-breakpoint-down(lg) {
+    grid-template-columns: repeat(auto-fill, 33.3%);
+  }
+  @include media-breakpoint-down(md) {
+    grid-template-columns: repeat(auto-fill, 50%);
+  }
+  @include media-breakpoint-down(sm) {
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
+}

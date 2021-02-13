@@ -1,0 +1,85 @@
+[[members]]
+name = "Ulrich Dirnagl"
+institution = "QUEST / Charité Berlin"
+image = "members/images/dirnagl.jpg"
+url = "https://expneuro.charite.de/en/metas/person_detail/person/address_detail/dirnagl-1/"
+twitter = "dirnagl"
+
+[[members]]
+name = "Christian Fiebach"
+institution = "Goethe University Frankfurt"
+image = "members/images/fiebach.jpg"
+url = "http://www.fiebachlab.org/"
+twitter = "FiebachLab"
+
+[[members]]
+name = "Susann Fiedler"
+institution = "Max Planck Institute for Research on Collective Goods, Bonn"
+image = "members/images/fiedler.jpg"
+url = "https://sites.google.com/site/susannfiedler/"
+twitter = "susafiedler"
+
+[[members]]
+name = "Bernadette Fritzsch"
+institution = "Alfred-Wegner-Institute"
+image = "members/images/fritzsch.jpg"
+url = "https://www.awi.de/en/about-us/organisation/staff/bernadette-fritzsch.html"
+
+[[members]]
+name = "Felix Henninger"
+institution = "University of Mannheim"
+image = "members/images/henninger.jpg"
+url = "https://www.felixhenninger.com/"
+twitter = "felixhenninger"
+
+[[members]]
+name = "Nikolaus Plesnila"
+institution = "Ludwig-Maximilians-University Munich"
+image = "members/images/plesnila.jpg"
+url = "https://www.lmu-klinikum.de/isd"
+
+[[members]]
+name = "Rima-Maria Rahal"
+institution = "Max Planck Institute for Research on Collective Goods, Bonn"
+image = "members/images/rahal.jpg"
+url = "https://rimamrahal.wordpress.com/"
+twitter = "rimamrahal"
+
+[[members]]
+name = "Guido Scherp"
+institution = "Leibniz Information Centre for Economics"
+image = "members/images/scherp.jpg"
+url = "https://www.zbw.eu/en/research/science-2-0/guido-scherp"
+twitter = "guido_scherp"
+
+[[members]]
+name = "Felix Schönbrodt"
+institution = "Ludwig-Maximilians-University Munich"
+image = "members/images/schoenbrodt.jpg"
+url = "https://www.nicebread.de/"
+twitter = "nicebread"
+
+[[members]]
+name = "Heidi Seibold"
+institution = "Helmholtz AI"
+image = "members/images/seibold.jpg"
+url = "https://www.helmholtz.ai/themenmenue/our-research/research-groups/seibolds-group/index.html"
+twitter = "heidibaya"
+
+[[members]]
+name = "Klaus Tochtermann"
+institution = "Leibniz Information Centre for Economics"
+image = "members/images/tochtermann.jpg"
+url = "https://www.zbw.eu/en/research/klaus-tochtermann/"
+twitter = "ktochtermann"
+
+[[members]]
+name = "Ulf Toelch"
+institution = "QUEST"
+image = "members/images/toelch.jpg"
+twitter = "ulf_toelch"
+
+[[members]]
+name = "Stefanie Weigold"
+institution = "QUEST / Charité Berlin"
+image = "members/images/weigold.jpg"
