@@ -4,8 +4,9 @@ title = "Members"
 
 # Members
 
-## Steering group
+## Steering Group *&* Administration
+
 <div class="mx-lg-negative my-4">
-{{ members(data_path="data/people.toml") }}
+  {{ members(data_path="data/people.toml") }}
 </div>
 
