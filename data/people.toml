@@ -60,6 +60,12 @@ url = "https://www.nicebread.de/"
 twitter = "nicebread"
 
 [[members]]
+name = "Antonia Schrader"
+institution = "German Research Centre for Geosciences"
+image = "members/images/schrader.jpg"
+url = "https://www.gfz-potsdam.de/en/staff/antonia-schrader/"
+
+[[members]]
 name = "Heidi Seibold"
 institution = "Helmholtz AI"
 image = "members/images/seibold.jpg"
