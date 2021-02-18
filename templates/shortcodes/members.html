@@ -2,8 +2,8 @@
 {% import "macros/url.html" as macros %}
 {% set data = load_data(path=data_path) %}
 
-<div class="members-grid">
-{%- for member in data.members %}
+<div class="members-grid mb-5">
+{%- for member in data.member %}
   <div class="p-3 text-center">
     {% if member.image -%}
       {{-
