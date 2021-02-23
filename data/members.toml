@@ -27,8 +27,11 @@ logo = "/logos/helmholtz.png"
 
   [[members.contacts]]
   name = "Dr. Bernadette Fritzsch"
-  url = "https://os.helmholtz.de/open-science-in-der-helmholtz-gemeinschaft/akteure-und-ihre-rollen/"
+  url = "https://os.helmholtz.de/"
 
+  [[members.contacts]]
+  name = "Antonia Schrader"
+  url = "https://os.helmholtz.de/"
 
 [[members]]
 name = "Helmholtz Artificial Intelligence Cooperation Unit"

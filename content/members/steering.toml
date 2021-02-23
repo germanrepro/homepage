@@ -61,9 +61,10 @@ twitter = "nicebread"
 
 [[member]]
 name = "Antonia Schrader"
-institution = "German Research Centre for Geosciences"
+institution = "Helmholtz Association Open Science Office"
 image = "members/images/schrader.jpg"
-url = "https://www.gfz-potsdam.de/en/staff/antonia-schrader/"
+url = "https://os.helmholtz.de/"
+twitter = "helmholtz_os"
 
 [[member]]
 name = "Heidi Seibold"
