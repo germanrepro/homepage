@@ -1,0 +1,70 @@
+<script>
+	var map = L.map('map', {
+    minZoom: 5,
+		maxZoom: 7,
+    maxBounds: L.latLngBounds(
+      L.latLng(0, -70),
+      L.latLng(75, 80),
+    ),
+    detectRetina: true,
+  }).setView([51.163375, 10.447683], 6);
+  //
+	L.tileLayer('/maps/tiles/{z}/{x}/{y}.png', {
+		attribution: 'Public domain map data by <a href="https://www.naturalearthdata.com">Natural Earth</a>',
+		tileSize: 256,
+	}).addTo(map);
+  //
+  function onEachFeature(feature, layer) {
+    // does this feature have a property named popupContent?
+    if (feature.properties && feature.properties.name) {
+      layer.bindPopup(feature.properties.name);
+    }
+  }
+  //
+  var members = [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "University of Mannheim",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.466944, 49.488888]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ludwig-Maximilians-University Munich",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.575277, 48.137222]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berlin",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.416669, 52.500000]
+      }
+    },
+  ];
+  //
+  L.geoJSON(members, {
+    onEachFeature: onEachFeature,
+    pointToLayer: function (feature, latlng) {
+			return L.circleMarker(latlng, {
+				radius: 6,
+				fillColor: "#d63384",
+				color: "#ab296a",
+				weight: 1,
+				opacity: 1,
+				fillOpacity: 0.8
+			});
+		}
+  }).addTo(map);
+</script>
