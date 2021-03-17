@@ -380,3 +380,12 @@ footer a {
     grid-template-columns: repeat(auto-fill, 100%);
   }
 }
+
+// Leaflet widget
+
+.leaflet-container {
+  font-family: $font-family-sans-serif !important;
+}
+.leaflet-container .leaflet-control-attribution a {
+  color: var(--bs-primary) !important;
+}
