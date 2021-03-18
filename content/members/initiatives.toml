@@ -1,0 +1,26 @@
+[[place]]
+name = "Munich"
+postcode = 80331
+lat = 11.575277
+lon = 48.137222
+
+[[place.initiative]]
+name = "Open Science Center"
+institution = "Ludwig-Maximilians-University Munich"
+url = "https://www.lmu-klinikum.de/isd"
+
+[[place.initiative.person]]
+name = "Felix Schönbrodt"
+url = "https://nicebread.de"
+twitter = "nicebread"
+
+[[place]]
+name = "Mannheim"
+postcode = 68131
+lat = 8.466944
+lon = 49.488888
+
+[[place.initiative]]
+name = "Mannheim Open Science Initiative"
+institution = "Ludwig-Maximilians-University Munich"
+url = "https://www.lmu-klinikum.de/isd"

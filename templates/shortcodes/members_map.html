@@ -8,57 +8,51 @@
     ),
     detectRetina: true,
   }).setView([51.163375, 10.447683], 6);
-  //
+
 	L.tileLayer('/maps/tiles/{z}/{x}/{y}.png', {
 		attribution: 'Public domain map data by <a href="https://www.naturalearthdata.com">Natural Earth</a>',
 		tileSize: 256,
 	}).addTo(map);
-  //
+
   function onEachFeature(feature, layer) {
     // does this feature have a property named popupContent?
     if (feature.properties && feature.properties.name) {
-      layer.bindPopup(feature.properties.name);
+      const content = document.createElement('div')
+      content.innerHTML = `
+        <strong>${ feature.properties.name }</strong><br>
+        ${ feature.properties.initiatives.join('<br>') }
+      `
+      layer.bindPopup(content)
     }
   }
-  //
+
   var members = [
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "University of Mannheim",
+    {% set data = load_data(path=data_path) %}
+    {%- for place in data.place %}
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "{{ place.name }}",
+          "initiatives": [
+            {% for initiative in place.initiative | sort(attribute="name") -%}
+              "{{ initiative.name }}",
+            {%- endfor %}
+          ],
+          "weight": {{ place.initiative | length }}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [{{ place.lat }}, {{ place.lon }}]
+        }
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.466944, 49.488888]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ludwig-Maximilians-University Munich",
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.575277, 48.137222]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Berlin",
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [13.416669, 52.500000]
-      }
-    },
-  ];
-  //
+    {% endfor -%}
+  ]
+
   L.geoJSON(members, {
     onEachFeature: onEachFeature,
     pointToLayer: function (feature, latlng) {
 			return L.circleMarker(latlng, {
-				radius: 6,
+				radius: (feature.properties?.weight ?? 1) * 2 + 4,
 				fillColor: "#d63384",
 				color: "#ab296a",
 				weight: 1,
