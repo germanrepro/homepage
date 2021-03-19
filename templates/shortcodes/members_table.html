@@ -1,0 +1,75 @@
+<table class="table w-100">
+  <colgroup>
+    <col width="50%">
+    <col width="50%">
+  </colgroup>
+  <thead class="font-sans">
+    <tr>
+      <th scope="col">Initiative</th>
+      <th scope="col">Representative(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% set data = load_data(path=data_path) %}
+    {%- for place in data.place | sort(attribute="lon") | reverse %}
+      {%- for initiative in place.initiative | sort(attribute="name") %}
+        {%- for person in initiative.person | sort(attribute="name") %}
+          <tr>
+            {% if loop.index == 1 %}
+            <th
+              scope="row"
+              class="pe-3"
+              {%- if initiative.person | length > 1 %} rowspan="{{ initiative.person | length }}"{% endif -%}
+            >
+              <div class="float-md-end ms-4">
+                {% if initiative.url -%}
+                  <a href="{{ initiative.url }}" class="text-decoration-none mx-1">
+                    <i class="fas fa-globe-europe fa-sm"></i>
+                  </a>
+                {%- endif %}
+                {% if initiative.email -%}
+                  <a href="mailto:{{ initiative.email }}" class="text-decoration-none mx-1">
+                    <i class="fas fa-envelope-open-text fa-sm"></i>
+                  </a>
+                {%- endif %}
+                {% if initiative.twitter -%}
+                  <a href="https://twitter.com/{{ initiative.twitter }}" class="text-decoration-none mx-1">
+                    <i class="fab fa-twitter fa-sm"></i>
+                  </a>
+                {%- endif %}
+              </div>
+              {{- initiative.name -}}
+              {% if initiative.institution %}
+                <br>
+                <small class="text-muted fw-normal">
+                  {{ initiative.institution }}
+                </small>
+              {% endif %}
+            </th>
+            {% endif %}
+            <td>
+              {{ person.name }}
+              <div class="float-md-end">
+                {% if person.url -%}
+                  <a href="{{ person.url }}" class="text-decoration-none mx-1">
+                    <i class="fas fa-globe-europe fa-sm"></i>
+                  </a>
+                {%- endif %}
+                {% if person.email -%}
+                  <a href="mailto:{{ person.email }}" class="text-decoration-none mx-1">
+                    <i class="fas fa-envelope-open-text fa-sm"></i>
+                  </a>
+                {%- endif %}
+                {% if person.twitter -%}
+                  <a href="https://twitter.com/{{ person.twitter }}" class="text-decoration-none mx-1">
+                    <i class="fab fa-twitter fa-sm"></i>
+                  </a>
+                {%- endif %}
+              </div>
+            </td>
+          </tr>
+        {% endfor -%}
+      {% endfor -%}
+    {% endfor -%}
+  </tbody>
+</table>
