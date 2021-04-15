@@ -9,6 +9,7 @@
     let button = undefined
     let status = ''
     let changes = []
+    let consentStatus = ''
     if (navigator.doNotTrack === '1') {
       title = 'Tracking disabled'
       message = 'Your browser indicates that you do not want to be tracked. We have permanently excluded you from our statistics.'
@@ -19,12 +20,16 @@
       message = 'You have given consent to tracking for collecting user statistics. You can change your preference by clicking on the button below.'
       button = 'Opt out'
       status = 'warning'
+
+      consentStatus = 'opt-out'
       changes = ['optUserOut', 'forgetConsentGiven']
     } else {
       title = 'No tracking consent available'
       message = 'You have not consented to tracking. If you would like to contribute to our user statistics, please click the button below.'
       button = 'Opt in'
       status = 'success'
+
+      consentStatus = 'opt-in'
       changes = ['forgetUserOptOut', 'setConsentGiven']
     }
 
@@ -41,6 +46,7 @@
     `
     el.querySelector('a.btn').addEventListener('click', () => {
       changes.forEach(c => _paq.push([c]))
+      sessionStorage.setItem('tracking-consent', consentStatus)
       location.reload()
     })
 
