@@ -10,16 +10,16 @@
   //_paq.push(["setCookieDomain", ".lmu.de"]);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//tellmi.psy.lmu.de/matomo/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
+  (function () {
+    var u = "//tellmi.psy.lmu.de/matomo/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
     _paq.push(['setSiteId', '3']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.type = 'text/javascript'; g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
   })();
 
   _paq.push([function () {
-    if (!this.hasRememberedConsent() && sessionStorage.getItem('tracking-consent') !== 'opt-out') {
+    if (!this.hasRememberedConsent() && sessionStorage.getItem('tracking-consent') !== 'opt-out' && navigator.doNotTrack !== 1) {
       // Ask for opt-in
       const wrapper = document.querySelector('footer .cookie-consent-wrapper')
       const optIn = document.createElement('div')
@@ -47,7 +47,7 @@
           _paq.push(['setConsentGiven'])
           // Remember tracking consent for all subsequent page views and visits,
           // for 30 days
-          _paq.push(['rememberConsentGiven', 30*24])
+          _paq.push(['rememberConsentGiven', 30 * 24])
           sessionStorage.setItem('tracking-consent', 'opt-in')
           wrapper.innerHTML = ''
         })
