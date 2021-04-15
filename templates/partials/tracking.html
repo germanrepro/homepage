@@ -19,7 +19,7 @@
   })();
 
   _paq.push([function () {
-    if (this.isUserOptedOut()) {
+    if (this.isUserOptedOut() && sessionStorage.getItem('opt') === null) {
       // Ask for opt-in
       const wrapper = document.querySelector('footer .cookie-consent-wrapper')
       const optIn = document.createElement('div')
@@ -43,12 +43,14 @@
 
       optIn.querySelector('button#matomo-tracking-optin')
         .addEventListener('click', () => {
+          sessionStorage.setItem('opt', 'in')
           _paq.push(['forgetUserOptOut'])
           wrapper.innerHTML = ''
         })
 
       optIn.querySelector('button#matomo-tracking-optout')
         .addEventListener('click', () => {
+          sessionStorage.setItem('opt', 'out')
           _paq.push(['optUserOut'])
           wrapper.innerHTML = ''
         })
