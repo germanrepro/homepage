@@ -10,45 +10,50 @@
     let status = ''
     let changes = []
     let consentStatus = ''
-    if (navigator.doNotTrack === '1') {
-      title = 'Tracking disabled'
-      message = 'Your browser indicates that you do not want to be tracked. We have permanently excluded you from our statistics.'
-      button = 'You\'ll need to change your browser settings'
-      status = 'success'
-    } else if (this.hasRememberedConsent()) {
-      title = 'Tracking consent available'
-      message = 'You have given consent to tracking for collecting user statistics. You can change your preference by clicking on the button below.'
-      button = 'Opt out'
-      status = 'warning'
 
-      consentStatus = 'opt-out'
-      changes = ['optUserOut', 'forgetConsentGiven']
-    } else {
-      title = 'No tracking consent available'
-      message = 'You have not consented to tracking. If you would like to contribute to our user statistics, please click the button below.'
-      button = 'Opt in'
-      status = 'success'
+    const update = () => {
+      if (navigator.doNotTrack === '1') {
+        title = 'Tracking disabled'
+        message = 'Your browser indicates that you do not want to be tracked. We have permanently excluded you from our statistics.'
+        button = 'You\'ll need to change your browser settings'
+        status = 'success'
+      } else if (this.hasRememberedConsent()) {
+        title = 'Tracking consent available'
+        message = 'You have given consent to tracking for collecting user statistics. You can change your preference by clicking on the button below.'
+        button = 'Opt out'
+        status = 'warning'
 
-      consentStatus = 'opt-in'
-      changes = ['forgetUserOptOut', 'setConsentGiven']
+        consentStatus = 'opt-out'
+        changes = ['optUserOut', 'forgetConsentGiven']
+      } else {
+        title = 'No tracking consent available'
+        message = 'You have not consented to tracking. If you would like to contribute to our user statistics, please click the button below.'
+        button = 'Reset opt-in status'
+        status = 'success'
+
+        consentStatus = 'opt-in'
+        changes = ['forgetUserOptOut', 'setConsentGiven']
+      }
+
+      const el = document.querySelector('#consent-info')
+      el.innerHTML = `
+        <div class="card text-white font-sans bg-${ status } my-4">
+          <div class="card-header">Tracking status</div>
+          <div class="card-body">
+            <h5 class="card-title">${ title }</h5>
+            <p class="card-text">${ message }</p>
+            <a href="#" class="btn btn-outline-light d-block ${ navigator.doNotTrack === '1' && 'disabled' }">${ button }</a>
+          </div>
+        </div>
+      `
+
+      el.querySelector('a.btn').addEventListener('click', () => {
+        changes.forEach(c => _paq.push([c]))
+        sessionStorage.setItem('tracking-consent', consentStatus)
+        update()
+      }, { once: true })
     }
 
-    const el = document.querySelector('#consent-info')
-    el.innerHTML = `
-      <div class="card text-white font-sans bg-${ status } my-4">
-        <div class="card-header">Tracking status</div>
-        <div class="card-body">
-          <h5 class="card-title">${ title }</h5>
-          <p class="card-text">${ message }</p>
-          <a href="#" class="btn btn-outline-light d-block ${ navigator.doNotTrack === '1' && 'disabled' }">${ button }</a>
-        </div>
-      </div>
-    `
-    el.querySelector('a.btn').addEventListener('click', () => {
-      changes.forEach(c => _paq.push([c]))
-      sessionStorage.setItem('tracking-consent', consentStatus)
-      location.reload()
-    })
-
+    update()
   }])
 </script>
