@@ -1,45 +1,226 @@
 [[place]]
+name = "Tübingen"
+postcode = 7071
+lat = 9.052220
+lon = 48.522660
+
+[[place.initiative]]
+name = "Tübingen Open Science Initiative"
+institution = "University of Tübingen"
+url = "https://osf.io/pdntj/"
+
+[[place.initiative.person]]
+name = "Jürgen Schneider"
+email = "juergen.schneider@uni-tuebingen.de"
+
+[[place]]
+name = "Berlin"
+postcode = 10115
+lat = 13.416669
+lon = 52.500000
+
+[[place.initiative]]
+name = "Pluricore"
+institution = "Berlin Institute of Health, Max Delbrück Center for Molecular Medicine"
+url = "https://www.gscn.org/en/RESOURCES/GermanStemCellCores.aspx"
+
+[[place.initiative.person]]
+name = "Sebastian Diecke"
+email = "sebastian.diecke@mdc-berlin.de"
+
+[[place.initiative]]
+name = "Automated Screening Working Group (ScreenIT)"
+url = "https://scicrunch.org/ASWG/about/COVIDPreprint"
+
+[[place.initiative.person]]
+name = "Tracey Weissgerber"
+email = "tracey.weissgerber@charite.de"
+
+[[place.initiative]]
+name = "Clinical Psychological Intervention"
+institution = "Freie Universität Berlin"
+
+[[place.initiative.person]]
+name = "Helen Niemeyer"
+email = "helen.niemeyer@fu-berlin.de"
+
+[[place.initiative]]
+name = "German Federal Institute for Risk Assessment"
+url = "https://www.bfr.bund.de/"
+
+[[place.initiative.person]]
+name = "Céline Heinl"
+email = "celine.heinl@bfr.bund.de"
+
+[[place]]
+name = "Rostock"
+postcode = 18055
+lat = 12.140489
+lon = 54.088700
+
+[[place.initiative]]
+name = "Open Reproducible Data Science and Statistics"
+institution = "University of Rostock"
+url = "https://www.uni-rostock.de/forschung/nachwuchsfoerderung/graduiertenakademie/netzwerke/ords/"
+
+[[place.initiative.person]]
+name = "Anja Eggert"
+email = "eggert@fbn-dummerstorf.de"
+
+[[place.initiative.person]]
+name = "Frank Krüger"
+email = "frank.krueger@uni-rostock.de"
+
+[[place]]
+name = "Bochum"
+postcode = 44787
+lat = 7.216479
+lon = 51.481650
+
+[[place.initiative]]
+name = "Open Science Initiative"
+institution = "Ruhr University Bochum"
+
+[[place.initiative.person]]
+name = "Malte Elson"
+email = "malte.elson@rub.de"
+
+[[place]]
+name = "Jena"
+postcode = 7743
+lat = 11.589900
+lon = 50.928780
+
+[[place.initiative]]
+name = "FORRT: Framework for Open and Reproducible Research Training"
+url = "https://forrt.org/"
+
+[[place.initiative.person]]
+name = "Flavio Azevedo"
+email = "flavio.azevedo@uni-jena.de"
+
+[[place]]
+name = "Frankfurt am Main"
+postcode = 60306
+lat = 8.684166
+lon = 50.115277
+
+[[place.initiative]]
+name = "Strenda, Mirage, & Strenda-DB"
+institution = "Beilstein-Institut zur Förderung der Chemischen Wissenschaften"
+url = "https://www.beilstein-institut.de/en/projects/strenda/"
+
+[[place.initiative.person]]
+name = "Wendy Patterson"
+email = "wpatterson@beilstein-institut.de"
+
+[[place]]
+name = "Lübeck"
+postcode = 23552
+lat = 10.687290
+lon = 53.868929
+
+[[place.initiative]]
+name = "Open Science Initiative Lübeck"
+institution = "Lübeck University"
+url = "https://osi-luebeck.de"
+
+[[place.initiative.person]]
+name = "Lena Rademacher"
+email = "lena.rademacher@uni-luebeck.de"
+
+[[place]]
+name = "Mannheim"
+postcode = 68159
+lat = 8.466944
+lon = 49.488888
+
+[[place.initiative]]
+name = "Interest Group for Open and Reproducible Science"
+institution = "Biological Psychology and Neuropsychology Section of the German Psychological Society"
+url = "https://www.dgps.de/index.php?id=2001248"
+
+[[place.initiative.person]]
+name = "Gordon Feld"
+email = "gordon.feld@zi-mannheim.de"
+
+[[place]]
 name = "Munich"
 postcode = 80331
 lat = 11.575277
 lon = 48.137222
 
 [[place.initiative]]
-name = "Open Science Center"
-institution = "Ludwig-Maximilians-University Munich"
-url = "https://www.lmu-klinikum.de/isd"
+name = "Open Science Committee"
+institution = "Department of Psychology at LMU Munich"
 
 [[place.initiative.person]]
-name = "Felix Schönbrodt"
-url = "https://nicebread.de"
-twitter = "nicebread"
-
-[[place.initiative.person]]
-name = "Random person"
-url = "https://nicebread.de"
-
-[[place.initiative]]
-name = "Open Science Center"
-institution = "Ludwig-Maximilians-University Munich"
-url = "https://www.lmu-klinikum.de/isd"
-
-[[place.initiative.person]]
-name = "Felix Schönbrodt"
-url = "https://nicebread.de"
-twitter = "nicebread"
+name = "Ramona Schödel"
+email = "ramona.schoedel@psy.lmu.de"
 
 [[place]]
-name = "Mannheim"
-postcode = 68131
-lat = 8.466944
-lon = 49.488888
+name = "Dresden"
+postcode = 1067
+lat = 13.738319
+lon = 51.050890
 
 [[place.initiative]]
-name = "Mannheim Open Science Initiative"
-institution = "Ludwig-Maximilians-University Munich"
-url = "https://www.lmu-klinikum.de/isd"
+name = "Reproducibility for Everyone (R4E)"
+url = "https://repro4everyone.org/"
 
 [[place.initiative.person]]
-name = "Felix Schönbrodt"
-url = "https://nicebread.de"
-twitter = "nicebread"
+name = "Susann Auer"
+email = "susann.auer@tu-dresden.de"
+
+[[place.initiative]]
+name = "Studentische Open Science Initiative der PsyFaKo (SOSIP)"
+url = "https://openscience.psyfako.org/"
+email = "openscience@psyfako.org"
+
+[[place.initiative.person]]
+name = "Leonardo Bergmann"
+
+[[place]]
+name = "Bonn"
+postcode = 53111
+lat = 7.095277
+lon = 50.734166
+
+[[place.initiative]]
+name = "Open Source Economics"
+url = "https://open-econ.org/"
+email = "mail@open-econ.org"
+
+[[place.initiative.person]]
+name = "Philipp Eisenhauer"
+email = "peisenha@uni-bonn.de"
+
+[[place]]
+name = "Leipzig"
+postcode = 4103
+lat = 12.371111
+lon = 51.339444
+
+[[place.initiative]]
+name = "Open Science Initiative"
+institution = "Max-Planck-Institut für Kognitions- und Neurowissenschaften"
+url = "https://www.cbs.mpg.de/en/cbs-open-science"
+
+[[place.initiative.person]]
+name = "Lieneke Janssen"
+email = "lieneke.janssen@gmail.com"
+
+[[place]]
+name = "Potsdam"
+postcode = 14467
+lat = 13.065659
+lon = 52.398859
+
+[[place.initiative]]
+name = "ReproduciblE MODELing"
+institution = "University Potsdam and International Centre for Water Resources and Global Change"
+url = "http://remodel.global"
+
+[[place.initiative.person]]
+name = "Robert Reinecke"
+email = "robert.reinecke@uni-potsdam.de"
