@@ -333,7 +333,8 @@ footer a {
 .cookie-consent-wrapper {
   position: fixed;
   bottom: 2 * $spacer;
-  width: 100%
+  width: 100%;
+  z-index: 1000;
 }
 .cookie-consent {
   font-size: 1.1rem;
