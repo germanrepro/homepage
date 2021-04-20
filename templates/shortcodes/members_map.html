@@ -12,7 +12,15 @@
     ),
     detectRetina: true,
     renderer,
+    scrollWheelZoom: false,
   }).setView([51.163375, 10.447683], 6);
+
+  // Enable scroll wheel zoom only after click
+  map.on('click', () => {
+    if (!map.scrollWheelZoom.enabled()) {
+      map.scrollWheelZoom.enable()
+    }
+  })
 
   L.tileLayer('/maps/tiles/{z}/{x}/{y}.png', {
     attribution: 'Public domain map data by <a href="https://www.naturalearthdata.com">Natural Earth</a>',
