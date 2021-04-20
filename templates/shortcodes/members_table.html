@@ -23,7 +23,7 @@
             >
               <div class="float-md-end ms-4">
                 {% if initiative.url -%}
-                  <a href="{{ initiative.url }}" class="text-decoration-none mx-1">
+                  <a href="{{ initiative.url }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1">
                     <i class="fas fa-globe-europe fa-sm"></i>
                   </a>
                 {%- endif %}
@@ -33,7 +33,7 @@
                   </a>
                 {%- endif %}
                 {% if initiative.twitter -%}
-                  <a href="https://twitter.com/{{ initiative.twitter }}" class="text-decoration-none mx-1">
+                  <a href="https://twitter.com/{{ initiative.twitter }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1">
                     <i class="fab fa-twitter fa-sm"></i>
                   </a>
                 {%- endif %}
@@ -51,7 +51,7 @@
               {{ person.name }}
               <div class="float-md-end">
                 {% if person.url -%}
-                  <a href="{{ person.url }}" class="text-decoration-none mx-1">
+                  <a href="{{ person.url }}" target="_blank" rel="noopener noreferrer"  class="text-decoration-none mx-1">
                     <i class="fas fa-globe-europe fa-sm"></i>
                   </a>
                 {%- endif %}
@@ -61,7 +61,7 @@
                   </a>
                 {%- endif %}
                 {% if person.twitter -%}
-                  <a href="https://twitter.com/{{ person.twitter }}" class="text-decoration-none mx-1">
+                  <a href="https://twitter.com/{{ person.twitter }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1">
                     <i class="fab fa-twitter fa-sm"></i>
                   </a>
                 {%- endif %}
