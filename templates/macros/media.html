@@ -21,3 +21,15 @@
     {% if attrs != "" %}{{ attrs | safe }}{% endif %}
   >
 {% endmacro picture %}
+
+{% macro picture_fill(img, widths, heights, class="", attrs="") %}
+  <img
+    srcset="{% for w in widths -%}
+      {{ resize_image(path=img, width=w, height=heights[loop.index0], op='fill') }} {{ w }}w
+      {%- if not loop.last %}, {% endif -%}
+      {%- endfor %}"
+    src="{{ resize_image(path=img, width=widths | last, height = heights | last, op='fill') }}"
+    {% if class != "" %}class="{{ class | safe }}"{% endif %}
+    {% if attrs != "" %}{{ attrs | safe }}{% endif %}
+  >
+{% endmacro picture %}

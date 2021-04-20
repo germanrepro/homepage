@@ -8,6 +8,7 @@ lon = 48.522660
 name = "Tübingen Open Science Initiative"
 institution = "University of Tübingen"
 url = "https://osf.io/pdntj/"
+image = "members/initiatives/tosi.png"
 
 [[place.initiative.person]]
 name = "Jürgen Schneider"
@@ -31,6 +32,7 @@ email = "sebastian.diecke@mdc-berlin.de"
 [[place.initiative]]
 name = "Automated Screening Working Group (ScreenIT)"
 url = "https://scicrunch.org/ASWG/about/COVIDPreprint"
+image = "members/initiatives/screenit.png"
 
 [[place.initiative.person]]
 name = "Tracey Weissgerber"
@@ -62,6 +64,7 @@ lon = 54.088700
 name = "Open Reproducible Data Science and Statistics"
 institution = "University of Rostock"
 url = "https://www.uni-rostock.de/forschung/nachwuchsfoerderung/graduiertenakademie/netzwerke/ords/"
+image = "members/initiatives/ords.png"
 
 [[place.initiative.person]]
 name = "Anja Eggert"
@@ -80,6 +83,7 @@ lon = 51.481650
 [[place.initiative]]
 name = "Open Science Initiative"
 institution = "Ruhr University Bochum"
+image = "members/initiatives/osi-rub.png"
 
 [[place.initiative.person]]
 name = "Malte Elson"
@@ -94,6 +98,7 @@ lon = 50.928780
 [[place.initiative]]
 name = "FORRT: Framework for Open and Reproducible Research Training"
 url = "https://forrt.org/"
+image = "members/initiatives/forrt.png"
 
 [[place.initiative.person]]
 name = "Flavio Azevedo"
@@ -124,6 +129,7 @@ lon = 53.868929
 name = "Open Science Initiative Lübeck"
 institution = "Lübeck University"
 url = "https://osi-luebeck.de"
+image = "members/initiatives/osi-hl.png"
 
 [[place.initiative.person]]
 name = "Lena Rademacher"
@@ -139,6 +145,7 @@ lon = 49.488888
 name = "Interest Group for Open and Reproducible Science"
 institution = "Biological Psychology and Neuropsychology Section of the German Psychological Society"
 url = "https://www.dgps.de/index.php?id=2001248"
+image = "members/initiatives/igor.png"
 
 [[place.initiative.person]]
 name = "Gordon Feld"
@@ -167,6 +174,7 @@ lon = 51.050890
 [[place.initiative]]
 name = "Reproducibility for Everyone (R4E)"
 url = "https://repro4everyone.org/"
+image = "members/initiatives/r4e.png"
 
 [[place.initiative.person]]
 name = "Susann Auer"
@@ -220,6 +228,7 @@ lon = 52.398859
 name = "ReproduciblE MODELing"
 institution = "University Potsdam and International Centre for Water Resources and Global Change"
 url = "http://remodel.global"
+image = "members/initiatives/remodel.png"
 
 [[place.initiative.person]]
 name = "Robert Reinecke"
