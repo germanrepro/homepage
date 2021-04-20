@@ -17,6 +17,7 @@
   L.tileLayer('/maps/tiles/{z}/{x}/{y}.png', {
     attribution: 'Public domain map data by <a href="https://www.naturalearthdata.com">Natural Earth</a>',
     tileSize: 256,
+    detectRetina: true,
   }).addTo(map);
 
   function onEachFeature(feature, layer) {
