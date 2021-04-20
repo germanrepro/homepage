@@ -1,4 +1,8 @@
 <script>
+  // Add some margin area around click targets
+  const renderer = L.canvas({ tolerance: 5 })
+
+  // Setup map
 	var map = L.map('map', {
     minZoom: 5,
 		maxZoom: 7,
@@ -7,6 +11,7 @@
       L.latLng(75, 80),
     ),
     detectRetina: true,
+    renderer,
   }).setView([51.163375, 10.447683], 6);
 
 	L.tileLayer('/maps/tiles/{z}/{x}/{y}.png', {
@@ -26,7 +31,7 @@
     }
   }
 
-  var members = [
+  const members = [
     {% set data = load_data(path=data_path) %}
     {%- for place in data.place %}
       {
@@ -38,7 +43,7 @@
               "{{ initiative.name }}",
             {%- endfor %}
           ],
-          "weight": {{ place.initiative | length }}
+          "weight": Math.min({{ place.initiative | length }} * 2.25 + 4, 12)
         },
         "geometry": {
           "type": "Point",
@@ -48,11 +53,17 @@
     {% endfor -%}
   ]
 
-  L.geoJSON(members, {
+  // Sort by number of initiatives to control overplotting
+  const sortedMembers = members.sort(
+    (a, b) => (b.properties?.initiatives?.length ?? 0) -
+      (a.properties?.initiatives?.length ?? 0)
+  )
+
+  L.geoJSON(sortedMembers, {
     onEachFeature: onEachFeature,
     pointToLayer: function (feature, latlng) {
 			return L.circleMarker(latlng, {
-				radius: (feature.properties?.weight ?? 1) * 2 + 4,
+				radius: feature.properties?.weight ?? 1,
 				fillColor: "#d63384",
 				color: "#ab296a",
 				weight: 1,
