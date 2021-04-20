@@ -10,13 +10,13 @@
   >
 {% endmacro picture %}
 
-{% macro picture_fill(img, widths, class="", attrs="") %}
+{% macro picture_fill_square(img, widths, class="", attrs="") %}
   <img
     srcset="{% for w in widths -%}
       {{ resize_image(path=img, width=w, height=w, op='fill') }} {{ w }}w
       {%- if not loop.last %}, {% endif -%}
       {%- endfor %}"
-    src="{{ resize_image(path=img, width=widths | last, op='fit_width') }}"
+    src="{{ resize_image(path=img, width=widths | last, height=widths | last, op='fill') }}"
     {% if class != "" %}class="{{ class | safe }}"{% endif %}
     {% if attrs != "" %}{{ attrs | safe }}{% endif %}
   >

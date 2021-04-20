@@ -7,7 +7,7 @@
   <div class="p-3 text-center">
     {% if member.image -%}
       {{-
-        media::picture_fill(
+        media::picture_fill_square(
           img=member.image,
           widths=[160, 320],
           class="rounded-circle border my-3 shadow-sm",
