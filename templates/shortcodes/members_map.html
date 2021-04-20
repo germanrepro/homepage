@@ -5,7 +5,7 @@
   // Setup map
   var map = L.map('map', {
     minZoom: 5,
-    maxZoom: 7,
+    maxZoom: window.devicePixelRatio > 1 ? 6 : 7,
     maxBounds: L.latLngBounds(
       L.latLng(0, -70),
       L.latLng(75, 80),
