@@ -214,21 +214,6 @@ name = "Philipp Eisenhauer"
 email = "peisenha@uni-bonn.de"
 
 [[place]]
-name = "Leipzig"
-postcode = 4103
-lat = 12.371111
-lon = 51.339444
-
-[[place.initiative]]
-name = "Open Science Initiative"
-institution = "Max-Planck-Institut für Kognitions- und Neurowissenschaften"
-url = "https://www.cbs.mpg.de/en/cbs-open-science"
-
-[[place.initiative.person]]
-name = "Lieneke Janssen"
-email = "lieneke.janssen@gmail.com"
-
-[[place]]
 name = "Potsdam"
 postcode = 14467
 lat = 13.065659
