@@ -184,6 +184,7 @@ email = "susann.auer@tu-dresden.de"
 name = "Studentische Open Science Initiative der PsyFaKo (SOSIP)"
 url = "https://openscience.psyfako.org/"
 email = "openscience@psyfako.org"
+image = "members/initiatives/sosip.png"
 
 [[place.initiative.person]]
 name = "Leonardo Bergmann"
