@@ -27,6 +27,9 @@
                 class="rounded my-1"
                 style="background-color: rgba(0, 0, 0, 0.125); position: relative"
               >
+                {% if initiative.video -%}
+                  <a href="{{ initiative.video }}" data-yt-video="{{ initiative.video | replace(from="https://youtu.be/", to="") }}" data-modal-title="{{ initiative.name }}">
+                {%- endif %}
                 {% if initiative.image -%}
                   {{-
                     media::picture_fill(
@@ -39,10 +42,11 @@
                   -}}
                 {%- endif %}
                 {% if initiative.video -%}
-                <i
-                  class="fas fa-play-circle text-light"
-                  style="opacity: 0.25; font-size:3rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);"
-                ></i>
+                  <i
+                    class="fas fa-play-circle"
+                    style="font-size:3rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); text-shadow: 0 0 1rem rgba(255, 255, 255, 0.75);"
+                  ></i>
+                </a>
                 {%- endif %}
               </div>
             </td>
@@ -103,3 +107,61 @@
     {% endfor -%}
   </tbody>
 </table>
+
+<script defer>
+  class VideoModal {
+    constructor(yt_embed = 'dJRsWJqDjFE?start=73', title = 'Never gonna give you up') {
+      this.embed = yt_embed
+      this.title = title
+    }
+
+    show() {
+      this.el = document.createElement('div')
+      this.el.setAttribute('class', 'modal modal-dark')
+      this.el.setAttribute('tabindex', '-1')
+      this.el.innerHTML = `
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">${ this.title }</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0">
+              <div style="position: relative; width: 100%; padding-top: 56.25%; /* 16:9 Aspect ratio, remove wrapper and style settings below when more browsers support aspect-ratio directly */">
+                <iframe
+                  src="https://www.youtube-nocookie.com/embed/${ this.embed }"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                  style="width: 100%; height: 100%; position: absolute; top: 0; aspect-ratio: 16 / 9"
+                ></iframe>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary font-sans" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      `
+      document.body.appendChild(this.el)
+
+      this.modal = new bootstrap.Modal(this.el)
+      this.modal.show()
+      this.el.addEventListener('hidden.bs.modal', () => {
+        document.body.removeChild(this.el)
+        this.el = null
+        this.modal = null
+      }, { once: true })
+    }
+  }
+
+  document.querySelectorAll('a[data-yt-video]').forEach(el => {
+    const m = new VideoModal(
+      el.getAttribute('data-yt-video'),
+      el.getAttribute('data-modal-title')
+    )
+    el.addEventListener('click', (e) => {
+      e.preventDefault()
+      m.show()
+    })
+  })
+</script>

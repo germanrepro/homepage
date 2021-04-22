@@ -390,3 +390,20 @@ footer a {
 .leaflet-container .leaflet-control-attribution a {
   color: var(--bs-primary) !important;
 }
+
+// Modal overlay
+.modal.modal-dark .modal-content {
+  color: white;
+  background-color: black;
+
+  .btn-close {
+    color: white;
+  }
+
+  .modal-header {
+    border-bottom-color: $gray-800;
+  }
+  .modal-footer {
+    border-top-color: $gray-800;
+  }
+}
