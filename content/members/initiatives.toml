@@ -150,6 +150,12 @@ video = "https://youtu.be/sQFmB_EY1PQ"
 name = "Gordon Feld"
 email = "gordon.feld@zi-mannheim.de"
 
+[[place.initiative.person]]
+name = "Tina Lonsdorf"
+email = "t.lonsdorf@uke.de"
+url = "https://lonsdorflab.com/"
+twitter = "tinalonsdorf"
+
 [[place]]
 name = "Munich"
 postcode = 80331
