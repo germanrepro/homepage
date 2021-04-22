@@ -48,14 +48,6 @@ institution = "Freie Universität Berlin"
 name = "Helen Niemeyer"
 email = "helen.niemeyer@fu-berlin.de"
 
-[[place.initiative]]
-name = "German Federal Institute for Risk Assessment"
-url = "https://www.bfr.bund.de/"
-
-[[place.initiative.person]]
-name = "Céline Heinl"
-email = "celine.heinl@bfr.bund.de"
-
 [[place]]
 name = "Rostock"
 postcode = 18055
