@@ -9,6 +9,7 @@ name = "Tübingen Open Science Initiative"
 institution = "University of Tübingen"
 url = "https://osf.io/pdntj/"
 image = "members/initiatives/tosi.png"
+video = "https://youtu.be/FOxfPH6htww"
 
 [[place.initiative.person]]
 name = "Jürgen Schneider"
@@ -33,6 +34,7 @@ email = "sebastian.diecke@mdc-berlin.de"
 name = "Automated Screening Working Group (ScreenIT)"
 url = "https://scicrunch.org/ASWG/about/COVIDPreprint"
 image = "members/initiatives/screenit.png"
+video = "https://youtu.be/2b34KHQyW2A"
 
 [[place.initiative.person]]
 name = "Tracey Weissgerber"
@@ -65,6 +67,7 @@ name = "Open Reproducible Data Science and Statistics"
 institution = "University of Rostock"
 url = "https://www.uni-rostock.de/forschung/nachwuchsfoerderung/graduiertenakademie/netzwerke/ords/"
 image = "members/initiatives/ords.png"
+video = "https://youtu.be/gS0vB5nUlNA"
 
 [[place.initiative.person]]
 name = "Anja Eggert"
@@ -84,6 +87,7 @@ lon = 51.481650
 name = "Open Science Initiative"
 institution = "Ruhr University Bochum"
 image = "members/initiatives/osi-rub.png"
+video = "https://youtu.be/W6r6vwIs4JQ"
 
 [[place.initiative.person]]
 name = "Malte Elson"
@@ -99,6 +103,7 @@ lon = 50.928780
 name = "FORRT: Framework for Open and Reproducible Research Training"
 url = "https://forrt.org/"
 image = "members/initiatives/forrt.png"
+video = "https://youtu.be/P6M1Ba0Cz-U"
 
 [[place.initiative.person]]
 name = "Flavio Azevedo"
@@ -130,6 +135,7 @@ name = "Open Science Initiative Lübeck"
 institution = "Lübeck University"
 url = "https://osi-luebeck.de"
 image = "members/initiatives/osi-hl.png"
+video = "https://youtu.be/kkdgQ8RUdyQ"
 
 [[place.initiative.person]]
 name = "Lena Rademacher"
@@ -146,6 +152,7 @@ name = "Interest Group for Open and Reproducible Science"
 institution = "Biological Psychology and Neuropsychology Section of the German Psychological Society"
 url = "https://www.dgps.de/index.php?id=2001248"
 image = "members/initiatives/igor.png"
+video = "https://youtu.be/sQFmB_EY1PQ"
 
 [[place.initiative.person]]
 name = "Gordon Feld"
@@ -175,6 +182,7 @@ lon = 51.050890
 name = "Reproducibility for Everyone (R4E)"
 url = "https://repro4everyone.org/"
 image = "members/initiatives/r4e.png"
+video = "https://youtu.be/MsLEbcnxwt0"
 
 [[place.initiative.person]]
 name = "Susann Auer"
@@ -185,6 +193,7 @@ name = "Studentische Open Science Initiative der PsyFaKo (SOSIP)"
 url = "https://openscience.psyfako.org/"
 email = "openscience@psyfako.org"
 image = "members/initiatives/sosip.png"
+video = "https://youtu.be/GP_L8eJqk_8"
 
 [[place.initiative.person]]
 name = "Leonardo Bergmann"
@@ -230,6 +239,7 @@ name = "ReproduciblE MODELing"
 institution = "University Potsdam and International Centre for Water Resources and Global Change"
 url = "http://remodel.global"
 image = "members/initiatives/remodel.png"
+video = "https://youtu.be/JYn0HpZAzTM"
 
 [[place.initiative.person]]
 name = "Robert Reinecke"
