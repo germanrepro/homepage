@@ -4,8 +4,8 @@
   "author": "Felix Henninger",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
-    "@popperjs/core": "^2.5.0",
-    "bootstrap": "^5.0.0-beta1",
+    "@popperjs/core": "^2.9.1",
+    "bootstrap": "^5.0.0-beta3",
     "jquery": "^3.5.1",
     "leaflet": "^1.7.1",
     "shx": "^0.3.2",
