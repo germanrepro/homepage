@@ -186,6 +186,12 @@ video = "https://youtu.be/MsLEbcnxwt0"
 name = "Susann Auer"
 email = "susann.auer@tu-dresden.de"
 
+[[place]]
+name = "Bremen"
+postcode = 28195
+lat = 8.833330
+lon = 53.083329
+
 [[place.initiative]]
 name = "Studentische Open Science Initiative der PsyFaKo (SOSIP)"
 url = "https://openscience.psyfako.org/"
