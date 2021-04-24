@@ -28,7 +28,7 @@
                 style="background-color: rgba(0, 0, 0, 0.125); position: relative"
               >
                 {% if initiative.video -%}
-                  <a href="{{ initiative.video }}" data-yt-video="{{ initiative.video | replace(from="https://youtu.be/", to="") }}" data-modal-title="{{ initiative.name }}">
+                  <a href="{{ initiative.video }}" data-yt-video="{{ initiative.video | replace(from="https://youtu.be/", to="") }}" data-modal-title="{{ initiative.name }}" target="_blank" rel="noopener noreferrer">
                 {%- endif %}
                 {% if initiative.image -%}
                   {{-
