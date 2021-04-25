@@ -386,6 +386,7 @@ footer a {
 
 .leaflet-container {
   font-family: $font-family-sans-serif !important;
+  background-color: white !important; // Avoid grid gaps on Safari
 }
 .leaflet-container .leaflet-control-attribution a {
   color: var(--bs-primary) !important;
