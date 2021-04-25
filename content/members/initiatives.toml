@@ -64,10 +64,12 @@ video = "https://youtu.be/gS0vB5nUlNA"
 [[place.initiative.person]]
 name = "Anja Eggert"
 email = "eggert@fbn-dummerstorf.de"
+twitter = "AnjaEggert42"
 
 [[place.initiative.person]]
 name = "Frank Krüger"
 email = "frank.krueger@uni-rostock.de"
+twitter = "_frank_k_"
 
 [[place]]
 name = "Bochum"
