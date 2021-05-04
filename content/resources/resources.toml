@@ -1,0 +1,21 @@
+[[resource]]
+title = "INOSC Starter Kit"
+url = "https://inosc-starter-kit.netlify.app/"
+image = "https://inosc-starter-kit.netlify.app/media/image1.png"
+image_padded = true
+description = """The International Network of Open Science and Scholarship Communities provides an excellent starter kit for founding and [building a local Open Science community](https://inosc-starter-kit.netlify.app/)."""
+footer = "Logo [CC-BY-NC-SA](https://github.com/aschetti/INOSC-starter-kit/)"
+
+[[resource]]
+title = "UKRN Open Science Primers"
+url = "https://www.ukrn.org/primers/"
+image = "/resources/ukrn.png"
+description = """The UK Reproducibility Network summarize many pertinent topics around Open Science in a [series of primers](https://www.ukrn.org/primers/)."""
+footer = "Logo [CC-BY](https://www.ukrn.org/primers/)"
+
+[[resource]]
+title = "Open Scholarship Knowledge Base"
+url = "https://www.cos.io/communities/open-scholarship-knowledge-base"
+image = "/resources/oskb.png"
+description = """In collaboration with the Center for Open Science, a worldwide community is gathering [resources concerning all aspects of Open Scholarship](https://www.cos.io/communities/open-scholarship-knowledge-base)."""
+footer = "Logo [CC-BY](https://github.com/how-to-open-science/knowledge-base)"

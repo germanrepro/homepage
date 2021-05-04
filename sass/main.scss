@@ -408,3 +408,12 @@ footer a {
     border-top-color: $gray-800;
   }
 }
+
+// Card masonry ----------------------------------------------------------------
+
+.masonry {
+  .card .card-body p:last-child,
+  .card .card-footer p:last-child {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,38 @@
+{% set data = load_data(path=data_path) %}
+
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mx-lg-negative my-3 masonry" data-masonry='{"percentPosition": true }'>
+  {% for resource in data.resource -%}
+  <div class="col">
+    <div class="card">
+      {% if resource.image -%}
+        <img
+          src="{{ resource.image }}"
+          class="card-img-top{% if resource.image_padded %} p-3{% endif %}"
+          style="aspect-ratio: 1 / 1; object-fit: contain;"
+          alt="{{ resource.title }} logo"
+        >
+      {%- endif %}
+      <div class="card-body">
+        <h5 class="card-title">
+          <a href="{{ resource.url }}"
+            class="stretched-link text-decoration-none text-dark"
+            target="_blank" rel="noopener noreferrer"
+          >
+            {{ resource.title }}
+          </a>
+        </h5>
+        <div class="card-text">
+          {{ resource.description | markdown | safe }}
+        </div>
+      </div>
+      {% if resource.footer -%}
+        <div class="card-footer text-muted bg-transparent">
+          {{ resource.footer | markdown | safe }}
+        </div>
+      {%- endif %}
+    </div>
+  </div>
+  {%- endfor %}
+</div>
