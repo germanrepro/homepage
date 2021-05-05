@@ -1,12 +1,4 @@
 [[resource]]
-title = "INOSC Starter Kit"
-url = "https://inosc-starter-kit.netlify.app/"
-image = "https://inosc-starter-kit.netlify.app/media/image1.png"
-image_padded = true
-description = """The International Network of Open Science and Scholarship Communities provides an excellent starter kit for founding and [building a local Open Science community](https://inosc-starter-kit.netlify.app/)."""
-footer = "Logo [CC-BY-NC-SA](https://github.com/aschetti/INOSC-starter-kit/)"
-
-[[resource]]
 title = "UKRN Open Science Primers"
 url = "https://www.ukrn.org/primers/"
 image = "/resources/ukrn.png"
@@ -33,6 +25,14 @@ image = "/resources/cos.png"
 image_padded = true
 description = """COS Ambassadors are [local resources for increasing conversations around open science](https://www.cos.io/communities/ambassadors)."""
 footer = "Logo [CC-0](https://osf.io/e7hrn/)"
+
+[[resource]]
+title = "INOSC Starter Kit"
+url = "https://inosc-starter-kit.netlify.app/"
+image = "https://inosc-starter-kit.netlify.app/media/image1.png"
+image_padded = true
+description = """The International Network of Open Science and Scholarship Communities provides an excellent starter kit for founding and [building a local Open Science community](https://inosc-starter-kit.netlify.app/)."""
+footer = "Logo [CC-BY-NC-SA](https://github.com/aschetti/INOSC-starter-kit/)"
 
 [[resource]]
 title = "The Carpentries"
