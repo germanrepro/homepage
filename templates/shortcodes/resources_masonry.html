@@ -42,7 +42,10 @@
   document.fonts.ready.then(() => {
     const elems = document.querySelectorAll('.masonry')
     elems.forEach(el => {
-      const msnry = new Masonry(el, { percentPosition: true })
+      const msnry = new Masonry(el, {
+        percentPosition: true,
+        horizontalOrder: true,
+      })
       msnry.layout()
     })
   })
