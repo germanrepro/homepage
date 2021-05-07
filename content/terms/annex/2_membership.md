@@ -57,7 +57,7 @@ email address).
 *Reproducibility Initiatives* can leave the GRN by submitting an
 informal statement to the *Steering Group* via the *Initiative Speaker*.
 
-### How can research Research Institutions join the GRN?
+### How can Research Institutions join the GRN?
 
 Institutional members of the GRN are universities, sub-units of
 universities (e.g., Fakultäten, Fachbereiche, Institute), research units
