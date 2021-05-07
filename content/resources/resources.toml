@@ -4,6 +4,9 @@ url = "https://www.ukrn.org/primers/"
 image = "/resources/ukrn.png"
 description = """The UK Reproducibility Network summarize many pertinent topics around Open Science in a [series of primers](https://www.ukrn.org/primers/)."""
 footer = "Logo [CC-BY](https://www.ukrn.org/primers/)"
+categories = [
+  "Learning materials"
+]
 
 [[resource]]
 title = "Open Scholarship Knowledge Base"
@@ -11,12 +14,19 @@ url = "https://www.cos.io/communities/open-scholarship-knowledge-base"
 image = "/resources/oskb.png"
 description = """In collaboration with the Center for Open Science, a worldwide community is gathering [resources concerning all aspects of Open Scholarship](https://www.cos.io/communities/open-scholarship-knowledge-base)."""
 footer = "Logo [CC-BY](https://github.com/how-to-open-science/knowledge-base)"
+categories = [
+  "Learning materials"
+]
 
 [[resource]]
 title = "FORRT Educational Nexus"
 url = "https://forrt.org/nexus/"
 image = "/resources/forrt.svg"
 description = """The FORRT initiative has collected and categorized [teaching and learning resources around open science](https://forrt.org/nexus/)."""
+categories = [
+  "Learning materials",
+  "Training"
+]
 
 [[resource]]
 title = "COS ambassadors program"
@@ -25,6 +35,9 @@ image = "/resources/cos.png"
 image_padded = true
 description = """COS Ambassadors are [local resources for increasing conversations around open science](https://www.cos.io/communities/ambassadors)."""
 footer = "Logo [CC-0](https://osf.io/e7hrn/)"
+categories = [
+  "Community building"
+]
 
 [[resource]]
 title = "INOSC Starter Kit"
@@ -33,6 +46,9 @@ image = "https://inosc-starter-kit.netlify.app/media/image1.png"
 image_padded = true
 description = """The International Network of Open Science and Scholarship Communities provides an excellent starter kit for founding and [building a local Open Science community](https://inosc-starter-kit.netlify.app/)."""
 footer = "Logo [CC-BY-NC-SA](https://github.com/aschetti/INOSC-starter-kit/)"
+categories = [
+  "Community building"
+]
 
 [[resource]]
 title = "The Carpentries"
@@ -41,8 +57,14 @@ image = "/resources/carpentries.svg"
 image_padded = true
 description = """The Carpentries [teach foundational coding and data science skills](https://carpentries.org/) to researchers worldwide."""
 footer = "Logo used [with permission](https://docs.carpentries.org/topic_folders/communications/resources/logos.html)"
+categories = [
+  "Training"
+]
 
 [[resource]]
 title = "Center for Scientific Collaboration and Community Engagement"
 url = "https://www.cscce.org/"
 description = """The Center for Scientific Collaboration and Community Engagement (CSCCE) is a [research and training center to support and study the emerging field of scientific community engagement](https://www.cscce.org/)."""
+categories = [
+  "Community building"
+]

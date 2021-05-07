@@ -1,8 +1,35 @@
 {% set data = load_data(path=data_path) %}
 
+{# Extract categories #}
+{% set_global categories = [] %}
+{% for category_list in data.resource | map(attribute='categories') %}
+    {% set_global categories = category_list | concat(with=categories) %}
+{% endfor %}
+
+<ul class="nav nav-pills font-sans gallery-selector">
+  <li class="nav-item">
+    <a
+      class="nav-link active" href="#"
+      data-filter-category="*"
+    >
+      All topics
+    </a>
+  </li>
+  {% for category in categories | unique() | sort() %}
+    <li class="nav-item">
+      <a
+        class="nav-link" href="#"
+        data-filter-category="{{ category | lower() }}"
+      >
+        {{ category }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mx-lg-negative my-3 masonry">
   {% for resource in data.resource -%}
-  <div class="col">
+  <div class="col" data-category="{{ resource.categories | join(sep=' ') | lower() }}">
     <div class="card">
       {% if resource.image -%}
         <img
@@ -40,15 +67,37 @@
 <script>
   // Apply masonry layout after fonts have loaded to avoid layout issues
   document.fonts.ready.then(() => {
-    const elems = document.querySelectorAll('.masonry')
-    elems.forEach(el => {
-      const msnry = new Isotope(el, {
-        masonry: {
-          percentPosition: true,
-          horizontalOrder: true,
+    const elem = document.querySelector('.masonry')
+    const msnry = new Isotope(elem, {
+      masonry: {
+        percentPosition: true,
+        horizontalOrder: true,
+      }
+    })
+    msnry.layout()
+
+    const filters = document.querySelectorAll('ul.gallery-selector li a')
+    const clickHandler = (e) => {
+      e.preventDefault()
+
+      // Apply marker
+      filters.forEach(el => el.classList.remove('active'))
+      e.target.classList.add('active')
+
+      // Apply filter
+      const filter = e.target.dataset.filterCategory
+      console.log('filter', filter)
+      msnry.arrange({
+        filter: function(item) {
+          if (filter == '*') {
+            return true
+          } else {
+            return (item.dataset.category ?? '').includes(filter)
+          }
         }
       })
-      msnry.layout()
-    })
+    }
+
+    filters.forEach(el => el.addEventListener('click', clickHandler))
   })
 </script>
