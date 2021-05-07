@@ -5,3 +5,6 @@
 /static/icons/fa/*
 /static/scripts/*
 /static/processed_images/*
+
+# Local Netlify folder
+.netlify
