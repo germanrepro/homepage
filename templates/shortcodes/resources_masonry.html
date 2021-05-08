@@ -63,41 +63,49 @@
 </div>
 
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js" integrity="sha256-qXBd/EfAdjOA2FGrGAG+b3YBn2tn5A6bhz+LSgYD96k=" crossorigin="anonymous"></script>
 
 <script>
-  // Apply masonry layout after fonts have loaded to avoid layout issues
-  document.fonts.ready.then(() => {
-    const elem = document.querySelector('.masonry')
-    const msnry = new Isotope(elem, {
-      masonry: {
-        percentPosition: true,
-        horizontalOrder: true,
+  // Apply masonry layout
+  const elem = document.querySelector('.masonry')
+  const msnry = new Isotope(elem, {
+    masonry: {
+      percentPosition: true,
+      horizontalOrder: true,
+    }
+  })
+  msnry.layout()
+
+  // Recalculate layout after all images and fonts are loaded
+  // (debounce to avoid excessive recalculation)
+  const debouncedRelayout = _.debounce(() => msnry.layout(), 250)
+  elem.querySelectorAll('img').forEach(el =>
+    el.addEventListener('load', debouncedRelayout)
+  )
+  document.fonts.ready.then(debouncedRelayout)
+  document.addEventListener('DOMContentLoaded', debouncedRelayout)
+
+  // Hook up filter links
+  const filters = document.querySelectorAll('ul.gallery-selector li a')
+  const clickHandler = (e) => {
+    e.preventDefault()
+
+    // Apply marker
+    filters.forEach(el => el.classList.remove('active'))
+    e.target.classList.add('active')
+
+    // Apply filter
+    const filter = e.target.dataset.filterCategory
+    msnry.arrange({
+      filter: function(item) {
+        if (filter == '*') {
+          return true
+        } else {
+          return (item.dataset.category ?? '').includes(filter)
+        }
       }
     })
-    msnry.layout()
+  }
 
-    const filters = document.querySelectorAll('ul.gallery-selector li a')
-    const clickHandler = (e) => {
-      e.preventDefault()
-
-      // Apply marker
-      filters.forEach(el => el.classList.remove('active'))
-      e.target.classList.add('active')
-
-      // Apply filter
-      const filter = e.target.dataset.filterCategory
-      console.log('filter', filter)
-      msnry.arrange({
-        filter: function(item) {
-          if (filter == '*') {
-            return true
-          } else {
-            return (item.dataset.category ?? '').includes(filter)
-          }
-        }
-      })
-    }
-
-    filters.forEach(el => el.addEventListener('click', clickHandler))
-  })
+  filters.forEach(el => el.addEventListener('click', clickHandler))
 </script>
