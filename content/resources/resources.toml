@@ -19,17 +19,41 @@ categories = [
 ]
 
 [[resource]]
-title = "FORRT Educational Nexus"
-url = "https://forrt.org/nexus/"
-image = "/resources/forrt.svg"
-description = """The FORRT initiative has collected and categorized [teaching and learning resources around open science](https://forrt.org/nexus/)."""
+title = "FOSTER Open Science"
+url = "https://www.fosteropenscience.eu/"
+image = "/resources/foster.png"
+image_padded = true
+description = """FOSTER Open Science collects [training resources around Open Science](https://www.fosteropenscience.eu/) on an e-learning platform."""
+footer = "Logo used [with permission](https://www.fosteropenscience.eu/about#logo)"
 categories = [
   "Learning materials",
   "Training"
 ]
 
 [[resource]]
-title = "COS ambassadors program"
+title = "The Turing Way"
+url = "https://the-turing-way.netlify.app"
+image = "/resources/turing.jpg"
+image_padded = true
+description = """The Turing Way is an open source, community-driven [guide to reproducible, ethical, inclusive and collaborative data science](https://the-turing-way.netlify.app)."""
+footer = "Logo [CC-BY](https://github.com/alan-turing-institute/the-turing-way/blob/master/LICENSE.md)"
+categories = [
+  "Learning materials"
+]
+
+[[resource]]
+title = "Reproducibility for Everyone"
+url = "https://repro4everyone.org"
+image = "/resources/repro4everyone.png"
+image_padded = true
+description = """Repro4Everyone [develop resources and teach workshops that enable researchers to do reproducible research](https://repro4everyone.org). """
+footer = "Logo [CC-BY](https://github.com/repro4everyone)"
+categories = [
+  "Training"
+]
+
+[[resource]]
+title = "COS Ambassadors"
 url = "https://www.cos.io/communities/ambassadors"
 image = "/resources/cos.png"
 image_padded = true
@@ -44,10 +68,19 @@ title = "INOSC Starter Kit"
 url = "https://inosc-starter-kit.netlify.app/"
 image = "https://inosc-starter-kit.netlify.app/media/image1.png"
 image_padded = true
-description = """The International Network of Open Science and Scholarship Communities provides an excellent starter kit for founding and [building a local Open Science community](https://inosc-starter-kit.netlify.app/)."""
+description = """The International Network of Open Science and Scholarship Communities provides an excellent starter kit for [founding and building a local Open Science community](https://inosc-starter-kit.netlify.app/)."""
 footer = "Logo [CC-BY-NC-SA](https://github.com/aschetti/INOSC-starter-kit/)"
 categories = [
   "Community building"
+]
+
+[[resource]]
+title = "FORRT Educational Nexus"
+url = "https://forrt.org/nexus/"
+image = "/resources/forrt.svg"
+description = """The FORRT initiative has collected and categorized [teaching and learning resources around open science](https://forrt.org/nexus/)."""
+categories = [
+  "Learning materials",
 ]
 
 [[resource]]
