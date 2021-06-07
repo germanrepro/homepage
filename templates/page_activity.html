@@ -47,7 +47,12 @@
         {% set events = get_section(path="events/_index.md") -%}
         {% set_global event_count = 0 %}
         {% for event in events.pages | reverse %}
-          {% if event.date and event.date | date(format="%s") | int >= now()  | date(format="%s") | int %}
+          {%- if event.extra.visible_until -%}
+            {% set visible_until = event.extra.visible_until %}
+          {%- else -%}
+            {% set visible_until = event.date %}
+          {%- endif -%}
+          {%- if visible_until and visible_until | date(format="%s") | int + 24 * 60 * 60 >= now() | date(format="%s") | int %}
             <article class="{% if event_count == 0 %}mt-4{% else %}mt-5{% endif %} pb-1">
               {% set_global event_count = event_count + 1 %}
               {% if event.extra.header_image %}
@@ -62,9 +67,11 @@
               {% endif %}
               <h3 class="h5 fw-lighter">
                 {{ event.title }}
-                <small class="text-muted">
-                  · {{ event.date | date(format="%B %_d, %Y") }}
-                </small>
+                {%- if event.extra.show_date is undefined or event.extra.show_date != false -%}
+                  <small class="text-muted">
+                    · {{ event.date | date(format="%B %_d, %Y") }}
+                  </small>
+                {%- endif -%}
               </h3>
               {% if event.summary %}
                 {{ event.summary | safe }}
