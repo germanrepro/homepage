@@ -22,6 +22,17 @@ lat = 13.416669
 lon = 52.500000
 
 [[place.initiative]]
+name = "SPOKES"
+institution = "Berlin Institute of Health"
+url = "https://bihealth.org/en/translation/innovation-enabler/quest-center/projects/spokes"
+image = "members/initiatives/spokes.png"
+video = "https://youtu.be/3_gxCDj7Xjo"
+
+[[place.initiative.person]]
+name = "(Mary) Constance Holman"
+email = "mary.holman@charite.de"
+
+[[place.initiative]]
 name = "Pluricore"
 institution = "Berlin Institute of Health, Max Delbrück Center for Molecular Medicine"
 url = "https://www.gscn.org/en/RESOURCES/GermanStemCellCores.aspx"
