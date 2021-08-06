@@ -42,6 +42,17 @@ name = "Sebastian Diecke"
 email = "sebastian.diecke@mdc-berlin.de"
 
 [[place.initiative]]
+name = "Peerspectives"
+institution = "Berlin Institute of Health"
+url = "https://osf.io/wyegc"
+image = "members/initiatives/peerspectives.png"
+video = "https://youtu.be/zV3L4UGvtLo"
+
+[[place.initiative.person]]
+name = "Peerspectives Team"
+email = "peerspectives@charite.de"
+
+[[place.initiative]]
 name = "Automated Screening Working Group (ScreenIT)"
 url = "https://scicrunch.org/ASWG/about/COVIDPreprint"
 image = "members/initiatives/screenit.png"
