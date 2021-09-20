@@ -15,3 +15,4 @@ To reproduce the website on your local computer, and apply changes without inter
 You will need a copy of [node.js](https://nodejs.org/) installed on your computer, as well as the [Zola](https://getzola.org/) static site generator. From a console, run `npm install` to download the project dependencies, and `npm run copy_static` to copy third-party static files into the correct locations.
 
 With the project dependencies in place, run `zola serve` to start a (temporary) local development server, and `zola build` to build a copy of the website that you could upload to a web server.
+
