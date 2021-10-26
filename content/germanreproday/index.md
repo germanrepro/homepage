@@ -20,34 +20,52 @@ The event will be held in English and will be conducted via the video conferenci
 
 ----
 
-### Programme (preliminary)
+### Programme
 
-1:00 - 2:30 pm<br>
-**Welcome**<br>
-Keynote: *Marcus Munafò, University of Bristol, UK*
+1:00 - 2:20 pm<br>
+**Opening** <br>
+*Antonia Schrader, Helmholtz Association Open Science Office*
+
+**Keynote "Scientific Ecosystems and Research Reproducibility"** <br>
+*Marcus Munafò, University of Bristol
+(UK)*
 (<a href="https://www.bristol.ac.uk/people/person/Marcus-Munafo-66740539-fec3-454f-a3fa-c38a273d9154/" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1"><i class="fas fa-globe-europe fa-sm"></i></a>
 <a href="https://twitter.com/MarcusMunafo" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1"><i class="fab fa-twitter fa-sm"></i></a>)<br>
-Presentation of the GRN: *Rima-Maria Rahal, Network of Open Science Initiatives, DE*
-(<a href="https://rimamrahal.wordpress.com/" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1"><i class="fas fa-globe-europe fa-sm"></i></a>
-<a href="https://twitter.com/rimamrahal" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1"><i class="fab fa-twitter fa-sm"></i></a>)
+Abstract: There has been growing interest in the question of research quality in recent years, a situation amplified by the current COVID-19 pandemic. An important question is the extent to which research culture, and current incentives, shape the behaviour of scientists in ways that may not be optimal. However, effective coordination is required to improve research integrity. For example, open research practices may act as an implicit quality control measure, and in turn improve the quality of scientific outputs and the efficiency of the scientific process. However, in the absence of incentives, uptake of these practices may be limited. Moreover, if these incentives are not common across institutions this will create an implicit “cost” to researchers at an institution that incentivises these practices if they attempt to move to an institution that does not.
 
-<span class="text-muted">2:30 - 2:45 pm<br>
+**Introducing the German Reproducibility Network**<br>
+*Rima-Maria Rahal, Network of Open Science Initiatives*
+
+<span class="text-muted">2:20 - 2:40 pm<br>
 Break</span>
 
-2:45 - 3:45 pm<br>
+2:40 - 3:40 pm<br>
 **Best practice examples from the GRN**<br>
-*FORRT: Framework for Open and Reproducible Research Training*
+-  Central Institute of Mental Health (ZI Mannheim), *N.N.*
+(<a href="https://www.zi-mannheim.de/en.html" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1"><i class="fas fa-globe-europe fa-sm"></i></a>)<br>
+-  FORRT: Framework for Open and Reproducible Research Training, *Flavio Azevedo*
 (<a href="https://forrt.org/" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1"><i class="fas fa-globe-europe fa-sm"></i></a>)<br>
-*Open Source Economists*
+-  Open Source Economists, *Philipp Eisenhauer*
 (<a href="https://open-econ.org" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1"><i class="fas fa-globe-europe fa-sm"></i></a>)<br>
-*ReproduciblE MODELing*
-(<a href="http://remodel.global/" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1"><i class="fas fa-globe-europe fa-sm"></i></a>)<br>
+-  ReproduciblE MODELing (REMODEL), *Robert Reinecke*
+(<a href="http://remodel.global	/" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1"><i class="fas fa-globe-europe fa-sm"></i></a>)<br>
 
-<span class="text-muted">3:45 - 4:00 pm<br>
+<span class="text-muted">3:40 - 4:00 pm<br>
 Break</span>
 
 4:00 - 5:00 pm<br>
-**Panel discussion with representatives from funder organization, publishing house, university and research organization**
+**Panel discussion on "Opportunities and road blocks for open science and reproducibility in Germany"** 
+<br>
+Moderation: *Susann Fiedler, WU Wien*
+
+Panellist:<br>
+-   *Flavio Azevedo, FORTT*
+-   *Philipp Eisenhauer, Open Source Economics*
+-   *Tobias Grimm, DFG*
+-   *Michael Hanke, FZ Jülich*
+-   *Veronique Kiemer, PLOS*
+-   *Robert Reinecke, REMODEL*
+-   *Günther Ziegler, FU Berlin*
 
 5:00 pm - open end<br>
 **Socializing & networking**
