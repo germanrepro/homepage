@@ -41,7 +41,8 @@ Break</span>
 
 2:40 - 3:40 pm<br>
 **Best practice examples from the GRN**<br>
--  Central Institute of Mental Health (ZI Mannheim), *N.N.*
+
+-  Central Institute of Mental Health (ZI Mannheim), *Gordon Feld / Melanie Fritz*
 (<a href="https://www.zi-mannheim.de/en.html" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1"><i class="fas fa-globe-europe fa-sm"></i></a>)<br>
 -  FORRT: Framework for Open and Reproducible Research Training, *Flavio Azevedo*
 (<a href="https://forrt.org/" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1"><i class="fas fa-globe-europe fa-sm"></i></a>)<br>
@@ -61,6 +62,8 @@ Moderation: *Susann Fiedler, WU Wien*
 Panellist:<br>
 -   *Flavio Azevedo, FORTT*
 -   *Philipp Eisenhauer, Open Source Economics*
+-   *Gordon Feld, ZI Mannheim*
+-   *Melanie Fritz, ZI Mannheim*
 -   *Tobias Grimm, DFG*
 -   *Michael Hanke, FZ Jülich*
 -   *Veronique Kiemer, PLOS*
