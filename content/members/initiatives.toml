@@ -22,6 +22,17 @@ lat = 13.416669
 lon = 52.500000
 
 [[place.initiative]]
+name = "Responsible Metrics"
+institution = "BIH QUEST-Center @ Charité Berlin"
+url = "https://www.bihealth.org/en/translation/innovation-enabler/quest-center/projects/translational-bioethics/bravo"
+image = "members/initiatives/responsible-metrics.png"
+video = "https://youtu.be/2t40ywHL0z0"
+
+[[place.initiative.person]]
+name = "Responsible Metrics Team"
+email = "responsible-metrics@charite.de"
+
+[[place.initiative]]
 name = "SPOKES"
 institution = "Berlin Institute of Health"
 url = "https://bihealth.org/en/translation/innovation-enabler/quest-center/projects/spokes"
