@@ -272,3 +272,17 @@ video = "https://youtu.be/JYn0HpZAzTM"
 [[place.initiative.person]]
 name = "Robert Reinecke"
 email = "robert.reinecke@uni-potsdam.de"
+
+[[place]]
+name = "Göttingen"
+postcode = 37001
+lat = 9.935556
+lon = 51.533889
+
+[[place.initiative]]
+name = "ReplicationWiki"
+url = "https://replication.uni-goettingen.de"
+
+[[place.initiative.person]]
+name = "Jan H. Hoeffler"
+email = "jhoeffl@gwdg.de"
