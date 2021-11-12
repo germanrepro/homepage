@@ -286,3 +286,17 @@ url = "https://replication.uni-goettingen.de"
 [[place.initiative.person]]
 name = "Jan H. Hoeffler"
 email = "jhoeffl@gwdg.de"
+
+[[place]]
+name = "Tallinn"
+postcode = 10616
+lat = 24.745
+lon = 59.437222
+
+[[place.initiative]]
+name = "Open Science & Education platform Enabla"
+url = "https://enabla.com"
+
+[[place.initiative.person]]
+name = "Anton Kutlin"
+email = "anton.kutlin@enabla.com"
