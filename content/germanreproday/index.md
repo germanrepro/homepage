@@ -1,4 +1,4 @@
-+++
+	+++
 title = "German Reproducibility Day"
 +++
 
@@ -68,7 +68,7 @@ Panellist:<br>
 -   *Michael Hanke, FZ Jülich*
 -   *Veronique Kiemer, PLOS*
 -   *Robert Reinecke, REMODEL*
--   *Günther Ziegler, FU Berlin*
+-   *Günther M. Ziegler, FU Berlin*
 
 5:00 pm - open end<br>
 **Socializing & networking**
