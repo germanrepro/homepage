@@ -84,6 +84,7 @@ email = "helen.niemeyer@fu-berlin.de"
 [[place.initiative]]
 name = "Research data management working group at the Max Planck Institute for Human Development"
 institution = "Max Planck Institute for Human Development"
+image = "members/initiatives/MPI_HD_researchdatamanagementworkinggroup.png"
 
 [[place.initiative.person]]
 name = "Dr. Maike Kleemeyer"
