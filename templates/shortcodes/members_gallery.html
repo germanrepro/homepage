@@ -26,13 +26,11 @@
         <a href="{{ member.url }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1">
           <i class="fas fa-globe-europe fa-sm"></i>
         </a>
-      {%- endif %}
-      {% if member.email -%}
+      {%- endif %}{% if member.email -%}
         <a href="mailto:{{ member.email }}" class="text-decoration-none mx-1">
           <i class="fas fa-envelope-open-text fa-sm"></i>
         </a>
-      {%- endif %}
-      {% if member.twitter -%}
+      {%- endif %}{% if member.twitter -%}
         <a href="https://twitter.com/{{ member.twitter }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1">
           <i class="fab fa-twitter fa-sm"></i>
         </a>
