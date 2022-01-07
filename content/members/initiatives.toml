@@ -91,6 +91,14 @@ video = "https://youtu.be/-yZJzIMI3OY"
 name = "Dr. Maike Kleemeyer"
 email = "kleemeyer@mpib-berlin.mpg.de"
 
+[[place.initiative]]
+name = "German Federal Institute for Risk Assessment (BfR)"
+url = "https://www.bfr.bund.de/en/home.html"
+
+[[place.initiative.person]]
+name = "Céline Heinl"
+email = "celine.heinl@bfr.bund.de"
+
 [[place]]
 name = "Rostock"
 postcode = 18055
