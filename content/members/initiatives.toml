@@ -107,6 +107,14 @@ institution = "Humboldt-Universität zu Berlin"
 name = "Claudia Neuendorf"
 email = "claudia.neuendorf@iqb.hu-berlin.de"
 
+[[place.initiative]]
+name = "ResearchEquals"
+url = "https://researchequals.com/"
+
+[[place.initiative.person]]
+name = "Chris Hartgerink"
+email = "chris@libscie.org"
+
 [[place]]
 name = "Rostock"
 postcode = 18055
