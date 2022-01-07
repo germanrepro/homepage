@@ -318,3 +318,18 @@ url = "https://enabla.com"
 [[place.initiative.person]]
 name = "Anton Kutlin"
 email = "anton.kutlin@enabla.com"
+
+[[place]]
+name = "Leipzig"
+postcode = 04103 
+lat = 12.383333
+lon = 51.333333
+
+[[place.initiative]]
+name = "CBS Open Science Initiative"
+institution = "Max Planck Institute for Human Cognitive and Brain Sciences"
+url = "https://www.cbs.mpg.de/en/cbs-open-science"
+
+[[place.initiative.person]]
+name = "Lieneke Janssen"
+email = "lieneke.janssen@gmail.com"
