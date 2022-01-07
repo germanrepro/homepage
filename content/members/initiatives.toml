@@ -99,6 +99,14 @@ url = "https://www.bfr.bund.de/en/home.html"
 name = "Céline Heinl"
 email = "celine.heinl@bfr.bund.de"
 
+[[place.initiative]]
+name = "Open Science Initiative of the Institute for Educational Quality Improvement"
+institution = "Humboldt-Universität zu Berlin"
+
+[[place.initiative.person]]
+name = "Claudia Neuendorf"
+email = "claudia.neuendorf@iqb.hu-berlin.de"
+
 [[place]]
 name = "Rostock"
 postcode = 18055
@@ -321,7 +329,7 @@ email = "anton.kutlin@enabla.com"
 
 [[place]]
 name = "Leipzig"
-postcode = 04103 
+postcode = 04103
 lat = 12.383333
 lon = 51.333333
 
