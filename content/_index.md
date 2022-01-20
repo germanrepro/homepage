@@ -72,7 +72,7 @@ template = "landing.html"
 <!-- Members -->
 {% landing_members(
   title="Founding members", id="members",
-  data_path="data/members.toml"
+  data_path="content/members/founding_members.toml"
 ) %}
   <img src="/images/team.jpg" class="rounded mb-4 w-100">
   <p>Please click on any logo to view the respective organization's representatives in GRN.</p>

@@ -1,3 +1,4 @@
+{% import "macros/media.html" as media %}
 <div
   {% if id %}id="{{ id }}"{% endif %}
   class="container my-5 py-5{% if class %} {{ class }}{% endif %}"
@@ -46,12 +47,22 @@
                 {%- endif %}
               "
             >
-              <img
-                src="{{ member.logo }}"
-                alt="Logo of the {{ member.name }}"
-                class="card-img-top my-3"
-                loading="lazy"
-              >
+              {% if member.logo is ending_with(".svg") %}
+                <img
+                  src="{{ get_url(path="/" ~ member.logo) }}"
+                  width="300"
+                  loading="lazy"
+                >
+              {% else %}
+                {{-
+                  media::picture(
+                    img=member.logo,
+                    widths=[300, 600],
+                    class="card-img-top my-3",
+                    attrs="width='300' loading='lazy'"
+                  )
+                -}}
+              {% endif %}
             </a>
           </div>
         {% endfor -%}

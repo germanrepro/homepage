@@ -2,7 +2,7 @@
 # following the TOML file format (https://toml.io/en/).
 #
 # Please start every new member with a [[members]] heading, and include
-# a name, the path to their logo (these are located in the /static/logos
+# a name, the path to their logo (these are located in the /staticmembers/founding_members
 # directory), and the information that is shown in the overlay when visitors
 # click on the logo.
 #
@@ -13,7 +13,7 @@
 [[members]]
 name = "Deutsche Gesellschaft für Psychologie"
 url = "https://www.dgps.de/"
-logo = "/logos/dgps.png"
+logo = "members/founding_members/dgps.png"
 
   [[members.contacts]]
   name = "Prof. Dr. Christian Fiebach"
@@ -23,7 +23,7 @@ logo = "/logos/dgps.png"
 [[members]]
 name = "Helmholtz Association"
 url = "https://www.helmholtz.de/"
-logo = "/logos/helmholtz.png"
+logo = "members/founding_members/helmholtz.png"
 
   [[members.contacts]]
   name = "Dr. Bernadette Fritzsch"
@@ -36,7 +36,7 @@ logo = "/logos/helmholtz.png"
 [[members]]
 name = "Helmholtz Artificial Intelligence Cooperation Unit"
 url = "https://www.helmholtz.ai/"
-logo = "/logos/helmholtz-ai.png"
+logo = "members/founding_members/helmholtz-ai.png"
 
   [[members.contacts]]
   name = "Dr. Heidi Seibold"
@@ -46,7 +46,7 @@ logo = "/logos/helmholtz-ai.png"
 [[members]]
 name = "Leibniz Information Centre for Economics"
 url = "https://www.zbw.eu/en/"
-logo = "/logos/zbw.svg"
+logo = "members/founding_members/zbw.svg"
 
   [[members.contacts]]
   name = "Prof. Dr. Klaus Tochtermann"
@@ -56,7 +56,7 @@ logo = "/logos/zbw.svg"
 [[members]]
 name = "Open Science Center at LMU Munich"
 url = "https://www.osc.uni-muenchen.de"
-logo = "/logos/lmu-osc.png"
+logo = "members/founding_members/lmu-osc.png"
 
   [[members.contacts]]
   name = "Prof. Dr. Felix Schönbrodt"
@@ -65,7 +65,7 @@ logo = "/logos/lmu-osc.png"
 
 [[members]]
 name = "Network of Open Science Initiatives"
-logo = "/logos/nosi.png"
+logo = "members/founding_members/nosi.png"
 
   [[members.contacts]]
   name = "Dr. Susann Fiedler"
@@ -79,7 +79,7 @@ logo = "/logos/nosi.png"
 [[members]]
 name = "Quest Center"
 url = "https://www.bihealth.org/de/forschung/quest-center"
-logo = "/logos/quest.png"
+logo = "members/founding_members/quest.png"
 
   [[members.contacts]]
   name = "Prof. Dr. Ulrich Dirnagl"
@@ -88,7 +88,7 @@ logo = "/logos/quest.png"
 [[members]]
 name = "Berlin University Alliance"
 url = "https://www.berlin-university-alliance.de/"
-logo = "/logos/bua.png"
+logo = "members/founding_members/bua.png"
 subtitle = "Funded under the Excellence Strategy of the Federal Government and the Länder by the Berlin University Alliance"
 
   [[members.contacts]]
