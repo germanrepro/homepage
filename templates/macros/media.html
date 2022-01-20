@@ -1,10 +1,13 @@
 {% macro picture(img, widths, class="", attrs="") %}
   <img
+    {# Render multiple widths #}
     srcset="{% for w in widths -%}
-      {{ resize_image(path=img, width=w, op='fit_width') }} {{ w }}w
+      {%- set image = resize_image(path=img, width=w, op='fit_width') -%}{{ image.url }} {{ w }}w
       {%- if not loop.last %}, {% endif -%}
       {%- endfor %}"
-    src="{{ resize_image(path=img, width=widths | last, op='fit_width') }}"
+    {# Render largest size as fallback #}
+    {%- set image = resize_image(path=img, width=widths | last, op='fit_width') -%}
+    src="{{ image.url }}"
     {% if class != "" %}class="{{ class | safe }}"{% endif %}
     {% if attrs != "" %}{{ attrs | safe }}{% endif %}
   >
@@ -12,11 +15,14 @@
 
 {% macro picture_fill_square(img, widths, class="", attrs="") %}
   <img
+    {# Render multiple widths #}
     srcset="{% for w in widths -%}
-      {{ resize_image(path=img, width=w, height=w, op='fill') }} {{ w }}w
+      {%- set image = resize_image(path=img, width=w, height=w, op='fill') -%}{{ image.url }} {{ w }}w
       {%- if not loop.last %}, {% endif -%}
       {%- endfor %}"
-    src="{{ resize_image(path=img, width=widths | last, height=widths | last, op='fill') }}"
+    {# Render largest size as fallback #}
+    {%- set image = resize_image(path=img, width=widths | last, height=widths | last, op='fill') -%}
+    src="{{ image.url }}"
     {% if class != "" %}class="{{ class | safe }}"{% endif %}
     {% if attrs != "" %}{{ attrs | safe }}{% endif %}
   >
@@ -24,11 +30,14 @@
 
 {% macro picture_fill(img, widths, heights, class="", attrs="") %}
   <img
+    {# Render multiple widths #}
     srcset="{% for w in widths -%}
-      {{ resize_image(path=img, width=w, height=heights[loop.index0], op='fill') }} {{ w }}w
+      {%- set image = resize_image(path=img, width=w, height=heights[loop.index0], op='fill') -%}{{ image.url }} {{ w }}w
       {%- if not loop.last %}, {% endif -%}
       {%- endfor %}"
-    src="{{ resize_image(path=img, width=widths | last, height = heights | last, op='fill') }}"
+    {# Render largest size as fallback #}
+    {%- set image = resize_image(path=img, width=widths | last, height = heights | last, op='fill') -%}
+    src="{{ image.url }}"
     {% if class != "" %}class="{{ class | safe }}"{% endif %}
     {% if attrs != "" %}{{ attrs | safe }}{% endif %}
   >
