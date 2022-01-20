@@ -4,7 +4,14 @@ title = "Contact the German Reproducibility Network"
 
 # We'd love to hear from you!
 
-You're warmly invited to write us, we'll get back to you by email. You can also write directly to [info@reproducibilitynetwork.de](mailto:info@reproducibilitynetwork.de).
+### Keep in touch
+You're warmly invited to sign up to our email list to stay up to date with everything the GRN is doing [grn@lists.lrz.de](mailto:grn@lists.lrz.de).
+
+For the coordinators of our local members there is a separate list available for communication [grn-members@lists.lrz.de](mailto:grn-members@lists.lrz.de).
+
+
+### Questions? Remarks? Suggestions?
+Please feel free to contact us using the form below or write directly to [info@reproducibilitynetwork.de](mailto:info@reproducibilitynetwork.de), we'll get back to you by email.
 
 ----
 
