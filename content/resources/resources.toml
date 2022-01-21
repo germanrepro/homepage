@@ -101,3 +101,12 @@ description = """The Center for Scientific Collaboration and Community Engagemen
 categories = [
   "Community building"
 ]
+
+[[resource]]
+title = "Tilburg Science Hub"
+url = "https://tilburgsciencehub.com"
+image = "https://tilburgsciencehub.com/img/hero.svg"
+description = """[Tilburg Science Hub](https://tilburgsciencehub.com) gives you the tools and guidance to be in control and save time in your empirical research projects."""
+categories = [
+  "Learning materials"
+]
