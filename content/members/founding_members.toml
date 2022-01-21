@@ -79,7 +79,7 @@ logo = "members/founding_members/nosi.png"
 [[members]]
 name = "Quest Center"
 url = "https://www.bihealth.org/de/forschung/quest-center"
-logo = "members/founding_members/quest.png"
+logo = "members/founding_members/quest.svg"
 
   [[members.contacts]]
   name = "Prof. Dr. Ulrich Dirnagl"
