@@ -84,4 +84,5 @@ template = "landing.html"
   <a href="https://www.swissrn.org/" target="_blank" rel="noreferrer"><strong>Swiss</strong> Reproducibility Network</a><br>
   <a href="https://www.aus-rn.org/" target="_blank" rel="noreferrer"><strong>Australian</strong> Reproducibility Network</a><br>
   <a href="https://slovakrn.wixsite.com/skrn"  target="_blank" rel="noreferrer"><strong>Slovak</strong> Reproducibility Network</a><br>
+  <a href="https://www.ptrn.pt"  target="_blank" rel="noreferrer"><strong>Portuguese</strong> Reproducibility Network</a><br>
 {% end %}
