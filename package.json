@@ -8,7 +8,7 @@
     "bootstrap": "^5.0.0-beta3",
     "jquery": "^3.5.1",
     "leaflet": "^1.7.1",
-    "shx": "^0.3.2",
+    "shx": "^0.3.4",
     "typeface-merriweather": "0.0.72",
     "typeface-merriweather-sans": "0.0.72"
   },
