@@ -76,6 +76,12 @@ h4:not(:first-child), h5:not(:first-child), h6:not(:first-child),
   font-family: $font-family-sans-serif !important;
 }
 
+// Tables ----------------------------------------------------------------------
+// Fix otherwise black border color
+table tbody {
+  border-top-color: rgb(222, 226, 230) !important;
+}
+
 // Colors ----------------------------------------------------------------------
 
 :root {
