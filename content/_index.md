@@ -78,11 +78,12 @@ template = "landing.html"
   <p>Please click on any logo to view the respective organization's representatives in GRN.</p>
 {% end %}
 
-<!-- International partners -->
-{% landing_section(title="International partners") %}
+<!-- Affiliate Networks -->
+{% landing_section(title="Affiliate Networks") %}
   <a href="https://www.ukrn.org/" target="_blank" rel="noreferrer"><strong>UK</strong> Reproducibility Network</a><br>
   <a href="https://www.swissrn.org/" target="_blank" rel="noreferrer"><strong>Swiss</strong> Reproducibility Network</a><br>
   <a href="https://www.aus-rn.org/" target="_blank" rel="noreferrer"><strong>Australian</strong> Reproducibility Network</a><br>
   <a href="https://slovakrn.wixsite.com/skrn"  target="_blank" rel="noreferrer"><strong>Slovak</strong> Reproducibility Network</a><br>
   <a href="https://www.ptrn.pt"  target="_blank" rel="noreferrer"><strong>Portuguese</strong> Reproducibility Network</a><br>
+  <a href="https://www.finnish-rn.org/"  target="_blank" rel="noreferrer"><strong>Finnish</strong> Reproducibility Network</a><br>
 {% end %}
