@@ -1,10 +1,13 @@
-/zola
+/zola*
 /public/*
 /node_modules/*
 /static/fonts/*
 /static/icons/fa/*
 /static/scripts/*
 /static/processed_images/*
+
+# PyCharm internal files
+.idea/*
 
 # Local Netlify folder
 .netlify
