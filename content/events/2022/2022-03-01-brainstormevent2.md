@@ -1,6 +1,6 @@
 +++
 title = "SAVE THE DATE! Virtual Brainstorming Event: Making reproducibility and open science education and training the norm"
-date = 2022-02-13
+
 +++
 
 We are pleased to invite you to our upcoming virtual brainstorming event “Making reproducibility and open science education and training the norm” on **March 2-3rd, 2022**. There will also be an optional one-hour brainstorming sessions on March **1st at 12:00 and 18:00 CET**. All events are open for all individuals passionate about reproducible research in Germany, as well as all members of GRN. Some questions of the questions we will discuss will include:
