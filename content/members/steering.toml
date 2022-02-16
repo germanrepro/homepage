@@ -33,12 +33,6 @@ url = "https://www.felixhenninger.com/"
 twitter = "felixhenninger"
 
 [[member]]
-name = "Nikolaus Plesnila"
-institution = "Ludwig-Maximilians-University Munich"
-image = "members/steering/plesnila.jpg"
-url = "https://www.lmu-klinikum.de/isd"
-
-[[member]]
 name = "Rima-Maria Rahal"
 institution = "Network of Open Science Initiatives"
 image = "members/steering/rahal.jpg"
@@ -65,13 +59,6 @@ institution = "Helmholtz Association Open Science Office"
 image = "members/steering/schrader.jpg"
 url = "https://os.helmholtz.de/"
 twitter = "helmholtz_os"
-
-[[member]]
-name = "Heidi Seibold"
-institution = "Helmholtz AI"
-image = "members/steering/seibold.jpg"
-url = "https://www.helmholtz.ai/themenmenue/our-research/research-groups/seibolds-group/index.html"
-twitter = "heidibaya"
 
 [[member]]
 name = "Klaus Tochtermann"
