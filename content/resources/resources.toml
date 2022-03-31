@@ -1,7 +1,7 @@
 [[resource]]
 title = "UKRN Open Science Primers"
 url = "https://www.ukrn.org/primers/"
-image = "/resources/ukrn.png"
+image = "/resources/library/ukrn.png"
 description = """The UK Reproducibility Network summarize many pertinent topics around Open Science in a [series of primers](https://www.ukrn.org/primers/)."""
 footer = "Logo [CC-BY](https://www.ukrn.org/primers/)"
 categories = [
@@ -11,7 +11,7 @@ categories = [
 [[resource]]
 title = "Open Scholarship Knowledge Base"
 url = "https://www.cos.io/communities/open-scholarship-knowledge-base"
-image = "/resources/oskb.png"
+image = "/resources/library/oskb.png"
 description = """In collaboration with the Center for Open Science, a worldwide community is gathering [resources concerning all aspects of Open Scholarship](https://www.cos.io/communities/open-scholarship-knowledge-base)."""
 footer = "Logo [CC-BY](https://github.com/how-to-open-science/knowledge-base)"
 categories = [
@@ -21,7 +21,7 @@ categories = [
 [[resource]]
 title = "FOSTER Open Science"
 url = "https://www.fosteropenscience.eu/"
-image = "/resources/foster.png"
+image = "/resources/library/foster.png"
 image_padded = true
 description = """FOSTER Open Science collects [training resources around Open Science](https://www.fosteropenscience.eu/) on an e-learning platform."""
 footer = "Logo used [with permission](https://www.fosteropenscience.eu/about#logo)"
@@ -33,7 +33,7 @@ categories = [
 [[resource]]
 title = "The Turing Way"
 url = "https://the-turing-way.netlify.app"
-image = "/resources/turing.jpg"
+image = "/resources/library/turing.jpg"
 image_padded = true
 description = """The Turing Way is an open source, community-driven [guide to reproducible, ethical, inclusive and collaborative data science](https://the-turing-way.netlify.app)."""
 footer = "Logo [CC-BY](https://github.com/alan-turing-institute/the-turing-way/blob/master/LICENSE.md)"
@@ -44,7 +44,7 @@ categories = [
 [[resource]]
 title = "Reproducibility for Everyone"
 url = "https://repro4everyone.org"
-image = "/resources/repro4everyone.png"
+image = "/resources/library/repro4everyone.png"
 image_padded = true
 description = """Repro4Everyone [develop resources and teach workshops that enable researchers to do reproducible research](https://repro4everyone.org). """
 footer = "Logo [CC-BY](https://github.com/repro4everyone)"
@@ -55,7 +55,7 @@ categories = [
 [[resource]]
 title = "COS Ambassadors"
 url = "https://www.cos.io/communities/ambassadors"
-image = "/resources/cos.png"
+image = "/resources/library/cos.png"
 image_padded = true
 description = """COS Ambassadors are [local resources for increasing conversations around open science](https://www.cos.io/communities/ambassadors)."""
 footer = "Logo [CC-0](https://osf.io/e7hrn/)"
@@ -77,7 +77,7 @@ categories = [
 [[resource]]
 title = "FORRT Educational Nexus"
 url = "https://forrt.org/nexus/"
-image = "/resources/forrt.svg"
+image = "/resources/library/forrt.svg"
 description = """The FORRT initiative has collected and categorized [teaching and learning resources around open science](https://forrt.org/nexus/)."""
 categories = [
   "Learning materials",
@@ -86,7 +86,7 @@ categories = [
 [[resource]]
 title = "The Carpentries"
 url = "https://carpentries.org/"
-image = "/resources/carpentries.svg"
+image = "/resources/library/carpentries.svg"
 image_padded = true
 description = """The Carpentries [teach foundational coding and data science skills](https://carpentries.org/) to researchers worldwide."""
 footer = "Logo used [with permission](https://docs.carpentries.org/topic_folders/communications/resources/logos.html)"
