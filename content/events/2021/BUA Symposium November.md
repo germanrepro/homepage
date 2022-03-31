@@ -1,5 +1,5 @@
 +++
-title = "SAVE THE DATE! BUA Symposium on Challenges for research integrity: Diversity and universalism, evidence and reflexivity"
+title = "BUA Symposium on Challenges for research integrity: Diversity and universalism, evidence and reflexivity"
 date = 2021-11-24
 +++
 
