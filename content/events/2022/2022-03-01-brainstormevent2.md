@@ -1,5 +1,5 @@
 +++
-title = "SAVE THE DATE! Virtual Brainstorming Event: Making reproducibility and open science education and training the norm"
+title = "Virtual Brainstorming Event: Making reproducibility and open science education and training the norm"
 
 +++
 
@@ -12,7 +12,7 @@ We are pleased to invite you to our upcoming virtual brainstorming event “Maki
 
 3. How can we make reproducibility education/training the norm in Germany? What top-down and bottom-up approaches can we use? What are the barriers we face and how can we overcome them to making reproducibility education and training the norm?
 
- 
+
 Please sign up using this [link](https://www.bihealth.org/en/translation/innovation-enabler/quest-center/events/making-reproducibility-and-open-science-education-and-training-the-norm-a-virtual-brainstorming-event) by Feb 28th.
- 
+
 **We very much encourage you to share this event with your networks!**

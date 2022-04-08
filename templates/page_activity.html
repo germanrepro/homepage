@@ -43,18 +43,24 @@
         {% endfor %}
       </div>
       <div class="col-lg px-lg-4 py-5">
-        <h2 class="h3">Upcoming</h2>
         {% set events = get_section(path="events/_index.md") -%}
+        {# Keep count of how many events we have shown so far #}
         {% set_global event_count = 0 %}
         {% for event in events.pages | reverse %}
+          {# The visibility threshold can be set manually, but defaults to the event date #}
           {%- if event.extra.visible_until -%}
             {% set visible_until = event.extra.visible_until %}
           {%- else -%}
             {% set visible_until = event.date %}
           {%- endif -%}
+          {# After their visibility deadline, show events for one more day #}
           {%- if visible_until and visible_until | date(format="%s") | int + 24 * 60 * 60 >= now() | date(format="%s") | int %}
             <article class="{% if event_count == 0 %}mt-4{% else %}mt-5{% endif %} pb-1">
               {% set_global event_count = event_count + 1 %}
+              {% if event_count == 1 -%}
+                {# Show the title on the first visible event #}
+                <h2 class="h3">Upcoming</h2>
+              {%- endif %}
               {% if event.extra.header_image %}
                 {%- set img = macros::expand_url(page=event, file=event.extra.header_image) -%}
                 {{-
@@ -87,12 +93,24 @@
             </article>
           {% endif %}
         {% endfor %}
-        {% if event_count == 0 %}
-          <div class="text-muted">
-            No upcoming events at present.<br>
-            <i class="font-weight-light">Stay tuned!</i>
-          </div>
-        {% endif %}
+        <h2 class="h3">
+          Recent events
+        </h2>
+        {% for event in events.pages | slice(end=3) %}
+          <article class="mb-4">
+            <h3 class="h5 fw-lighter mb-2">
+              {{ event.title }}
+              {%- if event.extra.show_date is undefined or event.extra.show_date != false -%}
+                <small class="text-muted">
+                  · {{ event.date | date(format="%B %_d, %Y") }}
+                </small>
+              {%- endif -%}
+            </h3>
+            <a href="{{ event.permalink }}" class="small d-block">
+              More &rarr;
+            </a>
+          </article>
+        {% endfor %}
       </div>
       <div class="col-lg px-lg-4 py-5">
         <h2 class="h3">
