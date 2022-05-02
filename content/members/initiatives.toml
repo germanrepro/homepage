@@ -341,3 +341,39 @@ url = "https://www.cbs.mpg.de/en/cbs-open-science"
 [[place.initiative.person]]
 name = "Lieneke Janssen"
 email = "lieneke.janssen@gmail.com"
+
+[[place]]
+name = "Münster"
+postcode = 48149
+lat = 7.625556
+lon = 51.9625
+
+[[place.initiative]]
+name = "Open Science Initiative Psychology (WWU Münster)"
+institution = "WWU Münster"
+url = "https://osf.io/x3s5c/"
+
+[[place.initiative.person]]
+name = "Mitja Back"
+email = "mitja.back@wwu.de"
+
+[[place.initiative]]
+name = "CODECHECK"
+url = "https://codecheck.org.uk/"
+
+[[place.initiative.person]]
+name = "Daniel Nüst"
+email = "daniel.nuest@uni-muenster.de"
+
+[[place]]
+name = "Bayreuth"
+postcode = 95447 
+lat = 11.578333
+lon = 49.948056
+
+[[place.initiative]]
+name = "Working Group Open Science in Health Psychology"
+
+[[place.initiative.person]]
+name = "Laura König"
+email = "laura.koenig@uni-bayreuth.de"
