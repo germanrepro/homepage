@@ -76,6 +76,8 @@ email = "tracey.weissgerber@charite.de"
 [[place.initiative]]
 name = "Clinical Psychological Intervention"
 institution = "Freie Universität Berlin"
+image = "members/initiatives/osi_fu.png"
+video = "https://youtu.be/Q0Jtz6WJsTA"
 
 [[place.initiative.person]]
 name = "Helen Niemeyer"
