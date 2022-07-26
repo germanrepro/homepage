@@ -10,7 +10,7 @@ title = "Members"
   {{ members_gallery(data_path="content/members/steering.toml") }}
 </div>
 
-## Former Member of the Steering Group
+## Former Members of the Steering Group
 
 <div class="mx-lg-negative my-4">
   {{ members_gallery(data_path="content/members/former_steering.toml") }}
