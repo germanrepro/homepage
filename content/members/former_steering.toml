@@ -1,0 +1,34 @@
+[[member]]
+name = "Ulrich Dirnagl"
+institution = "BIH QUEST-Center @ Charité Berlin"
+image = "members/steering/dirnagl.jpg"
+url = "https://expneuro.charite.de/en/metas/person_detail/person/address_detail/dirnagl-1/"
+twitter = "dirnagl"
+
+[[member]]
+name = "Christian Fiebach"
+institution = "Goethe University Frankfurt"
+image = "members/steering/fiebach.jpg"
+url = "http://www.fiebachlab.org/"
+twitter = "FiebachLab"
+
+[[member]]
+name = "Susann Fiedler"
+institution = "Network of Open Science Initiatives"
+image = "members/steering/fiedler.jpg"
+url = "https://sites.google.com/site/susannfiedler/"
+twitter = "susafiedler"
+
+[[member]]
+name = "Felix Henninger"
+institution = "Ludwig-Maximilians-University Munich"
+image = "members/steering/henninger.jpg"
+url = "https://www.felixhenninger.com/"
+twitter = "felixhenninger"
+
+[[member]]
+name = "Klaus Tochtermann"
+institution = "ZBW – Leibniz Information Centre for Economics"
+image = "members/steering/tochtermann.jpg"
+url = "https://www.zbw.eu/en/research/klaus-tochtermann/"
+twitter = "ktochtermann"
