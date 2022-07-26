@@ -1,23 +1,44 @@
+# [[member]]
+# name = "Ulrich Dirnagl"
+# institution = "BIH QUEST-Center @ Charité Berlin"
+# image = "members/steering/dirnagl.jpg"
+# url = "https://expneuro.charite.de/en/metas/person_detail/person/address_detail/dirnagl-1/"
+# twitter = "dirnagl"
+
+# [[member]]
+# name = "Christian Fiebach"
+# institution = "Goethe University Frankfurt"
+# image = "members/steering/fiebach.jpg"
+# url = "http://www.fiebachlab.org/"
+# twitter = "FiebachLab"
+
+# [[member]]
+# name = "Susann Fiedler"
+# institution = "Network of Open Science Initiatives"
+# image = "members/steering/fiedler.jpg"
+# url = "https://sites.google.com/site/susannfiedler/"
+# twitter = "susafiedler"
+
 [[member]]
-name = "Ulrich Dirnagl"
+name = "Tracy Weissgerber"
 institution = "BIH QUEST-Center @ Charité Berlin"
-image = "members/steering/dirnagl.jpg"
-url = "https://expneuro.charite.de/en/metas/person_detail/person/address_detail/dirnagl-1/"
-twitter = "dirnagl"
+image = "members/steering/weissgerber.jpg"
+url = "https://www.bihealth.org/de/translation/innovationstreiber/quest-center/teams/ag-weissgerber"
+twitter = "T_Weissgerber"
 
 [[member]]
-name = "Christian Fiebach"
-institution = "Goethe University Frankfurt"
-image = "members/steering/fiebach.jpg"
-url = "http://www.fiebachlab.org/"
-twitter = "FiebachLab"
+name = "Gordon Feld"
+institution = "Central Institute of Mental Health in Mannheim, University of Heidelberg"
+image = "members/steering/feld.jpg"
+url = "https://www.zi-mannheim.de/forschung/personen/person/15954.html"
+twitter = "GordonFeld"
 
 [[member]]
-name = "Susann Fiedler"
-institution = "Network of Open Science Initiatives"
-image = "members/steering/fiedler.jpg"
-url = "https://sites.google.com/site/susannfiedler/"
-twitter = "susafiedler"
+name = "Maximilian Frank"
+institution = "Ludwig-Maximilians-University Munich & Psychologie-Fachschaften-Konferenz (PsyFaKo)"
+image = "members/steering/frank.jpg"
+url = "https://www.meta-rep.uni-muenchen.de/people/team_heene/frank/index.html"
+twitter = "epizyklen"
 
 [[member]]
 name = "Bernadette Fritzsch"
@@ -25,12 +46,12 @@ institution = "Alfred-Wegener-Institute"
 image = "members/steering/fritzsch.jpg"
 url = "https://www.awi.de/en/about-us/organisation/staff/bernadette-fritzsch.html"
 
-[[member]]
-name = "Felix Henninger"
-institution = "Ludwig-Maximilians-University Munich"
-image = "members/steering/henninger.jpg"
-url = "https://www.felixhenninger.com/"
-twitter = "felixhenninger"
+# [[member]]
+# name = "Felix Henninger"
+# institution = "Ludwig-Maximilians-University Munich"
+# image = "members/steering/henninger.jpg"
+# url = "https://www.felixhenninger.com/"
+# twitter = "felixhenninger"
 
 [[member]]
 name = "Rima-Maria Rahal"
@@ -61,11 +82,17 @@ url = "https://os.helmholtz.de/"
 twitter = "helmholtz_os"
 
 [[member]]
-name = "Klaus Tochtermann"
-institution = "ZBW – Leibniz Information Centre for Economics"
-image = "members/steering/tochtermann.jpg"
-url = "https://www.zbw.eu/en/research/klaus-tochtermann/"
-twitter = "ktochtermann"
+name = "Verena Heise"
+institution = "Freelance Open Science Researcher, Gladbeck"
+image = "members/steering/heise.jpg"
+url = "https://vheise.com/"
+
+# [[member]]
+# name = "Klaus Tochtermann"
+# institution = "ZBW – Leibniz Information Centre for Economics"
+# image = "members/steering/tochtermann.jpg"
+# url = "https://www.zbw.eu/en/research/klaus-tochtermann/"
+# twitter = "ktochtermann"
 
 [[member]]
 name = "Ulf Toelch"
