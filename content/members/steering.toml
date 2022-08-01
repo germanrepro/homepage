@@ -99,3 +99,10 @@ name = "Ulf Toelch"
 institution = "BIH QUEST-Center @ Charité Berlin"
 image = "members/steering/toelch.jpg"
 twitter = "ulf_toelch"
+
+[[member]]
+name = "Peter Steinbach"
+institution = "Helmholtz AI, Helmholtz Association"
+image = "members/steering/steinbach.jpg"
+url = "https://www.helmholtz.ai/themenmenue/our-research/consultant-teams/helmholtz-ai-consultants-hzdr/index.html"
+twitter = "psteinb_"
