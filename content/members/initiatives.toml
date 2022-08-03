@@ -7,7 +7,7 @@ lon = 48.522660
 [[place.initiative]]
 name = "Tübingen Open Science Initiative"
 institution = "University of Tübingen"
-url = "https://osf.io/pdntj/"
+url = "https://uni-tuebingen.de/de/209326"
 image = "members/initiatives/tosi.png"
 video = "https://youtu.be/FOxfPH6htww"
 
@@ -40,8 +40,8 @@ image = "members/initiatives/spokes.png"
 video = "https://youtu.be/3_gxCDj7Xjo"
 
 [[place.initiative.person]]
-name = "(Mary) Constance Holman"
-email = "mary.holman@charite.de"
+name = "Friederike Kohrs"
+email = "friederike-elisabeth.kohrs@charite.de"
 
 [[place.initiative]]
 name = "Pluricore"
@@ -203,9 +203,9 @@ lat = 8.466944
 lon = 49.488888
 
 [[place.initiative]]
-name = "Interest Group for Open and Reproducible Science"
+name = "Interest Group for Open and Reproducible Science (IGOR)"
 institution = "Biological Psychology and Neuropsychology Section of the German Psychological Society"
-url = "https://www.dgps.de/index.php?id=2001248"
+url = "https://www.dgps.de/fachgruppen/fgbi/aktivitaeten-der-fachgruppe/igor/"
 image = "members/initiatives/igor.png"
 video = "https://youtu.be/sQFmB_EY1PQ"
 
@@ -259,13 +259,13 @@ lon = 53.083329
 
 [[place.initiative]]
 name = "Studentische Open Science Initiative der PsyFaKo (SOSIP)"
-url = "https://openscience.psyfako.org/"
+url = "https://psyfako.org/"
 email = "openscience@psyfako.org"
 image = "members/initiatives/sosip.png"
 video = "https://youtu.be/GP_L8eJqk_8"
 
 [[place.initiative.person]]
-name = "Leonardo Bergmann"
+name = "Maximilian Frank & Nicole Bössel"
 
 [[place]]
 name = "Bonn"
