@@ -106,3 +106,10 @@ institution = "Helmholtz AI, Helmholtz Association"
 image = "members/steering/steinbach.jpg"
 url = "https://www.helmholtz.ai/themenmenue/our-research/consultant-teams/helmholtz-ai-consultants-hzdr/index.html"
 twitter = "psteinb_"
+
+[[member]]
+name = "Tobias Schlauch"
+institution = "Deutsches Zentrum für Luft- und Raumfahrt"
+image = "members/steering/schlauch.jpg"
+url = "https://www.dlr.de/sc/en/desktopdefault.aspx/tabid-1192/1635_read-25578/sortby-lastname/"
+twitter = "TobiasSchlauch"
