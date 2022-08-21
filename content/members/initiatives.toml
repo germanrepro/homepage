@@ -354,7 +354,7 @@ lon = 51.9625
 name = "Open Science Initiative Psychology (WWU Münster)"
 institution = "WWU Münster"
 url = "https://osf.io/x3s5c/"
-image = "members/initiatives/osi_WWU Münster.png"
+image = "members/initiatives/osi_WWU Münster.jpg"
 video = "https://youtu.be/n1ro141sqiw"
 
 [[place.initiative.person]]
@@ -381,3 +381,14 @@ name = "Working Group Open Science in Health Psychology"
 [[place.initiative.person]]
 name = "Laura König"
 email = "laura.koenig@uni-bayreuth.de"
+
+[[place.initiative]]
+name = "Helmholtz Association"
+institution = "Founding member"
+url = "https://www.helmholtz.de/"
+image = "members/initiatives/helmholtz_founding.jpg"
+video = "https://youtu.be/SSUdV929xTw"
+
+[[place.initiative.person]]
+name = "Dr. Bernadette Fritzsch"
+email = "open-science@helmholtz.de"
