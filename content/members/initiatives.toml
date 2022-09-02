@@ -226,8 +226,9 @@ lat = 11.575277
 lon = 48.137222
 
 [[place.initiative]]
-name = "Open Science Initiative in Psychology"
+name = "Open Science Initiative in Psychology (OSIP)"
 institution = "LMU Munich"
+url = "https://www.fak11.lmu.de/dep_psychologie/osc/index.html"
 image = "members/initiatives/osip.png"
 video = "https://youtu.be/TdDY_jLntP8"
 
