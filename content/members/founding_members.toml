@@ -27,11 +27,11 @@ logo = "members/founding_members/helmholtz.png"
 
   [[members.contacts]]
   name = "Dr. Bernadette Fritzsch"
-  url = "https://os.helmholtz.de/"
+  url = "https://os.helmholtz.de/open-science-in-helmholtz/arbeitskreis-open-science/"
 
   [[members.contacts]]
   name = "Antonia Schrader"
-  url = "https://os.helmholtz.de/"
+  url = "https://os.helmholtz.de/ueber-uns/"
 
 [[members]]
 name = "Helmholtz Artificial Intelligence Cooperation Unit"
@@ -39,8 +39,8 @@ url = "https://www.helmholtz.ai/"
 logo = "members/founding_members/helmholtz-ai.png"
 
   [[members.contacts]]
-  name = "Dr. Heidi Seibold"
-  url = "https://www.helmholtz.ai/themenmenue/our-research/research-groups/seibolds-group/index.html"
+  name = "Dr. Peter Steinbach"
+  url = "https://www.helmholtz.ai/themenmenue/our-research/consultant-teams/helmholtz-ai-consultants-hzdr/index.html"
 
 
 [[members]]
@@ -60,7 +60,7 @@ logo = "members/founding_members/lmu-osc.png"
 
   [[members.contacts]]
   name = "Prof. Dr. Felix Schönbrodt"
-  url = "https://www.osc.uni-muenchen.de/members/individual-members/schoenbrodt/index.html"
+  url = "https://www.osc.uni-muenchen.de/about_us/director/index.html"
 
 
 [[members]]
