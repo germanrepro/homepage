@@ -382,6 +382,12 @@ name = "Working Group Open Science in Health Psychology"
 name = "Laura König"
 email = "laura.koenig@uni-bayreuth.de"
 
+[[place]]
+name = "Bonn"
+postcode = 53111 
+lat = 50.7374
+lon = 7.0982
+
 [[place.initiative]]
 name = "Helmholtz Association"
 institution = "Founding member"
