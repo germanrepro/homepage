@@ -354,7 +354,7 @@ lon = 51.9625
 name = "Open Science Initiative Psychology (WWU Münster)"
 institution = "WWU Münster"
 url = "https://osf.io/x3s5c/"
-image = "members/initiatives/osi_WWU Münster.jpg"
+image = "members/initiatives/osi_WWU_Münster.png"
 video = "https://youtu.be/n1ro141sqiw"
 
 [[place.initiative.person]]
@@ -386,7 +386,7 @@ email = "laura.koenig@uni-bayreuth.de"
 name = "Helmholtz Association"
 institution = "Founding member"
 url = "https://www.helmholtz.de/"
-image = "members/initiatives/helmholtz_founding.jpg"
+image = "members/initiatives/helmholtz_founding.png"
 video = "https://youtu.be/SSUdV929xTw"
 
 [[place.initiative.person]]
