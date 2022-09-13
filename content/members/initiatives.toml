@@ -219,6 +219,19 @@ email = "t.lonsdorf@uke.de"
 url = "https://lonsdorflab.com/"
 twitter = "tinalonsdorf"
 
+[[place.initiative]]
+name = "University of Mannheim"
+url = "https://www.uni-mannheim.de/en/"
+
+[[place.initiative.person]]
+name = "David Philip Morgan"
+email = "david.morgan@uni-mannheim.de"
+
+[[place.initiative.person]]
+name = "Philipp Zumstein"
+email = "philipp.zumstein@uni-mannheim.de"
+
+
 [[place]]
 name = "Munich"
 postcode = 80331
@@ -284,6 +297,19 @@ video = "https://youtu.be/KiiAjm-9QpU"
 [[place.initiative.person]]
 name = "Philipp Eisenhauer"
 email = "peisenha@uni-bonn.de"
+
+
+[[place.initiative]]
+name = "Helmholtz Association"
+institution = "Founding member"
+url = "https://www.helmholtz.de/"
+image = "members/initiatives/helmholtz_founding.png"
+video = "https://youtu.be/SSUdV929xTw"
+
+[[place.initiative.person]]
+name = "Dr. Bernadette Fritzsch"
+email = "open-science@helmholtz.de"
+
 
 [[place]]
 name = "Potsdam"
@@ -383,38 +409,4 @@ name = "Working Group Open Science in Health Psychology"
 name = "Laura König"
 email = "laura.koenig@uni-bayreuth.de"
 
-[[place]]
-name = "Bonn"
-postcode = 53111 
-lat = 50.7374
-lon = 7.0982
 
-[[place.initiative]]
-name = "Helmholtz Association"
-institution = "Founding member"
-url = "https://www.helmholtz.de/"
-image = "members/initiatives/helmholtz_founding.png"
-video = "https://youtu.be/SSUdV929xTw"
-
-[[place.initiative.person]]
-name = "Dr. Bernadette Fritzsch"
-email = "open-science@helmholtz.de"
-
-
-[[place]]
-name = "Mannheim"
-postcode = "68131"
-lat = 8.462287
-lon = 49.483857
-
-[[place.initiative]]
-name = "University of Mannheim"
-url = "https://www.uni-mannheim.de/en/"
-
-[[place.initiative.person]]
-name = "David Philip Morgan"
-email = "david.morgan@uni-mannheim.de"
-
-[[place.initiative.person]]
-name = "Philipp Zumstein"
-email = "philipp.zumstein@uni-mannheim.de"
