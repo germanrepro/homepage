@@ -399,3 +399,22 @@ video = "https://youtu.be/SSUdV929xTw"
 [[place.initiative.person]]
 name = "Dr. Bernadette Fritzsch"
 email = "open-science@helmholtz.de"
+
+
+[[place]]
+name = "Mannheim"
+postcode = "68131"
+lat = 8.462287
+lon = 49.483857
+
+[[place.initiative]]
+name = "University of Mannheim"
+url = "https://www.uni-mannheim.de/en/"
+
+[[place.initiative.person]]
+name = "David Philip Morgan"
+email = "david.morgan@uni-mannheim.de"
+
+[[place.initiative.person]]
+name = "Philipp Zumstein"
+email = "philipp.zumstein@uni-mannheim.de"
