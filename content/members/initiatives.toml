@@ -281,6 +281,16 @@ video = "https://youtu.be/GP_L8eJqk_8"
 [[place.initiative.person]]
 name = "Maximilian Frank & Nicole Bössel"
 
+
+[[place.initiative]]
+name = "Bremer Open Science Initiative (BOSI)"
+institution = "University of Bremen, Faculty of Human and Health Sciences"
+
+[[place.initiative.person]]
+name = "Julia Stern"
+email = "jstern@uni-bremen.de"
+
+
 [[place]]
 name = "Bonn"
 postcode = 53111
