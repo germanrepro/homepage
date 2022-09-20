@@ -253,10 +253,10 @@ name = "Susann Auer"
 email = "susann.auer@tu-dresden.de"
 
 [[place]]
-name = "Bremen"
+name = "Landau in der Pfalz"
 postcode = 28195
-lat = 8.833330
-lon = 53.083329
+lat = 49.1989
+lon = 8.1186
 
 [[place.initiative]]
 name = "Studentische Open Science Initiative der PsyFaKo (SOSIP)"
