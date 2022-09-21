@@ -272,6 +272,20 @@ lat = 8.833330
 lon = 53.083329
 
 [[place.initiative]]
+name = "Bremer Open Science Initiative (BOSI)"
+institution = "University of Bremen, Faculty of Human and Health Sciences"
+
+[[place.initiative.person]]
+name = "Julia Stern"
+email = "jstern@uni-bremen.de"
+
+[[place]]
+name = "Landau in der Pfalz"
+postcode = 76829
+lat = 49.1989
+lon = 8.1186
+
+[[place.initiative]]
 name = "Studentische Open Science Initiative der PsyFaKo (SOSIP)"
 url = "https://psyfako.org/"
 email = "openscience@psyfako.org"
@@ -280,16 +294,6 @@ video = "https://youtu.be/GP_L8eJqk_8"
 
 [[place.initiative.person]]
 name = "Maximilian Frank & Nicole Bössel"
-
-
-[[place.initiative]]
-name = "Bremer Open Science Initiative (BOSI)"
-institution = "University of Bremen, Faculty of Human and Health Sciences"
-
-[[place.initiative.person]]
-name = "Julia Stern"
-email = "jstern@uni-bremen.de"
-
 
 [[place]]
 name = "Bonn"
