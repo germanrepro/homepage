@@ -282,8 +282,8 @@ email = "jstern@uni-bremen.de"
 [[place]]
 name = "Landau in der Pfalz"
 postcode = 76829
-lat = 49.1989
-lon = 8.1186
+lat = 8.1186
+lon = 49.1989
 
 [[place.initiative]]
 name = "Studentische Open Science Initiative der PsyFaKo (SOSIP)"
