@@ -266,10 +266,10 @@ name = "Susann Auer"
 email = "susann.auer@tu-dresden.de"
 
 [[place]]
-name = "Landau in der Pfalz"
+name = "Bremen"
 postcode = 28195
-lat = 49.1989
-lon = 8.1186
+lat = 8.833330
+lon = 53.083329
 
 [[place.initiative]]
 name = "Bremer Open Science Initiative (BOSI)"
