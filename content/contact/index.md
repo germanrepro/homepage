@@ -6,7 +6,7 @@ title = "Contact the German Reproducibility Network"
 
 #### Keep in touch
 You're warmly invited to join our email list [grn@lists.lrz.de](mailto:grn@lists.lrz.de) to stay up to date with everything the GRN is doing.
-You can self-enroll on this list via https://lists.lrz.de/mailman/listinfo/grn.
+You can self-enroll on this list via this [link](https://lists.lrz.de/mailman/listinfo/grn).
 
 For the coordinators of our local members there is a separate list available for communication [grn-members@lists.lrz.de](mailto:grn-members@lists.lrz.de).
 
