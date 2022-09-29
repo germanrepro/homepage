@@ -231,6 +231,17 @@ email = "david.morgan@uni-mannheim.de"
 name = "Philipp Zumstein"
 email = "philipp.zumstein@uni-mannheim.de"
 
+[[place.initiative]]
+name = "Zentralinstitut für Seelische Gesundheit (ZI)"
+url = "https://www.zi-mannheim.de/index.html"
+
+[[place.initiative.person]]
+name = "Gordon Feld"
+email = "gordon.feld@zi-mannheim.de"
+
+[[place.initiative.person]]
+name = "Melanie Fritz"
+email = "melanie.fritz@zi-mannheim.de"
 
 [[place]]
 name = "Munich"
