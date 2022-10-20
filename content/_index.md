@@ -86,4 +86,5 @@ template = "landing.html"
   <a href="https://slovakrn.wixsite.com/skrn"  target="_blank" rel="noreferrer"><strong>Slovak</strong> Reproducibility Network</a><br>
   <a href="https://www.ptrn.pt"  target="_blank" rel="noreferrer"><strong>Portuguese</strong> Reproducibility Network</a><br>
   <a href="https://www.finnish-rn.org/"  target="_blank" rel="noreferrer"><strong>Finnish</strong> Reproducibility Network</a><br>
+  <a href="http://www.swern.org/"  target="_blank" rel="noreferrer"><strong>Swedish</strong> Reproducibility Network</a><br>
 {% end %}
