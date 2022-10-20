@@ -260,6 +260,17 @@ video = "https://youtu.be/TdDY_jLntP8"
 name = "Ramona Schödel"
 email = "ramona.schoedel@psy.lmu.de"
 
+[[place.initiative]]
+name = "LMU Open Science Center"
+institution = "LMU Munich"
+url = "https://www.osc.uni-muenchen.de/index.html"
+#image = "members/initiatives/osip.png"
+#video = "https://youtu.be/TdDY_jLntP8"
+
+[[place.initiative.person]]
+name = "Felix Schönbrodt"
+email = "felix.schoenbrodt@psy.lmu.de"
+
 [[place]]
 name = "Dresden"
 postcode = 1067
