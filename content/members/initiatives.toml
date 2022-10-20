@@ -12,8 +12,8 @@ image = "members/initiatives/tosi.png"
 video = "https://youtu.be/FOxfPH6htww"
 
 [[place.initiative.person]]
-name = "Jürgen Schneider"
-email = "juergen.schneider@uni-tuebingen.de"
+name = "Sibylle Meissner"
+email = "sibylle.meissner@uni-tuebingen.de"
 
 [[place]]
 name = "Berlin"
