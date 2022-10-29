@@ -5,6 +5,7 @@
 /static/icons/fa/*
 /static/scripts/*
 /static/processed_images/*
+zola.exe
 
 # PyCharm internal files
 .idea/*
