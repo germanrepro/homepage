@@ -110,3 +110,27 @@ description = """[Tilburg Science Hub](https://tilburgsciencehub.com) gives you 
 categories = [
   "Learning materials"
 ]
+
+[[resource]]
+title = "LIGHTS"
+url = "https://lights.science/"
+image = "/resources/library/LIGHTS.png"
+description = """[LIGHTS](https://lights.science) provides methods guidance papers for all topics relevant to health research such as subgroup analysis, reporting of randomized trials, GRADE guidelines, causal inference, handling missing data, sample size calculation.
+"""
+categories = [
+  "Databases"
+]
+
+[[resource]]
+title = "ReplicationWiki"
+url = "https://replication.uni-goettingen.de/"
+image = "/resources/library/replicationwiki.gif"
+description = """The [ReplicationWiki](https://replication.uni-goettingen.de) offers a database of empirical studies in the social sciences with information on availability of replication material and of replications, a [webinar series](https://replication.uni-goettingen.de/wiki/index.php/Webinar_series:_Replicating_empirical_studies_in_economics_-_an_opportunity_for_students) and a [portal for teaching](https://replication.uni-goettingen.de/wiki/index.php/Portal:Replication_in_teaching)."""
+categories = [
+  "Databases", "Learning materials"
+]
+
+
+
+
+
