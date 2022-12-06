@@ -35,12 +35,13 @@ If you think that a GRN representative, GRN member, or participant of a GRN even
 
 Echeverri, S. (2011). Epistemic Responsibility and Perceptual Experience. In D. Lauer, C. Laudou, R. Celikates, & G. W. Bertram (Hrsg.), Expérience Et Réflexivité: Perspectives au-Delà de L’Empirisme Et de L’Idéalisme. L’harmattan.
 
-Lechner, I. M., Mokkink, L., de Ridder, J., van Woudenberg, R., Bouter, L., & Tijdink, J. K. (2022). The core epistemic responsibilities of universities: Results from a Delphi study [Preprint]. Open Science Framework. https://doi.org/10.31219/osf.io/k387j
+Lechner, I. M., Mokkink, L., de Ridder, J., van Woudenberg, R., Bouter, L., & Tijdink, J. K. (2022). The core epistemic responsibilities of universities: Results from a Delphi study [Preprint](https://doi.org/10.31219/osf.io/k387j). Open Science Framework. 
 
 This CoC is inspired by:
-[Friendly Space Policy of the Barcamp Open Science](https://www.open-science-conference.eu/barcamp/)
-[The TU Eindhoven Code of Scientific Conduct](https://assets.tue.nl/fileadmin/content/universiteit/Over_de_universiteit/integriteit/TUe_Code_of_Scientific_Conduct_21-1-2015.pdf)
-[The IGDORE CoC](https://igdore.org/wp-content/uploads/2022/07/IGDORE-Code-of-Research-Conduct.pdf)
-[Simine Vizier’s „Oath for Scientists“](https://sometimesimwrong.typepad.com/wrong/2018/01/oath-for-scientists.html)
-Peels, R., van Woudenberg, R., de Ridder, J., & Bouter, L. (2020). Academia’s Big Five: A normative taxonomy for the epistemic responsibilities of universities [version 2; peer review: 2 approved]. F1000Research, 8(862). https://doi.org/10.12688/f1000research.19459.2
-The Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.
+
+- [Friendly Space Policy of the Barcamp Open Science](https://www.open-science-conference.eu/barcamp/)
+- [The TU Eindhoven Code of Scientific Conduct](https://assets.tue.nl/fileadmin/content/universiteit/Over_de_universiteit/integriteit/TUe_Code_of_Scientific_Conduct_21-1-2015.pdf)
+- [The IGDORE CoC](https://igdore.org/wp-content/uploads/2022/07/IGDORE-Code-of-Research-Conduct.pdf)
+- [Simine Vizier’s „Oath for Scientists“](https://sometimesimwrong.typepad.com/wrong/2018/01/oath-for-scientists.html)
+- Peels, R., van Woudenberg, R., de Ridder, J., & Bouter, L. (2020). Academia’s Big Five: A normative taxonomy for the epistemic responsibilities of universities [version 2; peer review: 2 approved]. F1000Research, 8(862). https://doi.org/10.12688/f1000research.19459.2
+- [The Contributor Covenant, version 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html)
