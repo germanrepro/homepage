@@ -1,10 +1,8 @@
 +++
-title = "Code of Contact"
+title = "Code of Conduct"
 +++
 
-# Code of Contact
-
-**Code of conduct: Creating a friendly and intellectually stimulating space**
+# Code of conduct: Creating a friendly and intellectually stimulating space
 
 Version 1.0, 2022-11-09
 
