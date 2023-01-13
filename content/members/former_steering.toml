@@ -24,6 +24,7 @@ name = "Felix Henninger"
 institution = "Ludwig-Maximilians-University Munich"
 image = "members/steering/henninger.jpg"
 url = "https://www.felixhenninger.com/"
+mastodon = "https://scholar.social/@felix"
 twitter = "felixhenninger"
 
 [[member]]

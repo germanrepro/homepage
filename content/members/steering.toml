@@ -39,6 +39,7 @@ institution = "LMU Munich & Psychologie-Fachschaften-Konferenz (PsyFaKo)"
 image = "members/steering/frank.jpg"
 url = "https://www.meta-rep.uni-muenchen.de/people/team_heene/frank/index.html"
 twitter = "epizyklen"
+mastodon = "https://nerdculture.de/@epizyklen"
 
 [[member]]
 name = "Bernadette Fritzsch"
@@ -58,6 +59,7 @@ name = "Rima-Maria Rahal"
 institution = "Network of Open Science Initiatives"
 image = "members/steering/rahal.jpg"
 url = "https://rimamrahal.wordpress.com/"
+mastodon = "https://nerdculture.de/@rmrahal"
 twitter = "rimamrahal"
 
 [[member]]
@@ -72,6 +74,7 @@ name = "Felix Schönbrodt"
 institution = "Ludwig-Maximilians-University Munich"
 image = "members/steering/schoenbrodt.jpg"
 url = "https://www.nicebread.de/"
+mastodon = "https://scicomm.xyz/@nicebread"
 twitter = "nicebread303"
 
 [[member]]

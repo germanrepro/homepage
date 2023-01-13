@@ -157,6 +157,7 @@ lon = 50.928780
 [[place.initiative]]
 name = "FORRT: Framework for Open and Reproducible Research Training"
 url = "https://forrt.org/"
+mastodon = "https://mastodon.social/@FORRT"
 image = "members/initiatives/forrt.png"
 video = "https://youtu.be/P6M1Ba0Cz-U"
 
@@ -315,7 +316,11 @@ image = "members/initiatives/sosip.png"
 video = "https://youtu.be/GP_L8eJqk_8"
 
 [[place.initiative.person]]
-name = "Maximilian Frank & Nicole Bössel"
+name = "Maximilian Frank"
+mastodon = "https://nerdculture.de/@epizyklen"
+
+[[place.initiative.person]]
+name = "Nicole Bössel"
 
 [[place]]
 name = "Bonn"
@@ -434,7 +439,7 @@ email = "daniel.nuest@uni-muenster.de"
 
 [[place]]
 name = "Bayreuth"
-postcode = 95447 
+postcode = 95447
 lat = 11.578333
 lon = 49.948056
 
