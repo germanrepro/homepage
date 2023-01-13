@@ -6,7 +6,7 @@ title = "Code of Conduct"
 
 Version 1.0, 2022-11-09
 
-Epistemic responsibility[^1] – which is based on virtues such as open-mindedness, diligence, and honesty – and interpersonal respect are central values of the German Reproducibility Network (GRN). Therefore we aim to create an open, friendly, diverse, inclusive, and welcoming community and scholarly context in which insights and criticisms are welcome from all participants, regardless of personal characteristics or academic rank. 
+Epistemic responsibility[^1] – which is based on virtues such as open-mindedness, diligence, and honesty – and interpersonal respect are central values of the German Reproducibility Network (GRN). Therefore we aim to create an open, friendly, diverse, inclusive, and welcoming community and scholarly context in which insights and criticisms are welcome from all participants, regardless of personal characteristics or academic rank.
 
 **Our values and what follows from them:**
 - Epistemic responsibility and trustworthiness are core values for us as scientists. Critical discussion and evaluation of research has a vital function for the self-correction and progress of science, and we gracefully accept constructive criticism. When criticizing others’ research, we differentiate between the research (as output) and the researcher as a person. We acknowledge that such a separation is sometimes difficult. We are aware of the impact that criticism can have on the lives and careers of researchers, in particular early career researchers, and always aim to balance the values of intellectual honesty and kindness towards our colleagues.
@@ -17,7 +17,7 @@ Epistemic responsibility[^1] – which is based on virtues such as open-mindedne
 
 **We do not tolerate…**
 
-… any form of public or private harassment of event participants, either in person, on event platforms or social media. This includes abusive, discriminatory, derogatory, or demeaning language and behaviour. Sexual language and imagery is not appropriate for any event venue or talks. Participants violating these rules may be sanctioned or expelled from the event or the GRN at the discretion of the Steering Committee. 
+… any form of public or private harassment of event participants, either in person, on event platforms or social media. This includes abusive, discriminatory, derogatory, or demeaning language and behaviour. Sexual language and imagery is not appropriate for any event venue or talks. Participants violating these rules may be sanctioned or expelled from the event or the GRN at the discretion of the Steering Committee.
 
 **Scope**
 
@@ -33,13 +33,13 @@ If you think that a GRN representative, GRN member, or participant of a GRN even
 
 Echeverri, S. (2011). Epistemic Responsibility and Perceptual Experience. In D. Lauer, C. Laudou, R. Celikates, & G. W. Bertram (Hrsg.), Expérience Et Réflexivité: Perspectives au-Delà de L’Empirisme Et de L’Idéalisme. L’harmattan.
 
-Lechner, I. M., Mokkink, L., de Ridder, J., van Woudenberg, R., Bouter, L., & Tijdink, J. K. (2022). The core epistemic responsibilities of universities: Results from a Delphi study [Preprint](https://doi.org/10.31219/osf.io/k387j). Open Science Framework. 
+Lechner, I. M., Mokkink, L., de Ridder, J., van Woudenberg, R., Bouter, L., & Tijdink, J. K. (2022). The core epistemic responsibilities of universities: Results from a Delphi study [Preprint](https://doi.org/10.31219/osf.io/k387j). Open Science Framework.
 
 This CoC is inspired by:
 
 - [Friendly Space Policy of the Barcamp Open Science](https://www.open-science-conference.eu/barcamp/)
 - [The TU Eindhoven Code of Scientific Conduct](https://assets.tue.nl/fileadmin/content/universiteit/Over_de_universiteit/integriteit/TUe_Code_of_Scientific_Conduct_21-1-2015.pdf)
 - [The IGDORE CoC](https://igdore.org/wp-content/uploads/2022/07/IGDORE-Code-of-Research-Conduct.pdf)
-- [Simine Vizier’s „Oath for Scientists“](https://sometimesimwrong.typepad.com/wrong/2018/01/oath-for-scientists.html)
+- [Simine Vazire’s „Oath for Scientists“](https://sometimesimwrong.typepad.com/wrong/2018/01/oath-for-scientists.html)
 - Peels, R., van Woudenberg, R., de Ridder, J., & Bouter, L. (2020). Academia’s Big Five: A normative taxonomy for the epistemic responsibilities of universities [version 2; peer review: 2 approved]. F1000Research, 8(862). https://doi.org/10.12688/f1000research.19459.2
 - [The Contributor Covenant, version 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html)
