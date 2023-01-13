@@ -30,6 +30,10 @@
         <a href="mailto:{{ member.email }}" class="text-decoration-none mx-1">
           <i class="fas fa-envelope-open-text fa-sm"></i>
         </a>
+      {%- endif %}{% if member.mastodon -%}
+        <a href="{{ member.mastodon }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1">
+          <i class="fab fa-mastodon fa-sm"></i>
+        </a>
       {%- endif %}{% if member.twitter -%}
         <a href="https://twitter.com/{{ member.twitter }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1">
           <i class="fab fa-twitter fa-sm"></i>

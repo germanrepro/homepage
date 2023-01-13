@@ -66,6 +66,11 @@
                     <i class="fas fa-envelope-open-text fa-sm"></i>
                   </a>
                 {%- endif %}
+                {% if initiative.mastodon -%}
+                  <a href="{{ initiative.mastodon }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1">
+                    <i class="fab fa-mastodon fa-sm"></i>
+                  </a>
+                {%- endif %}
                 {% if initiative.twitter -%}
                   <a href="https://twitter.com/{{ initiative.twitter }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1">
                     <i class="fab fa-twitter fa-sm"></i>
@@ -92,6 +97,11 @@
                 {% if person.email -%}
                   <a href="mailto:{{ person.email }}" class="text-decoration-none mx-1">
                     <i class="fas fa-envelope-open-text fa-sm"></i>
+                  </a>
+                {%- endif %}
+                {% if person.mastodon -%}
+                  <a href="{{ person.mastodon }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1">
+                    <i class="fab fa-mastodon fa-sm"></i>
                   </a>
                 {%- endif %}
                 {% if person.twitter -%}
