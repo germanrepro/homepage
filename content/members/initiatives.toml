@@ -265,8 +265,8 @@ email = "ramona.schoedel@psy.lmu.de"
 name = "LMU Open Science Center"
 institution = "LMU Munich"
 url = "https://www.osc.uni-muenchen.de/index.html"
-#image = "members/initiatives/osip.png"
-#video = "https://youtu.be/TdDY_jLntP8"
+image = members/initiatives/LMU_OSC.png
+video = https://youtu.be/wJj7RkvIrtk
 
 [[place.initiative.person]]
 name = "Malika Ihle"
