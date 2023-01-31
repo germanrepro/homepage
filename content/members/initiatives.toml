@@ -316,11 +316,8 @@ image = "members/initiatives/sosip.png"
 video = "https://youtu.be/GP_L8eJqk_8"
 
 [[place.initiative.person]]
-name = "Maximilian Frank"
+name = "Maximilian Frank & David Grüning"
 mastodon = "https://nerdculture.de/@epizyklen"
-
-[[place.initiative.person]]
-name = "David Grüning"
 
 [[place]]
 name = "Bonn"
