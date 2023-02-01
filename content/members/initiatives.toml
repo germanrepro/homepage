@@ -329,14 +329,13 @@ lon = 49.1989
 
 [[place.initiative]]
 name = "Studentische Open Science Initiative der PsyFaKo (SOSIP)"
-url = "https://psyfako.org/"
+url = "https://psyfako.org/ueber-uns/arbeitsgruppen/"
 email = "openscience@psyfako.org"
 image = "members/initiatives/sosip.png"
 video = "https://youtu.be/GP_L8eJqk_8"
 
 [[place.initiative.person]]
 name = "Maximilian Frank & David Grüning"
-url = "https://psyfako.org/ueber-uns/arbeitsgruppen/"
 mastodon = "https://nerdculture.de/@epizyklen"
 
 [[place]]
