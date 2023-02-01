@@ -148,6 +148,25 @@ video = "https://youtu.be/W6r6vwIs4JQ"
 name = "Malte Elson"
 email = "malte.elson@rub.de"
 
+[[place.initiative]]
+name = "Forschungs- und Behandlungszentrum für psychische Gesundheit (FBZ)"
+institution = "Ruhr University Bochum"
+url = "https://fbz-bochum.de/"
+image = "members/initiatives/fbz_rub_bochum"
+#video = "https://youtu.be/W6r6vwIs4JQ"
+
+[[place.initiative.person]]
+name = "Silvia Schneider"
+email = "Silvia.Schneider@ruhr-uni-bochum.de"
+
+[[place.initiative.person]]
+name = "Jürgen Margraf"
+email = "Jürgen Margraf"
+
+[[place.initiative.person]]
+name = "Simon Blackwell"
+email = "simon.blackwell@ruhr-uni-bochum.de"
+
 [[place]]
 name = "Jena"
 postcode = 7743
