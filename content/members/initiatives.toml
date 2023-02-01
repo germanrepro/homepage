@@ -150,7 +150,7 @@ email = "malte.elson@rub.de"
 
 [[place.initiative]]
 name = "Forschungs- und Behandlungszentrum für psychische Gesundheit (FBZ)"
-institution = "Ruhr University Bochum"
+#institution = "Ruhr University Bochum"
 url = "https://fbz-bochum.de/"
 image = "members/initiatives/fbz_rub_bochum"
 #video = "https://youtu.be/W6r6vwIs4JQ"
