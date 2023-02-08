@@ -152,7 +152,7 @@ email = "malte.elson@rub.de"
 name = "Forschungs- und Behandlungszentrum für psychische Gesundheit (FBZ)"
 institution = "Ruhr University Bochum"
 url = "https://fbz-bochum.de/"
-image = "members/initiatives/fbz_rub_bochum"
+image = "members/initiatives/fbz_rub_bochum.png"
 
 [[place.initiative.person]]
 name = "Simon Blackwell"
