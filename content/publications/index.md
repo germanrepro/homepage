@@ -20,10 +20,10 @@ The authors argue that many national academic systems rely on short-term employm
 
 As GRN we have made several contributions to the RDA Symposium about Reproducibility, the importance of Open Data as well as the need for a Research communication system that support Reproducibility efforts.
 
-Schrader, Antonia C. (2023, February 15). Introduction on the importance of reproducibility for open and robust science. RDA Deutschland Tagung 2023, Online. Zenodo. https://doi.org/10.5281/zenodo.7646697
+Schrader, Antonia C. (2023, February 15). Introduction on the importance of reproducibility for open and robust science. RDA Deutschland Tagung 2023, Online. Zenodo. [https://doi.org/10.5281/zenodo.7646697](https://doi.org/10.5281/zenodo.7646697)
 
-Tölch, Ulf. (2023, February 15). Open data as the basis for scientific innovation and public trust. RDA Deutschland Tagung 2023, Online. Zenodo. https://doi.org/10.5281/zenodo.7646719
+Tölch, Ulf. (2023, February 15). Open data as the basis for scientific innovation and public trust. RDA Deutschland Tagung 2023, Online. Zenodo. [https://doi.org/10.5281/zenodo.7646719](https://doi.org/10.5281/zenodo.7646719)
 
-Steinbach, Peter (2023, February 14). Reproducibility in Data Science and Machine Learning. RDA Deutschland Tagung 2023, Online. Figshare.  https://doi.org/10.6084/m9.figshare.22093562.v1
+Steinbach, Peter (2023, February 14). Reproducibility in Data Science and Machine Learning. RDA Deutschland Tagung 2023, Online. Figshare. [https://doi.org/10.6084/m9.figshare.22093562.v1](https://doi.org/10.6084/m9.figshare.22093562.v1)
 
-Scherp, Guido. (2023, February 15). Research communication system for computational reproducibility. RDA Deutschland Tagung 2023, Online. Zenodo. https://doi.org/10.5281/zenodo.7646732
+Scherp, Guido. (2023, February 15). Research communication system for computational reproducibility. RDA Deutschland Tagung 2023, Online. Zenodo. [https://doi.org/10.5281/zenodo.7646732](https://doi.org/10.5281/zenodo.7646732)
