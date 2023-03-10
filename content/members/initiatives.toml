@@ -338,13 +338,12 @@ lon = 50.734166
 [[place.initiative]]
 name = "Open Source Economics"
 url = "https://open-econ.org/"
-email = "mail@open-econ.org"
 image = "members/initiatives/open-econ.png"
 video = "https://youtu.be/KiiAjm-9QpU"
 
 [[place.initiative.person]]
-name = "Philipp Eisenhauer"
-email = "peisenha@uni-bonn.de"
+name = "Hans-Martin von Gaudecker"
+email = "hmgaudecker@uni-bonn.de"
 
 
 [[place.initiative]]
