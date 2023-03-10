@@ -3,7 +3,6 @@ title = "UKRN Open Science Primers"
 url = "https://www.ukrn.org/primers/"
 image = "/resources/library/ukrn.png"
 description = """The UK Reproducibility Network summarize many pertinent topics around Open Science in a [series of primers](https://www.ukrn.org/primers/)."""
-footer = "Logo [CC-BY](https://www.ukrn.org/primers/)"
 categories = [
   "Learning materials"
 ]
@@ -13,7 +12,6 @@ title = "Open Scholarship Knowledge Base"
 url = "https://www.cos.io/communities/open-scholarship-knowledge-base"
 image = "/resources/library/oskb.png"
 description = """In collaboration with the Center for Open Science, a worldwide community is gathering [resources concerning all aspects of Open Scholarship](https://www.cos.io/communities/open-scholarship-knowledge-base)."""
-footer = "Logo [CC-BY](https://github.com/how-to-open-science/knowledge-base)"
 categories = [
   "Learning materials"
 ]
@@ -24,7 +22,6 @@ url = "https://www.fosteropenscience.eu/"
 image = "/resources/library/foster.png"
 image_padded = true
 description = """FOSTER Open Science collects [training resources around Open Science](https://www.fosteropenscience.eu/) on an e-learning platform."""
-footer = "Logo used [with permission](https://www.fosteropenscience.eu/about#logo)"
 categories = [
   "Learning materials",
   "Training"
@@ -36,7 +33,6 @@ url = "https://the-turing-way.netlify.app"
 image = "/resources/library/turing.jpg"
 image_padded = true
 description = """The Turing Way is an open source, community-driven [guide to reproducible, ethical, inclusive and collaborative data science](https://the-turing-way.netlify.app)."""
-footer = "Logo [CC-BY](https://github.com/alan-turing-institute/the-turing-way/blob/master/LICENSE.md)"
 categories = [
   "Learning materials"
 ]
@@ -47,7 +43,6 @@ url = "https://repro4everyone.org"
 image = "/resources/library/repro4everyone.png"
 image_padded = true
 description = """Repro4Everyone [develop resources and teach workshops that enable researchers to do reproducible research](https://repro4everyone.org). """
-footer = "Logo [CC-BY](https://github.com/repro4everyone)"
 categories = [
   "Training"
 ]
@@ -58,7 +53,6 @@ url = "https://www.cos.io/communities/ambassadors"
 image = "/resources/library/cos.png"
 image_padded = true
 description = """COS Ambassadors are [local resources for increasing conversations around open science](https://www.cos.io/communities/ambassadors)."""
-footer = "Logo [CC-0](https://osf.io/e7hrn/)"
 categories = [
   "Community building"
 ]
@@ -69,7 +63,6 @@ url = "https://inosc-starter-kit.netlify.app/"
 image = "https://inosc-starter-kit.netlify.app/media/image1.png"
 image_padded = true
 description = """The International Network of Open Science and Scholarship Communities provides an excellent starter kit for [founding and building a local Open Science community](https://inosc-starter-kit.netlify.app/)."""
-footer = "Logo [CC-BY-NC-SA](https://github.com/aschetti/INOSC-starter-kit/)"
 categories = [
   "Community building"
 ]
@@ -89,7 +82,6 @@ url = "https://carpentries.org/"
 image = "/resources/library/carpentries.svg"
 image_padded = true
 description = """The Carpentries [teach foundational coding and data science skills](https://carpentries.org/) to researchers worldwide."""
-footer = "Logo used [with permission](https://docs.carpentries.org/topic_folders/communications/resources/logos.html)"
 categories = [
   "Training"
 ]
@@ -129,8 +121,4 @@ description = """The [ReplicationWiki](https://replication.uni-goettingen.de) of
 categories = [
   "Databases", "Learning materials"
 ]
-
-
-
-
 
