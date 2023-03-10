@@ -32,6 +32,7 @@ institution = "Central Institute of Mental Health in Mannheim"
 image = "members/steering/feld.jpg"
 url = "https://www.zi-mannheim.de/forschung/personen/person/15954.html"
 twitter = "GordonFeld"
+mastodon = "https://mastodon.online/@GordonFeld"
 
 [[member]]
 name = "Maximilian Frank"
