@@ -17,6 +17,7 @@ Version 0.1, 2020-02-15
   * [1. Definition of Terms](./annex/1-definititions/)
   * [2. Membership](./annex/2-membership/)
   * [3-8. Role Descriptions](./annex/3-roles/)
+  * [Election rules](./annex/election_rules/)
 
 ----
 
