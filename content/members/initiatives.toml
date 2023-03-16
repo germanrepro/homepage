@@ -298,6 +298,18 @@ video = "https://youtu.be/MsLEbcnxwt0"
 name = "Susann Auer"
 email = "susann.auer@tu-dresden.de"
 
+[[place.initiative]]
+name = "Open Science Initiative der Fakultät Psychologie der TU Dresden (OSIP)"
+institution = "TU Dresden"
+url = "https://tu-dresden.de/mn/psychologie/die-fakultaet/open-science"
+twitter = "osip_dresden"
+image = "members/initiatives/OSIP_TU_Dresden.png"
+#video = "https://youtu.be/MsLEbcnxwt0"
+
+[[place.initiative.person]]
+name = "Stefan Scherbaum"
+email = "stefan.scherbaum@tu-dresden.de"
+
 [[place]]
 name = "Bremen"
 postcode = 28195
