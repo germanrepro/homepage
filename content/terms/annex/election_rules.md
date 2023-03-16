@@ -1,155 +1,83 @@
 +++
-title = "Terms of Reference: Annex 2: Membership"
+title = "Terms of Reference: Annex : Election Rules"
 +++
 
-Annex 2. Membership: Joining and Leaving the GRN
+Wahlordnung des German Reproducibility Networks
 ------------------------------------------------
 
-Members are accepted into the GRN by the *Steering Group*, which meets
-at least four times per year. Acceptance of new members requires a
-simple majority relative to all current members of the *Steering Group*
-(e.g., at least six votes if the *Steering Group* has 10 members).
-Individual persons cannot be direct members of the GRN. Individuals
-interested in supporting the GRN's mission are encouraged to join or
-even establish a *Reproducibility Initiative*, or to join the *Steering
-Group*. Stakeholders (e.g., funders, publishers) are institutions that
-fund, publish, or in other ways support research. They cannot be direct
-members of the GRN, but are encouraged to join the *Stakeholder
-Engagement Group* (comprising full and affiliate stakeholders). Members
-of the Advisory Board are not direct members of the GRN. They are
-appointed by the *Steering Group*.
+## § 1 Geltungsbereich
 
-All GRN members (*Reproducibility Initiatives*, *Research Institutions*,
-*Academic Societies*, members of the *Steering Group*) can be excluded
-from the GRN when they (a) engage in behavior that is contrary to the
-aims of the GRN or (b) violate the terms of reference. Exclusion of
-members requires a simple majority relative to all current members of
-the *Steering Group* (analogous to the regulations for accepting new
-members into the GRN). Members of the GRN can leave the GRN by
-submitting an informal statement to the *Steering Group* via the
-respective Speaker, Coordinator or Representative.
+Diese Wahlordnung gilt für die Wahlen der Steuerungsgruppe des German Reproducibility Networks.
 
-### How can Reproducibility Initiatives join the GRN?
+## § 2 Wahlrechtsgrundsätze
 
-*Reproducibility Initiatives* comprise at least two members and
-designate a *Reproducibility Initiatives* *Speaker*. The
-*Reproducibility Initiative Speaker* is the point of contact with GRN
-and represents the *Reproducibility Initiative* with the consent of the
-individual members.
+Die zu wählenden Personen werden nach Maßgabe dieser Wahlordnung in gleicher, freier und geheimer Wahl nach den Grundsätzen der Mehrheitswahl unmittelbar gewählt.
 
-*Reproducibility Initiatives* can join the GRN by submitting an informal
-written membership application to the *Steering Group* in which they
+## § 3 Wahlberechtigung und Wählbarkeit
 
--   identify the *Reproducibility Initiative Speaker* (name, affiliation, email address),
+(1) <sup>1</sup>Wahlberechtigt sind alle Mitgliedsorganisationen des German Reproducibility Networks nach Annex 2 der Terms of Reference. <sup>2</sup>Das Wahlrecht wird jeweils durch eine von den Mitgliedsorganisationen benannte Person ausgeübt.
+(2) Wählbar sind alle Personen, die einer Mitgliedsorganisation des German Reproducibility Networks angehören.
 
--   briefly outline the mission of the *Reproducibility Initiative*,
+## § 4 Amtszeit
 
--   describe how they plan to promote the goals of the GRN
+(1) <sup>1</sup>Die Amtszeit der Mitglieder der Steuerungsgruppe beträgt drei Jahre ab dem Zeitpunkt der Wahl. <sup>2</sup>Mitglieder können einmal wiedergewählt werden und somit maximal 6 Jahre der Steuerungsgruppe angehören.
+(2) Die Amtszeit von Mitgliedern der Steuerungsgruppe, die durch Nachwahl nach §13 Abs. 2 oder durch Entsendung nach §13 Abs. 3 ins Amt gekommen sind, läuft abweichend von Abs. 1 nur bis zum nächsten Wahltermin.
 
--   disclose the current number of active members, as well as
+## § 5 Wahltermin
 
--   give a short overview of planned activities in the next 6 months (e.g., *Reproducibility Initiative* meetings planned, trainings planned, etc.).
+(1) Die Wahl findet im zweiten Quartal eines jeweiligen Jahres statt.
+(2) Den genauen Wahltermin legt die Steuerungsgruppe fest und teilt diesen einen Monat im Voraus den Mitgliedsorganisationen mit.
 
-To change the *Initiative Speaker*, the incumbent *Initiative* *Speaker*
-informs the *Steering Group* of their successor (name, affiliation,
-email address).
+## § 6 Bewerbungen
 
-*Reproducibility Initiatives* can leave the GRN by submitting an
-informal statement to the *Steering Group* via the *Initiative Speaker*.
+(1) Bewerbungen müssen den Mitgliedsorganisationen spätestens sieben Tage vor der Wahl in Textform zugegangen sein.
+(2) <sup>1</sup>Pro Mitgliedsorganisation darf jeweils nur eine Bewerbung eingehen. <sup>2</sup>Zwei Personen aus einer Mitgliedsorganisation können eine gemeinsame Team-Bewerbung für einen Sitz in der Steuerungsgruppe (“geteilter Sitz”) einreichen.
+(3) In der Bewerbung sollen sich Kandidierende vorstellen und die Motivation für ihre Bewerbung darlegen.
 
-### How can Research Institutions join the GRN?
+## § 7 Durchführung der Wahl
 
-Institutional members of the GRN are universities, sub-units of
-universities (e.g., Fakultäten, Fachbereiche, Institute), research units
-(e.g., Exzellenzcluster), extra-universitary research institutes (e.g.,
-Max-Planck-, Helmholtz-, or Leibniz-Institutes), as well as other
-non-commercial institutions that have research as their primary
-objective, that are considered a part of the German scientific system.
-While sub-units of research institutions are welcome as members if the
-entire institution does not intend to join the GRN, the GRN will strive
-to avoid multiple institutional memberships from the same institution.
+(1) <sup>1</sup>Jede Mitgliedsorganisation hat so viele Stimmen, wie Sitze in der Steuerungsgruppe zu vergeben sind. <sup>2</sup>Sie kann Kandidierenden jeweils eine Stimme geben; Stimmhäufelung ist ausgeschlossen. <sup>3</sup>Vergibt die Mitgliedsorganisation weniger Stimmen als ihr insgesamt zustehen, verzichtet sie auf ihre weiteren Stimmen.
+(2) <sup>1</sup>Die Wahl kann über eine elektronisches Abstimmungssystem durchgeführt werden. <sup>2</sup>Die Einhaltung der Wahlrechtsgrundsätze nach § 2 ist sicherzustellen.
 
-The primary criterion for institutional membership is that the
-institution (a) commits to the above-stated goals of the GRN (see
-Mission Statement) and documents this in the form of a research
-improvement strategy (see below), and (b) creates a senior academic role
-with responsibility for promoting quality, robustness and transparency
-of research, i.e., the *Academic Coordinator* of that Institution. The
-*Academic Coordinator* is commissioned to foster the adoption of open
-research practices in line with the goals of the GRN. The *Academic
-Coordinator* should report to the appropriate governing body responsible
-for research matters (e.g., the Vice President of Research for a
-University, the Dean of Research for a Fakultät, or the Director of a
-Max Planck Institute). Importantly, the position of the *Academic
-Coordinator* should be structured in such a way as to enable the role
-holder to provide critical input to the senior management team of the
-Institution or Institution's unit on these issues, and therefore should
-be independent from other responsibilities that may conflict with this.
-The *Academic Coordinator* should have an appropriate level of support
-from the Institution, which minimally should reflect in the amount of
-time he or she can devote to this task. For a medium-sized University,
-we expect that this role will require a minimum commitment of 1 day per
-week (and equivalent exemption from other duties like teaching or
-administration). For an extra-universitary research institution,
-sub-units of universities (e.g., Fakultät) or research centers, we
-propose a commitment of half a day per week.
+## § 8 Wahlergebnis
 
-We expect that *Research Institutions* seeking membership of GRN will
-want (a) to develop capacity to deliver a research improvement strategy
-(including the establishment of the *Academic Coordinator*, see above,
-as well as planned collaboration and support of a *Reproducibility
-Initiative*, if present) and (b) to work with the GRN to develop a
-strategy for ensuring the sustainability of the Network in the medium-
-and long-term (i.e., to contribute to building a community of
-institutions focused on research improvement and to support the
-development of the GRN). When applying for membership, the Institution
-should document how it plans to achieve these goals in a sustainable
-manner and describe the conditions under which the *Academic
-Coordinator* can take up its role at the Institution. The GRN encourages
-Institutions interested in joining the GRN to consult with members of
-the *Steering Group*, if interested, for example to discuss possible
-ways of working towards the GRN's goals. Upon acceptance, the
-Institution (represented by its *Academic Coordinator*) and the
-*Steering Group* of the GRN will jointly develop a memorandum of
-understanding (based on the application documents), which shall be
-signed by the Institution's *Academic Coordinator*, the responsible
-senior manager of that institution (e.g., the Vice President for
-Research), and a representative of the *Steering Group*. This memorandum
-of understanding shall be renewed every five years.
+(1) Die Wahl ist gültig, wenn mindestens die Hälfte aller Mitgliedsorganisationen an der Wahl teilgenommen hat.
+(2) Gewählt sind die Personen, die in der Anzahl der zu vergebenden Sitze die höchste Stimmenzahl und mehr als die Hälfte der abgegebenen Stimmen erhalten.
+(3) <sup>1</sup>Ist wegen Stimmengleichheit unklar, wer nach Abs. 2 gewählt ist, so entscheidet das von einem Mitglied des Wahlausschusses zu ziehende Los zwischen den stimmengleichen Kandidierenden.
+(4) <sup>1</sup>Personen, die nach Abs. 2 nicht gewählt worden sind, aber mindestens die Hälfte der abgegebenen Stimmen erhalten haben, werden auf einer Nachwahlliste geführt. <sup>2</sup>Die Reihung der Personen ergibt sich aus der Anzahl der erhaltenen Stimmen in absteigender Reihenfolge.
+(5) <sup>1</sup>Gewählte Personen können innerhalb von sieben Tagen per Textform gegenüber der Steuerungsgruppe erklären, dass sie die Wahl nicht annehmen. <sup>2</sup>Nach Verstreichen dieser Frist gilt die Wahl als angenommen.
 
-### How can Academic Societies join the GRN?
+## § 9 Wahlausschuss
 
-*Academic Societies* are associations devoted to the advancement of
-science in their respective disciplines. When interested in joining the
-GRN, these societies should either already have started activities that
-support the improvement of quality, robustness and transparency of
-research or document a serious interest in starting this process.
-Interested societies should name one member, preferentially either a
-member of its steering committee or a member who directly reports to the
-*Steering Group*, as a point of contact for the GRN (the *Academic
-Society Coordinator for Research Improvement*). The society should apply
-for membership by describing their current strategy for improving
-research reproducibility, and how it plans to support the aims of the
-GRN. Upon acceptance, the *Academic Society* (represented by its Contact
-Person) and the *Steering Group* of the GRN will jointly develop a
-memorandum of understanding (based on the application documents), which
-shall be signed by the *Academic Society Coordinator for Research
-Improvement*, the Society's president or her/his representative, and a
-representative of the *Steering Group*. This memorandum of understanding
-shall be renewed every five years.
+(1) <sup>1</sup>Die Steuerungsgruppe bestellt für die jeweils nach dieser Wahlordnung durchzuführenden Wahlen einen Wahlausschuss. <sup>2</sup>Der Wahlausschuss besteht aus drei Mitgliedern der Steuerungsgruppe, die in der durchzuführenden Wahl nicht mehr kandidieren.
+(2) Der Wahlausschuss ist für die ordnungsgemäße Durchführung der Wahlen sowie für weitere ihm durch diese Wahlordnung übertragenen Aufgaben verantwortlich.
+(3) Der Wahlausschuss ist zur unparteiischen und gewissenhaften Erfüllung seiner Aufgaben verpflichtet.
 
-### How can Stakeholders join the Engagement Group of the GRN?
+## § 10 Wahlprüfung
 
-Stakeholders cannot become direct members of the GRN, but interact with
-the GRN via the *Stakeholder Engagement Group* (see Annex 6 for more
-details). The GRN *Steering Group* will actively approach potential
-Stakeholders, but Stakeholders interested in joining the *Stakeholder
-Engagement Group* are also encouraged to actively approach the GRN
-*Steering Group*. The Stakeholder should make explicit how they will
-support the GRN (financially and/or in kind; see Annex 6), appoint a
-Contact Person for GRN, and jointly with the GRN's *Steering Group*
-develop a memorandum of understanding documenting the Stakeholder's
-support for the GRN. This memorandum shall be signed by the
-Stakeholder's Contact Person, if necessary an authorized member of the
-Stakeholder's management team, and a representative of the Steering
-Group, and shall be renewed every five years.
+(1) <sup>1</sup>Jede Mitgliedsorganisation kann nach der Feststellung und Bekanntgabe des Wahlergebnisses die Wahl innerhalb von sieben Tagen unter Angabe von Gründen anfechten. <sup>2</sup>Die Anfechtung ist an den Wahlausschuss zu richten.
+(2) Die Anfechtung ist begründet, wenn wesentliche Vorschriften über das Wahlrecht, die Wählbarkeit oder das Wahlverfahren verletzt worden sind und diese Verletzung zu einem fehlerhaften Wahlergebnis geführt hat oder hätte führen können.
+(3) <sup>1</sup>Über die Anfechtung entscheidet der Wahlausschuss durch Beschluss. <sup>2</sup>Der Beschluss ist zu begründen und den Mitgliedsorganisationen unverzüglich in Textform zuzustellen. <sup>3</sup>Soweit die Anfechtung begründet ist, erklärt der Wahlausschuss die Wahl im erforderlichen Umfang für ungültig. <sup>4</sup>Soweit die Wahl für ungültig erklärt wurde, wird sie wiederholt. <sup>5</sup>Die Wiederholungswahl wird unverzüglich, spätestens aber innerhalb eines Monats nach dem Beschluss nach Satz 1, durchgeführt. <sup>6</sup>Zur Wiederholungswahl sind nur die Kandidierenden zugelassen, die zu der für ungültig erklärten Wahl zugelassen waren.
+
+## § 11 Abwahl
+
+(1) Gewählte Personen können mit einer Mehrheit von zwei Drittel der Mitgliedsorganisationen des German Reproducibility Networks aus wichtigem Grund in einer geheimen Abstimmung abgewählt werden.
+(2) Anträge zur Abwahl sind an die Kontaktadresse der Steuerungsgruppe zu richten, welche daraufhin die erforderlichen organisatorischen Maßnahmen ergreift.
+(3) Die Abstimmung muss innerhalb eines Monats ab Eingang des Antrags durchgeführt werden. 
+
+## § 12 Rücktritt
+
+(1) <sup>1</sup>Ein Rücktritt aus der Steuerungsgruppe ist jederzeit ohne Angabe von Gründen möglich. <sup>2</sup>Der Rücktritt ist schriftlich an die Steuerungsgruppe zu richten und erlangt durch Kenntnisnahme Gültigkeit.
+(2) Jedes Jahr sollen ein Drittel der Mitglieder der Steuerungsgruppe ausscheiden.
+
+## § 13 Nachbesetzung
+
+(1) <sup>1</sup>Vakant gewordene Sitze in der Steuerungsgruppe können durch die Nachwahlliste nach §8 Absatz 4 oder Entsendung nachbesetzt werden. <sup>2</sup>Dabei ist die Nachwahlliste prioritär zur Entsendung zu behandeln. <sup>3</sup>Eine Nachbesetzung findet nur statt, wenn zwischen dem Eintritt der Vakanz und dem nächsten regulären Wahltermin mehr als zwei Monate Zeit liegen.
+(2) <sup>1</sup>Wird oder werden ein oder mehrere Sitze in der Steuerungsgruppe durch Rücktritt frei, rücken Personen aus der Nachwahlliste entsprechend ihrer Platzierung als neue Mitglieder der Steuerungsgruppe nach. <sup>2</sup>Die so ausgewählten Personen können innerhalb von sieben Tagen per Textform gegenüber der Steuerungsgruppe erklären, dass sie auf ihre Nachwahl verzichten. <sup>3</sup>Nach Verstreichen dieser Frist, gilt die Nachwahl als angenommen.
+(3) Enthält die Nachwahlliste keine Personen oder verzichten alle dort gelisteten Personen auf ihre Nachwahl, so kann die Mitgliedsorganisation, aus der das zurückgetretene Mitglied der Steuerungsgruppe stammt, eine Person aus ihrer Mitte als neues Mitglied in die Steuerungsgruppe entsenden.
+
+## § 14 Inkrafttreten
+
+Diese Wahlordnung tritt mit Beschlussfassung durch die Steuerungsgruppe am 15.03.23 in Kraft.
+
+
