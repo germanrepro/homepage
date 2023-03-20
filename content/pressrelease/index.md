@@ -24,7 +24,7 @@ Aktuell sind in Deutschland rund 9 von 10 Wissenschaftler:innen, die noch keine 
 
 „Die **Politik** gibt die Rahmenbedingungen für Beschäftigungen in der Wissenschaft vor. Damit ist sie auch in der Verantwortung etwas zu ändern, wenn diese Bedingungen falsche Anreize setzen, so wie es im Moment geschieht. Jetzt ist es an der Zeit, die vielfach vorgeschlagenen Lösungen umzusetzen und **mehr Dauerstellen zu schaffen**“, erklärt Prof. Dr. Felix Schönbrodt, Geschäftsführer des LMU Open Science Centers und Mitglied der GRN-Steuerungsgruppe abschließend.
 
-Bei Wissenschaftler:innen aller Karrierestufen haben die Reformpläne des BMBF großen Widerstand hervorgerufen. Erfreulicherweise signalisierte die Staatssekretärin daraufhin, dass eine erneute Überarbeitung der Reformpläne stattfinden soll. **Das GRN bietet sich auch hier als Gesprächspartnerin an, um die eine Reform zu unterstützen, die den Wissenschaftsstandort Deutschland stärkt.** Es ist an der Zeit für eine umfassende und tiefgreifende strukturelle Änderung im Wissenschaftssystem.
+Bei Wissenschaftler:innen aller Karrierestufen haben die Reformpläne des BMBF großen Widerstand hervorgerufen. Erfreulicherweise signalisierte Staatssekretärin Döring daraufhin, dass eine erneute Überarbeitung der Reformpläne stattfinden soll. **Das GRN bietet sich auch hier als Gesprächspartnerin an, um die eine Reform zu unterstützen, die den Wissenschaftsstandort Deutschland stärkt.** Es ist an der Zeit für eine umfassende und tiefgreifende strukturelle Änderung im Wissenschaftssystem.
 
 ##### Quellen
 
