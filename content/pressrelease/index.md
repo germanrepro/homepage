@@ -2,10 +2,11 @@
 title = "Pressemitteilung: Spitzenforschung braucht sichere Arbeitsverhältnisse"
 +++
 
-## Spitzenforschung braucht sichere Arbeitsverhältnisse
+## Pressemitteilung: Spitzenforschung braucht sichere Arbeitsverhältnisse
 #### German Reproducibility Network fordert mehr Dauerstellen im Kontext der Reform des Wissenschaftszeitvertragsgesetz in Deutschland
 
 ------------------------------------------------
+München, den 20.03.2023
 
 Der Großteil der Jobs abseits der Professur in der Wissenschaft ist von befristeten Anstellungsverhältnissen und großer Unsicherheit geprägt. Den rechtlichen Rahmen hierzu liefert das Wissenschaftszeitvertragsgesetz (WissZeitVG), welches eine befristete Anstellung des Personals im akademischen Mittelbau als Ausnahmeregelung jenseits des Teilzeit- und Befristungsgesetzes vorsieht [[1]](https://www.gesetze-im-internet.de/wisszeitvg/). Die Bundesregierung hat sich im 2021 geschlossenen Koalitionsvertrag zu einer Reform des WissZeitVG mit dem Ziel sicherer Arbeitsverhältnisse und besser planbarer Karrierepfade in der Wissenschaft verpflichtet [[2]](https://www.bundesregierung.de/breg-de/service/gesetzesvorhaben/koalitionsvertrag-2021-1990800). Anlässlich der Veröffentlichung der Eckpunkte der Reform durch das BMBF am 17.03.2023 [[3]](https://www.bmbf.de/SharedDocs/Downloads/de/2023/230317-wisszeitvg.pdf?__blob=publicationFile&v=1) positioniert sich das German Reproducibility Network (GRN) zum dringenden Reformbedarf im deutschen Wissenschaftssystem und fordert mehr Dauerstellen.
 
