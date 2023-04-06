@@ -87,7 +87,6 @@ url = "https://os.helmholtz.de/"
 twitter = "helmholtz_os"
 mastodon = "https://openbiblio.social/@AntoniaS"
 
-
 [[member]]
 name = "Verena Heise"
 institution = "Freelance Open Science Researcher, Gladbeck"
@@ -123,7 +122,7 @@ twitter = "TobiasSchlauch"
 
 [[member]]
 name = "Tina Lonsdorf"
-institution = "Universitätsklinikum Hamburg-Eppendorf (UKE)"
+institution = "Universität Bielefeld"
 image = "members/steering/lonsdorf.jpg"
 url = "https://lonsdorflab.com/"
 twitter = "tinalonsdorf"
