@@ -468,4 +468,19 @@ name = "Working Group Open Science in Health Psychology"
 name = "Laura König"
 email = "laura.koenig@uni-bayreuth.de"
 
+[[place.initiative]]
+name = "Helmholtz AI"
+institution = "Founding member"
+url = "https://www.helmholtz.ai/"
+image = "members/initiatives/helmholtzai_logo_3_lines.png"
+video = "https://youtu.be/SSUdV929xTw"
 
+[[place.initiative.person]]
+name = "Dr. Peter Steinbach"
+email = "p.steinbach@hzdr.de"
+
+[[place]]
+name = "Dresden-Rossendorf"
+postcode = 01328
+lat = 13.9500262 
+lon = 51.0630798
