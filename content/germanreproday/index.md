@@ -16,7 +16,7 @@ title = "German Reproducibility Day"
 
 The event will be held in English and will be conducted via the video conferencing tool Zoom. The seminar will not be recorded.
 
-**Registration: [https://gfz-potsdam-de.zoom.us/meeting/register/tJMocuiqrTgtH9dFDk7lSZ8m-mLp8c3rEpZR](https://gfz-potsdam-de.zoom.us/meeting/register/tJMocuiqrTgtH9dFDk7lSZ8m-mLp8c3rEpZR)**
+**Registration: closed **
 
 ----
 

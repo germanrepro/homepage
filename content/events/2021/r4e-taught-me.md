@@ -14,4 +14,4 @@ This June, we want to highlight the impact of R4E’s work so far with the #R4Et
 
 <!-- more -->
 
-If you are looking for a way to show your support for a community-led project like ours, please consider [making a donation during our #R4EtaughtMe campaign](https://donorbox.org/r4e-fundraising-june-2021). Even $3 helps keep us going and supports R4E Stipends for under-represented researchers!
+If you are looking for a way to show your support for a community-led project like ours, please consider making a donation during our #R4EtaughtMe campaign. Even $3 helps keep us going and supports R4E Stipends for under-represented researchers!
