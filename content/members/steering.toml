@@ -32,6 +32,7 @@ institution = "Central Institute of Mental Health in Mannheim"
 image = "members/steering/feld.jpg"
 url = "https://www.zi-mannheim.de/forschung/personen/person/15954.html"
 twitter = "GordonFeld"
+mastodon = "https://mastodon.online/@GordonFeld"
 
 [[member]]
 name = "Maximilian Frank"
@@ -59,8 +60,8 @@ name = "Rima-Maria Rahal"
 institution = "Network of Open Science Initiatives"
 image = "members/steering/rahal.jpg"
 url = "https://rimamrahal.wordpress.com/"
-mastodon = "https://nerdculture.de/@rmrahal"
 twitter = "rimamrahal"
+mastodon = "https://nerdculture.de/@rmrahal"
 
 [[member]]
 name = "Guido Scherp"
@@ -68,14 +69,15 @@ institution = "ZBW – Leibniz Information Centre for Economics"
 image = "members/steering/scherp.jpg"
 url = "https://www.zbw.eu/en/research/science-2-0/guido-scherp"
 twitter = "guido_scherp"
+mastodon = "https://openbiblio.social/@GuidoScherp"
 
 [[member]]
 name = "Felix Schönbrodt"
 institution = "Ludwig-Maximilians-University Munich"
 image = "members/steering/schoenbrodt.jpg"
 url = "https://www.nicebread.de/"
-mastodon = "https://scicomm.xyz/@nicebread"
 twitter = "nicebread303"
+mastodon = "https://scicomm.xyz/@nicebread"
 
 [[member]]
 name = "Antonia Schrader"
@@ -83,6 +85,7 @@ institution = "Helmholtz Association Open Science Office"
 image = "members/steering/schrader.jpg"
 url = "https://os.helmholtz.de/"
 twitter = "helmholtz_os"
+mastodon = "https://openbiblio.social/@AntoniaS"
 
 [[member]]
 name = "Verena Heise"
@@ -119,7 +122,8 @@ twitter = "TobiasSchlauch"
 
 [[member]]
 name = "Tina Lonsdorf"
-institution = "Universitätsklinikum Hamburg-Eppendorf (UKE)"
+institution = "Universität Bielefeld"
 image = "members/steering/lonsdorf.jpg"
 url = "https://lonsdorflab.com/"
 twitter = "tinalonsdorf"
+mastodon = "https://nerdculture.de/@tinalonsdorf"
