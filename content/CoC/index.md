@@ -37,7 +37,7 @@ Lechner, I. M., Mokkink, L., de Ridder, J., van Woudenberg, R., Bouter, L., & Ti
 
 This CoC is inspired by:
 
-- [Friendly Space Policy of the Barcamp Open Science](https://www.open-science-conference.eu/barcamp/)
+- Friendly Space Policy of the Barcamp Open Science ( [url](https://www.open-science-conference.eu/barcamp/) currently not reachable )
 - [The TU Eindhoven Code of Scientific Conduct](https://assets.tue.nl/fileadmin/content/universiteit/Over_de_universiteit/integriteit/TUe_Code_of_Scientific_Conduct_21-1-2015.pdf)
 - [The IGDORE CoC](https://igdore.org/wp-content/uploads/2022/07/IGDORE-Code-of-Research-Conduct.pdf)
 - [Simine Vazire’s „Oath for Scientists“](https://sometimesimwrong.typepad.com/wrong/2018/01/oath-for-scientists.html)
