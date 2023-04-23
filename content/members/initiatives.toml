@@ -23,7 +23,7 @@ lon = 52.500000
 
 [[place.initiative]]
 name = "Kommission Open Science der DGPs"
-institution = "Deutsche Gesellschaft für Psychologie (DGPs)"
+institution = "Deutsche Gesellschaft für Psychologie"
 url = "https://www.dgps.de/schwerpunkte/transparente-wissenschaft/kommission-open-science/"
 #image = "members/initiatives/responsible-metrics.png"
 #video = "https://youtu.be/2t40ywHL0z0"
