@@ -22,6 +22,17 @@ lat = 13.416669
 lon = 52.500000
 
 [[place.initiative]]
+name = "Kommission Open Science der DGPs"
+institution = "Deutsche Gesellschaft für Psychologie (DGPs)"
+url = "https://www.dgps.de/schwerpunkte/transparente-wissenschaft/kommission-open-science/"
+#image = "members/initiatives/responsible-metrics.png"
+#video = "https://youtu.be/2t40ywHL0z0"
+
+[[place.initiative.person]]
+name = "Felix Schönbrodt"
+email = "openscience@dgps.de"
+
+[[place.initiative]]
 name = "Responsible Metrics"
 institution = "BIH QUEST-Center @ Charité Berlin"
 url = "https://www.bihealth.org/en/translation/innovation-enabler/quest-center/projects/translational-bioethics/bravo"
