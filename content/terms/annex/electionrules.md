@@ -1,5 +1,6 @@
 +++
 title = "Election Rules"
+aliases = ["electionrules"]
 +++
 
 Wahlordnung des German Reproducibility Networks
