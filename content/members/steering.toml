@@ -42,11 +42,11 @@ url = "https://www.meta-rep.uni-muenchen.de/people/team_heene/frank/index.html"
 twitter = "epizyklen"
 mastodon = "https://nerdculture.de/@epizyklen"
 
-[[member]]
-name = "Bernadette Fritzsch"
-institution = "Alfred-Wegener-Institute"
-image = "members/steering/fritzsch.jpg"
-url = "https://www.awi.de/en/about-us/organisation/staff/bernadette-fritzsch.html"
+#[[member]]
+#name = "Bernadette Fritzsch"
+#institution = "Alfred-Wegener-Institute"
+#image = "members/steering/fritzsch.jpg"
+#url = "https://www.awi.de/en/about-us/organisation/staff/bernadette-fritzsch.html"
 
 # [[member]]
 # name = "Felix Henninger"
@@ -63,21 +63,21 @@ url = "https://rimamrahal.wordpress.com/"
 twitter = "rimamrahal"
 mastodon = "https://nerdculture.de/@rmrahal"
 
-[[member]]
-name = "Guido Scherp"
-institution = "ZBW – Leibniz Information Centre for Economics"
-image = "members/steering/scherp.jpg"
-url = "https://www.zbw.eu/en/research/science-2-0/guido-scherp"
-twitter = "guido_scherp"
-mastodon = "https://openbiblio.social/@GuidoScherp"
+#[[member]]
+#name = "Guido Scherp"
+#institution = "ZBW – Leibniz Information Centre for Economics"
+#image = "members/steering/scherp.jpg"
+#url = "https://www.zbw.eu/en/research/science-2-0/guido-scherp"
+#twitter = "guido_scherp"
+#mastodon = "https://openbiblio.social/@GuidoScherp"
 
-[[member]]
-name = "Felix Schönbrodt"
-institution = "Ludwig-Maximilians-University Munich"
-image = "members/steering/schoenbrodt.jpg"
-url = "https://www.nicebread.de/"
-twitter = "nicebread303"
-mastodon = "https://scicomm.xyz/@nicebread"
+#[[member]]
+#name = "Felix Schönbrodt"
+#institution = "Ludwig-Maximilians-University Munich"
+#image = "members/steering/schoenbrodt.jpg"
+#url = "https://www.nicebread.de/"
+#twitter = "nicebread303"
+#mastodon = "https://scicomm.xyz/@nicebread"
 
 [[member]]
 name = "Antonia Schrader"
@@ -87,11 +87,11 @@ url = "https://os.helmholtz.de/"
 twitter = "helmholtz_os"
 mastodon = "https://openbiblio.social/@AntoniaS"
 
-[[member]]
-name = "Verena Heise"
-institution = "Freelance Open Science Researcher, Gladbeck"
-image = "members/steering/heise.jpg"
-url = "https://vheise.com/"
+#[[member]]
+#name = "Verena Heise"
+#institution = "Freelance Open Science Researcher, Gladbeck"
+#image = "members/steering/heise.jpg"
+#url = "https://vheise.com/"
 
 # [[member]]
 # name = "Klaus Tochtermann"
@@ -127,3 +127,26 @@ image = "members/steering/lonsdorf.jpg"
 url = "https://lonsdorflab.com/"
 twitter = "tinalonsdorf"
 mastodon = "https://nerdculture.de/@tinalonsdorf"
+
+## SC 2023
+
+[[member]]
+name = "Heidi Seibold"
+institution = "Open Science Freelancer"
+image = "members/steering/seibold.jpg"
+url = "https://heidiseibold.ck.page/"
+twitter = "HeidiBaya"
+
+[[member]]
+name = "Daniel Mietchen"
+institution = "Leibniz Institute of Freshwater Ecology and Inland Fisheries"
+image = "members/steering/mietchen.jpg"
+url = "https://www.igb-berlin.de/profile/daniel-mietchen"
+twitter = "EvoMRI"
+
+[[member]]
+name = "David Philip Morgan"
+institution = "Universität Mannheim"
+image = "members/steering/morgan.jpg"
+url = "https://www.uni-mannheim.de/open-science/open-science-office/"
+twitter = "David_Pmorgan"
