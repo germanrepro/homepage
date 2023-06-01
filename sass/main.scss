@@ -388,6 +388,25 @@ footer a {
   }
 }
 
+// Members grid small
+
+.members-grid-small {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 16.66%);
+  @include media-breakpoint-down(xl) {
+    grid-template-columns: repeat(auto-fill, 20%);
+  }
+  @include media-breakpoint-down(lg) {
+    grid-template-columns: repeat(auto-fill, 25%);
+  }
+  @include media-breakpoint-down(md) {
+    grid-template-columns: repeat(auto-fill, 33.3%);
+  }
+  @include media-breakpoint-down(sm) {
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
+}
+
 // Leaflet widget
 
 .leaflet-container {

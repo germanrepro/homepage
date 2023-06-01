@@ -1,0 +1,45 @@
+{% import "macros/media.html" as media %}
+{% import "macros/url.html" as macros %}
+{% set data = load_data(path=data_path) %}
+
+<div class="members-grid-small mb-5">
+{%- for member in data.member %}
+  <div class="p-3 text-center">
+    {% if member.image -%}
+      {{-
+        media::picture_fill_square(
+          img=member.image,
+          widths=[160, 320],
+          class="rounded-circle border my-3 shadow-sm",
+          attrs="width='120' height='120'"
+        )
+      -}}
+    {%- endif %}<br>
+    <div>
+      {{ member.name }}<br>
+      {% if member.institution -%}
+        <div class="small text-muted mt-1">{{ member.institution }}</div>
+      {%- endif %}
+    </div>
+    <div class="mt-2">
+      {% if member.url -%}
+        <a href="{{ member.url }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1">
+          <i class="fas fa-globe-europe fa-sm"></i>
+        </a>
+      {%- endif %}{% if member.email -%}
+        <a href="mailto:{{ member.email }}" class="text-decoration-none mx-1">
+          <i class="fas fa-envelope-open-text fa-sm"></i>
+        </a>
+      {%- endif %}{% if member.mastodon -%}
+        <a href="{{ member.mastodon }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1">
+          <i class="fab fa-mastodon fa-sm"></i>
+        </a>
+      {%- endif %}{% if member.twitter -%}
+        <a href="https://twitter.com/{{ member.twitter }}" target="_blank" rel="noopener noreferrer" class="text-decoration-none mx-1">
+          <i class="fab fa-twitter fa-sm"></i>
+        </a>
+      {%- endif %}
+    </div>
+  </div>
+{% endfor -%}
+</div>

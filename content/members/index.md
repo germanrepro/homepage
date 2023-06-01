@@ -13,7 +13,7 @@ title = "Members"
 ## Former Members of the Steering Group
 
 <div class="mx-lg-negative my-4">
-  {{ members_gallery(data_path="content/members/former_steering.toml") }}
+  {{ members_gallery_small(data_path="content/members/former_steering.toml") }}
 </div>
 
 ## Local nodes
