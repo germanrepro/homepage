@@ -33,3 +33,31 @@ institution = "ZBW – Leibniz Information Centre for Economics"
 image = "members/steering/tochtermann.jpg"
 url = "https://www.zbw.eu/en/research/klaus-tochtermann/"
 twitter = "ktochtermann"
+
+[[member]]
+name = "Bernadette Fritzsch"
+institution = "Alfred-Wegener-Institute"
+image = "members/steering/fritzsch.jpg"
+url = "https://www.awi.de/en/about-us/organisation/staff/bernadette-fritzsch.html"
+
+[[member]]
+name = "Guido Scherp"
+institution = "ZBW – Leibniz Information Centre for Economics"
+image = "members/steering/scherp.jpg"
+url = "https://www.zbw.eu/en/research/science-2-0/guido-scherp"
+twitter = "guido_scherp"
+mastodon = "https://openbiblio.social/@GuidoScherp"
+
+[[member]]
+name = "Felix Schönbrodt"
+institution = "Ludwig-Maximilians-University Munich"
+image = "members/steering/schoenbrodt.jpg"
+url = "https://www.nicebread.de/"
+twitter = "nicebread303"
+mastodon = "https://scicomm.xyz/@nicebread"
+
+[[member]]
+name = "Verena Heise"
+institution = "Freelance Open Science Researcher, Gladbeck"
+image = "members/steering/heise.jpg"
+url = "https://vheise.com/"

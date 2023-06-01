@@ -4,7 +4,7 @@ title = "Members"
 
 # Members
 
-## Steering Group *&* Administration
+## Steering Group
 
 <div class="mx-lg-negative my-4">
   {{ members_gallery(data_path="content/members/steering.toml") }}
