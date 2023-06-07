@@ -9,4 +9,4 @@ Speakers from different reproducibility and open science initiatives presented t
 
 The progam as well as an overview of all speakers can be found at the following [link](https://reproducibilitynetwork.de/resources/docs/2023_05_11_-_Reproducible_Research-Symposium_Program.pdf).
 
-The slides of the presentations will be made available online in a timely manner and linked here.
+The slides of the presentations are published Open Access at [Zenodo](https://zenodo.org/communities/grn/search?page=1&size=20&keywords=Reproducibility,%20Open%20Science,%20Training,%20Teaching,%20Education,%20research,%20data).
