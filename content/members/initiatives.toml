@@ -321,6 +321,17 @@ image = "members/initiatives/OSIP_TU_Dresden_resize.png"
 name = "Stefan Scherbaum"
 email = "stefan.scherbaum@tu-dresden.de"
 
+[[place.initiative]]
+name = "CODECHECK"
+url = "https://codecheck.org.uk/"
+image = "members/initiatives/Codechecker.png"
+video = "https://youtu.be/_nMzFhYro_U"
+
+[[place.initiative.person]]
+name = "Daniel Nüst"
+email = "daniel.nuest@tu-dresden.de"
+
+
 [[place]]
 name = "Bremen"
 postcode = 28195
@@ -457,16 +468,6 @@ video = "https://youtu.be/n1ro141sqiw"
 [[place.initiative.person]]
 name = "Mitja Back"
 email = "mitja.back@wwu.de"
-
-[[place.initiative]]
-name = "CODECHECK"
-url = "https://codecheck.org.uk/"
-image = "members/initiatives/Codechecker.png"
-video = "https://youtu.be/_nMzFhYro_U"
-
-[[place.initiative.person]]
-name = "Daniel Nüst"
-email = "daniel.nuest@tu-dresden.de"
 
 
 [[place]]
