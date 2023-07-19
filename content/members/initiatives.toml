@@ -464,7 +464,9 @@ url = "https://codecheck.org.uk/"
 
 [[place.initiative.person]]
 name = "Daniel Nüst"
-email = "daniel.nuest@uni-muenster.de"
+email = "daniel.nuest@tu-dresden.de"
+image = "members/initiatives/Codechecker.jpg"
+video = "https://youtu.be/n1ro141sqiw"
 
 [[place]]
 name = "Bayreuth"
