@@ -461,12 +461,13 @@ email = "mitja.back@wwu.de"
 [[place.initiative]]
 name = "CODECHECK"
 url = "https://codecheck.org.uk/"
+image = "members/initiatives/Codechecker.png"
+video = "https://youtu.be/_nMzFhYro_U"
 
 [[place.initiative.person]]
 name = "Daniel Nüst"
 email = "daniel.nuest@tu-dresden.de"
-image = "members/initiatives/Codechecker.png"
-video = "https://youtu.be/_nMzFhYro_U"
+
 
 [[place]]
 name = "Bayreuth"
