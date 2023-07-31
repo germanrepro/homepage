@@ -392,16 +392,28 @@ name = "Hans-Martin von Gaudecker"
 email = "hmgaudecker@uni-bonn.de"
 
 
+#[[place.initiative]]
+#name = "Helmholtz Association"
+#institution = "Founding member"
+#url = "https://www.helmholtz.de/"
+#image = "members/initiatives/helmholtz_founding.png"
+#video = "https://youtu.be/SSUdV929xTw"
+
+#[[place.initiative.person]]
+#name = "Dr. Bernadette Fritzsch"
+#email = "open-science@helmholtz.de"
+
 [[place.initiative]]
-name = "Helmholtz Association"
-institution = "Founding member"
-url = "https://www.helmholtz.de/"
+name = "WG Open Science & Helmholtz Open Science Office"
+institution = "Helmholtz Association"
+url = "https://os.helmholtz.de/en/open-science-in-helmholtz/working-group-open-science/"
 image = "members/initiatives/helmholtz_founding.png"
 video = "https://youtu.be/SSUdV929xTw"
 
 [[place.initiative.person]]
-name = "Dr. Bernadette Fritzsch"
+name = "Antonia C. Schrader & Bernadette Fritzsch"
 email = "open-science@helmholtz.de"
+
 
 
 [[place]]
