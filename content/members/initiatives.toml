@@ -296,7 +296,7 @@ email = "malika.ihle@lmu.de"
 [[place.initiative]]
 name = "Individual Member Node"
 institution = "Umbrella member node for individual researchers  working to improve transparency and reproducibility in science but without an university affiliation"
-#url = "https://www.fak11.lmu.de/dep_psychologie/osc/index.html"
+url = "https://www.listserv.dfn.de/sympa/info/grn-individual-node"
 #image = "members/initiatives/osip.png"
 #video = "https://youtu.be/TdDY_jLntP8"
 
