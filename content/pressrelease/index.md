@@ -36,7 +36,7 @@ Bei Wissenschaftler:innen aller Karrierestufen haben die Reformpläne des BMBF g
 
 [4] [https://www.buwin.de/dateien/buwin-2017.pdf](https://www.buwin.de/dateien/buwin-2017.pdf)
 
-[5] [https://www.nature.com/articles/s41562-022-01508-2.epdf?sharing_token=lTp3TEFD5uFFx98ZceCwa9RgN0jAjWel9jnR3ZoTv0M9s_CvC--IZ-KhHwT5nk8jKUGcJYb_7_nw_LOfznLWglFtKF53RjMuTv7fEw4IWDZdFfVk6uum5lUbpM1_R6-u3IFEGzHd4Xw0gc3AM64jS8KTS-MwMoNouM-8EOx5RH_g%3D](https://www.nature.com/articles/s41562-022-01508-2.epdf?sharing_token=lTp3TEFD5uFFx98ZceCwa9RgN0jAjWel9jnR3ZoTv0M9s_CvC--IZ-KhHwT5nk8jKUGcJYb_7_nw_LOfznLWglFtKF53RjMuTv7fEw4IWDZdFfVk6uum5lUbpM1_R6-u3IFEGzHd4Xw0gc3AM64jS8KTS-MwMoNouM-8EOx5RH_g%3D)
+[5] [https://rdcu.be/c5brE](https://www.nature.com/articles/s41562-022-01508-2.epdf?sharing_token=lTp3TEFD5uFFx98ZceCwa9RgN0jAjWel9jnR3ZoTv0M9s_CvC--IZ-KhHwT5nk8jKUGcJYb_7_nw_LOfznLWglFtKF53RjMuTv7fEw4IWDZdFfVk6uum5lUbpM1_R6-u3IFEGzHd4Xw0gc3AM64jS8KTS-MwMoNouM-8EOx5RH_g%3D)
 
 ##### Über das German Reproducibility Network
 
