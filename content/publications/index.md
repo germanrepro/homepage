@@ -24,3 +24,7 @@ As GRN we organized a session on [Enabling reproducibility in (data) science](ht
 * Tölch, Ulf. (2023, February 15). Open data as the basis for scientific innovation and public trust. RDA Deutschland Tagung 2023, Online. Zenodo. [https://doi.org/10.5281/zenodo.7646719](https://doi.org/10.5281/zenodo.7646719)
 * Steinbach, Peter (2023, February 14). Reproducibility in Data Science and Machine Learning. RDA Deutschland Tagung 2023, Online. Figshare. [https://doi.org/10.6084/m9.figshare.22093562.v1](https://doi.org/10.6084/m9.figshare.22093562.v1)
 * Scherp, Guido. (2023, February 15). Research communication system for computational reproducibility. RDA Deutschland Tagung 2023, Online. Zenodo. [https://doi.org/10.5281/zenodo.7646732](https://doi.org/10.5281/zenodo.7646732)
+
+##  RDA's 21st Plenary 2023
+
+Schrader, A. C., Morgan, D. P., & Zumstein, P. (2023). The German Reproducibility Network (GRN). What is it and why is it worth joining?. RDA's 21st Plenary, Salzburg, Austria. Zenodo. [https://doi.org/10.5281/zenodo.10036434](https://doi.org/10.5281/zenodo.7646732)
