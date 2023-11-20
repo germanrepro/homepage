@@ -27,4 +27,6 @@ As GRN we organized a session on [Enabling reproducibility in (data) science](ht
 
 ##  RDA's 21st Plenary 2023
 
+Under the motto "A Festival of Data", the 21st Plenary of the [Research Data Alliance (RDA)](https://www.rd-alliance.org/plenaries/international-data-week-2023-salzburg) and [SciDataCon](https://www.scidatacon.org/IDW-2023-Salzburg/) took place as part of this year's [International Data Week 2023](https://internationaldataweek.org/idw2023/). The German Reproducibility Network took part and presented a poster.
+
 Schrader, A. C., Morgan, D. P., & Zumstein, P. (2023). The German Reproducibility Network (GRN). What is it and why is it worth joining?. RDA's 21st Plenary, Salzburg, Austria. Zenodo. [https://doi.org/10.5281/zenodo.10036434](https://doi.org/10.5281/zenodo.7646732)
