@@ -1,5 +1,5 @@
 +++
-title = "Announcement: Open Science Day of the University of Mannheim""
+title = "Announcement: Open Science Day of the University of Mannheim"
 date = 2023-10-12
 +++
 
