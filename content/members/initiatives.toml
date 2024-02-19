@@ -166,8 +166,8 @@ url = "https://fbz-bochum.de/"
 image = "members/initiatives/fbz_rub_bochum.png"
 
 [[place.initiative.person]]
-name = "Simon Blackwell"
-email = "simon.blackwell@ruhr-uni-bochum.de"
+name = "Anke de Haan"
+email = "anke.dehaan@ruhr-uni-bochum.de"
 
 [[place]]
 name = "Jena"
