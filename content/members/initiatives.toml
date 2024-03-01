@@ -55,6 +55,17 @@ email = "responsible-metrics@charite.de"
 #email = "friederike-elisabeth.kohrs@charite.de"
 
 [[place.initiative]]
+name = "COReS - Communities for Open Research Synthesis"
+institution = "BIH QUEST Center for Responsible Research"
+url = "https://cores-hub.io"
+image = "members/initiatives/COReS.png"
+#video = "https://youtu.be/3_gxCDj7Xjo"
+
+[[place.initiative.person]]
+name = "Friederike Kohrs"
+email = "friederike-elisabeth.kohrs@charite.de"
+
+[[place.initiative]]
 name = "Pluricore"
 institution = "Berlin Institute of Health, Max Delbrück Center for Molecular Medicine"
 url = "https://www.gscn.org/en/RESOURCES/GermanStemCellCores.aspx"
@@ -506,5 +517,3 @@ name = "Working Group Open Science in Health Psychology"
 [[place.initiative.person]]
 name = "Laura König"
 email = "laura.koenig@uni-bayreuth.de"
-
-
