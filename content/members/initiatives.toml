@@ -517,3 +517,17 @@ name = "Working Group Open Science in Health Psychology"
 [[place.initiative.person]]
 name = "Laura König"
 email = "laura.koenig@uni-bayreuth.de"
+
+[[place]]
+name = "Erlangen"
+postcode = 91052
+lat = 11.004503279574417
+lon = 49.58822339233413
+
+[[place.initiative]]
+name = "Institut für Psychologie, FAU Erlangen-Nürnberg"
+url = "https://www.psychologie.phil.fau.de/institut/open-science/open-science-initiative-osi/"
+
+[[place.initiative.person]]
+name = "Tim Rohe"
+email = "tim.rohe@fau.de"
