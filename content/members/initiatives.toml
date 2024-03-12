@@ -65,6 +65,10 @@ image = "members/initiatives/COReS.png"
 name = "Friederike Kohrs"
 email = "friederike-elisabeth.kohrs@charite.de"
 
+[[place.initiative.person]]
+name = "Alexandra Bannach-Brown"
+email = "alexandra.bannach-brown@charite.de"
+
 [[place.initiative]]
 name = "Pluricore"
 institution = "Berlin Institute of Health, Max Delbrück Center for Molecular Medicine"
