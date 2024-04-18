@@ -122,6 +122,7 @@ email = "kleemeyer@mpib-berlin.mpg.de"
 [[place.initiative]]
 name = "German Federal Institute for Risk Assessment (BfR)"
 url = "https://www.bfr.bund.de/en/home.html"
+video = "https://youtu.be/TydR0hy9UjM?si=XA7zIbnVOMF4r3mS "
 
 [[place.initiative.person]]
 name = "Céline Heinl"
