@@ -6,4 +6,4 @@ template = "page_activity.html"
 
 # Activity
 
-**There's always plenty of things going on within GRN and in the field of reproducible research**. Here's a couple of recent activities and updates at a glance:
+**There are always things going on with the GRN and in the field of reproducible research. Here are updates about recent activities:**

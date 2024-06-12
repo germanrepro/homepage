@@ -122,6 +122,9 @@ email = "kleemeyer@mpib-berlin.mpg.de"
 [[place.initiative]]
 name = "German Federal Institute for Risk Assessment (BfR)"
 url = "https://www.bfr.bund.de/en/home.html"
+image = "members/initiatives/BfR.png"
+video = "https://www.youtube.com/watch?v=c8cGsMNRdU8"
+
 
 [[place.initiative.person]]
 name = "Céline Heinl"
@@ -294,8 +297,8 @@ image = "members/initiatives/osip.png"
 video = "https://youtu.be/TdDY_jLntP8"
 
 [[place.initiative.person]]
-name = "Ramona Schödel"
-email = "ramona.schoedel@psy.lmu.de"
+name = "Angelika Stefan"
+email = "Angelika.Stefan@psy.lmu.de"
 
 [[place.initiative]]
 name = "LMU Open Science Center"
