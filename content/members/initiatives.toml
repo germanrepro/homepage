@@ -508,6 +508,17 @@ video = "https://youtu.be/n1ro141sqiw"
 name = "Mitja Back"
 email = "mitja.back@wwu.de"
 
+[[place.initiative]]
+name = "Münster Center for Open Science (MüCOS)"
+institution = "Universität Münster"
+url = "https://www.uni-muenster.de/MueCOS/index.html"
+image = ""
+video = ""
+
+[[place.initiative.person]]
+name = "Lukas Röseler"
+email = "lukas.roeseler@uni-muenster.de"
+
 
 [[place]]
 name = "Bayreuth"
