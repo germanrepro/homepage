@@ -33,6 +33,20 @@ name = "Felix Schönbrodt"
 email = "openscience@dgps.de"
 
 [[place.initiative]]
+name = "AG Open Science in der Klinischen Psychologie"
+institution = "Deutsche Gesellschaft für Psychologie"
+#image = "members/initiatives/responsible-metrics.png"
+#video = "https://youtu.be/2t40ywHL0z0"
+
+[[place.initiative.person]]
+name = "Jakob Fink-Lamotte"
+email = "jakob.fink-lamotte@uni-potsdam.de"
+
+[[place.initiative.person]]
+name = "Helen Niemeyer"
+email = "helen.niemeyer@fu-berlin.de"
+
+[[place.initiative]]
 name = "Responsible Metrics"
 institution = "BIH QUEST-Center @ Charité Berlin"
 url = "https://www.bihealth.org/en/translation/innovation-enabler/quest-center/projects/translational-bioethics/bravo"
