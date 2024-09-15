@@ -26,7 +26,7 @@
     {% if class != "" %}class="{{ class | safe }}"{% endif %}
     {% if attrs != "" %}{{ attrs | safe }}{% endif %}
   >
-{% endmacro picture %}
+{% endmacro picture_fill_square %}
 
 {% macro picture_fill(img, widths, heights, class="", attrs="") %}
   <img
@@ -41,4 +41,4 @@
     {% if class != "" %}class="{{ class | safe }}"{% endif %}
     {% if attrs != "" %}{{ attrs | safe }}{% endif %}
   >
-{% endmacro picture %}
+{% endmacro picture_fill %}
