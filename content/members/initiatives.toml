@@ -432,6 +432,14 @@ video = "https://youtu.be/SSUdV929xTw"
 name = "Antonia C. Schrader & Bernadette Fritzsch"
 email = "open-science@helmholtz.de"
 
+[[place.initiative]]
+name = "Network of Open Science Initiatives (NOSI)"
+url = "https://osf.io/tbkzh/"
+image = "members/initiatives/NOSI.png"
+
+[[place.initiative.person]]
+name = "Rima-Maria Rahal"
+email = "rahal@coll.mpg.de"
 
 
 [[place]]
@@ -449,7 +457,7 @@ video = "https://youtu.be/JYn0HpZAzTM"
 
 [[place.initiative.person]]
 name = "Robert Reinecke"
-email = "robert.reinecke@uni-potsdam.de"
+email = "reinecke@uni-mainz.de"
 
 [[place]]
 name = "Göttingen"
