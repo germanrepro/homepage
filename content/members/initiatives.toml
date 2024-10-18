@@ -456,22 +456,40 @@ name = "Rima-Maria Rahal"
 email = "rahal@coll.mpg.de"
 
 
+#[[place]]
+#name = "Potsdam"
+#postcode = 14467
+#lat = 13.065659
+#lon = 52.398859
+
+#[[place.initiative]]
+#name = "ReproduciblE MODELing"
+#institution = "University Potsdam and International Centre for Water Resources and Global Change"
+#url = "http://remodel.global"
+#image = "members/initiatives/remodel.png"
+#video = "https://youtu.be/JYn0HpZAzTM"
+
+#[[place.initiative.person]]
+#name = "Robert Reinecke"
+#email = "reinecke@uni-mainz.de"
+
 [[place]]
-name = "Potsdam"
-postcode = 14467
-lat = 13.065659
-lon = 52.398859
+name = "Mainz"
+postcode = 55116
+lat = 49.9929
+lon = 8.2473
 
 [[place.initiative]]
 name = "ReproduciblE MODELing"
-institution = "University Potsdam and International Centre for Water Resources and Global Change"
-url = "http://remodel.global"
+institution = "University of Mainz"
+url = "https://erdsysmod.uni-mainz.de/forschung"
 image = "members/initiatives/remodel.png"
 video = "https://youtu.be/JYn0HpZAzTM"
 
 [[place.initiative.person]]
 name = "Robert Reinecke"
 email = "reinecke@uni-mainz.de"
+
 
 [[place]]
 name = "Göttingen"
