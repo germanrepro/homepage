@@ -19,12 +19,12 @@
 # url = "https://sites.google.com/site/susannfiedler/"
 # twitter = "susafiedler"
 
-[[member]]
-name = "Tracy Weissgerber"
-institution = "BIH QUEST-Center @ Charité Berlin"
-image = "members/steering/weissgerber.jpg"
-url = "https://www.bihealth.org/de/translation/innovationstreiber/quest-center/teams/ag-weissgerber"
-twitter = "T_Weissgerber"
+# [[member]]
+# name = "Tracy Weissgerber"
+# institution = "BIH QUEST-Center @ Charité Berlin"
+# image = "members/steering/weissgerber.jpg"
+# url = "https://www.bihealth.org/de/translation/innovationstreiber/quest-center/teams/ag-weissgerber"
+# twitter = "T_Weissgerber"
 
 [[member]]
 name = "Gordon Feld"
@@ -42,11 +42,11 @@ url = "https://www.meta-rep.uni-muenchen.de/people/team_heene/frank/index.html"
 twitter = "epizyklen"
 mastodon = "https://nerdculture.de/@epizyklen"
 
-#[[member]]
-#name = "Bernadette Fritzsch"
-#institution = "Alfred-Wegener-Institute"
-#image = "members/steering/fritzsch.jpg"
-#url = "https://www.awi.de/en/about-us/organisation/staff/bernadette-fritzsch.html"
+# [[member]]
+# name = "Bernadette Fritzsch"
+# institution = "Alfred-Wegener-Institute"
+# image = "members/steering/fritzsch.jpg"
+# url = "https://www.awi.de/en/about-us/organisation/staff/bernadette-fritzsch.html"
 
 # [[member]]
 # name = "Felix Henninger"
@@ -55,13 +55,13 @@ mastodon = "https://nerdculture.de/@epizyklen"
 # url = "https://www.felixhenninger.com/"
 # twitter = "felixhenninger"
 
-[[member]]
-name = "Rima-Maria Rahal"
-institution = "Network of Open Science Initiatives"
-image = "members/steering/rahal.jpg"
-url = "https://rimamrahal.wordpress.com/"
-twitter = "rimamrahal"
-mastodon = "https://nerdculture.de/@rmrahal"
+# [[member]]
+# name = "Rima-Maria Rahal"
+# institution = "Network of Open Science Initiatives"
+# image = "members/steering/rahal.jpg"
+# url = "https://rimamrahal.wordpress.com/"
+# twitter = "rimamrahal"
+# mastodon = "https://nerdculture.de/@rmrahal"
 
 #[[member]]
 #name = "Guido Scherp"
@@ -79,13 +79,13 @@ mastodon = "https://nerdculture.de/@rmrahal"
 #twitter = "nicebread303"
 #mastodon = "https://scicomm.xyz/@nicebread"
 
-[[member]]
-name = "Antonia Schrader"
-institution = "Helmholtz Association Open Science Office"
-image = "members/steering/schrader.jpg"
-url = "https://os.helmholtz.de/"
-twitter = "helmholtz_os"
-mastodon = "https://openbiblio.social/@AntoniaS"
+# [[member]]
+# name = "Antonia Schrader"
+# institution = "Helmholtz Association Open Science Office"
+# image = "members/steering/schrader.jpg"
+# url = "https://os.helmholtz.de/"
+# twitter = "helmholtz_os"
+# mastodon = "https://openbiblio.social/@AntoniaS"
 
 #[[member]]
 #name = "Verena Heise"
@@ -100,25 +100,25 @@ mastodon = "https://openbiblio.social/@AntoniaS"
 # url = "https://www.zbw.eu/en/research/klaus-tochtermann/"
 # twitter = "ktochtermann"
 
-[[member]]
-name = "Ulf Toelch"
-institution = "BIH QUEST-Center @ Charité Berlin"
-image = "members/steering/toelch.jpg"
-twitter = "ulf_toelch"
+# [[member]]
+# name = "Ulf Toelch"
+# institution = "BIH QUEST-Center @ Charité Berlin"
+# image = "members/steering/toelch.jpg"
+# twitter = "ulf_toelch"
 
-[[member]]
-name = "Peter Steinbach"
-institution = "Helmholtz AI, Helmholtz Association"
-image = "members/steering/steinbach.jpg"
-url = "https://www.helmholtz.ai/themenmenue/our-research/consultant-teams/helmholtz-ai-consultants-hzdr/index.html"
-twitter = "psteinb_"
+# [[member]]
+# name = "Peter Steinbach"
+# institution = "Helmholtz AI, Helmholtz Association"
+# image = "members/steering/steinbach.jpg"
+# url = "https://www.helmholtz.ai/themenmenue/our-research/consultant-teams/helmholtz-ai-consultants-hzdr/index.html"
+# twitter = "psteinb_"
 
-[[member]]
-name = "Tobias Schlauch"
-institution = "Deutsches Zentrum für Luft- und Raumfahrt"
-image = "members/steering/schlauch.jpg"
-url = "https://www.dlr.de/sc/en/desktopdefault.aspx/tabid-1192/1635_read-25578/sortby-lastname/"
-twitter = "TobiasSchlauch"
+# [[member]]
+# name = "Tobias Schlauch"
+# institution = "Deutsches Zentrum für Luft- und Raumfahrt"
+# image = "members/steering/schlauch.jpg"
+# url = "https://www.dlr.de/sc/en/desktopdefault.aspx/tabid-1192/1635_read-25578/sortby-lastname/"
+# twitter = "TobiasSchlauch"
 
 [[member]]
 name = "Tina Lonsdorf"
@@ -147,6 +147,56 @@ twitter = "EvoMRI"
 [[member]]
 name = "David Philip Morgan"
 institution = "Universität Mannheim"
-image = "members/steering/morgan.jpg"
+image = "members/steering/morgan.png"
 url = "https://www.uni-mannheim.de/open-science/open-science-office/"
 twitter = "David_Pmorgan"
+mastodon = "https://mastodon.world/@DPMorgan"
+
+## SC 2024
+
+[[member]]
+name = "Olmo van den Akker "
+institution = "QUEST Center for Responsible Research"
+image = "members/steering/olmo.jpg"
+url = "https://www.bihealth.org/en/quest/teams/team/ag-strech"
+
+[[member]]
+name = "Silke Kniffert"
+institution = "QUEST Center for Responsible Research"
+image = "members/steering/kniffert.png"
+url = "https://www.bihealth.org/de/aktuell/ag-toelch-projektteam-ausbildung-training-qualitaet-in-der-forschung"
+
+[[member]]
+name = "Susann Auer"
+institution = "Reproducibility 4 Everyone (R4E)"
+image = "members/steering/auer.png"
+url = "https://www.repro4everyone.org/people"
+
+[[member]]
+name = "Lea Maria Ferguson"
+institution = "Helmholtz Association, Helmholtz Open Science Office"
+image = "members/steering/ferguson.png"
+url = "https://os.helmholtz.de/"
+mastodon = "https://openbiblio.social/@LeaMariaFer"
+
+[[member]]
+name = "Marcel Meistring"
+institution = "Helmholtz Association, Helmholtz Open Science Office"
+image = "members/steering/meistring.png"
+url = "https://os.helmholtz.de/"
+mastodon = "https://troet.cafe/@marcelmson"
+
+[[member]]
+name = "Lydia Riedl"
+institution = "Network of Open Science Initiatives (NOSI)"
+image = "members/steering/riedl.png"
+url = "https://www.uni-marburg.de/de/ub/personen/riedl-lydia-dr"
+mastodon = "https://fediscience.org/@lydiariedl"
+
+[[member]]
+name = "Ina Fassbender"
+institution = "Network of Open Science Initiatives (NOSI)"
+image = "members/steering/fassbender.jpg"
+url = "https://www.uni-siegen.de/lwf/departments/psychologie/professuren/forstmeier/team/fassbender.html"
+
+
