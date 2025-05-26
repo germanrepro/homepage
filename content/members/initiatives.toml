@@ -589,3 +589,18 @@ url = "https://www.psychologie.phil.fau.de/institut/open-science/open-science-in
 [[place.initiative.person]]
 name = "Tim Rohe"
 email = "tim.rohe@fau.de"
+
+[[place]]
+name = "Köln"
+postcode = 50931
+lat = 6.9238
+lon = 50.9235
+
+[[place.initiative]]
+name = "ReproducibiliTea in the HumaniTeas"
+institution = "Universität Köln"
+url = "https://ub.uni-koeln.de/en/courses-consultations/specials/reproducibilitea-in-the-humaniteas"
+
+[[place.initiative.person]]
+name = "Elen Le Foll"
+email = "elefoll@uni-koeln.de"
