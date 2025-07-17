@@ -297,6 +297,18 @@ email = "gordon.feld@zi-mannheim.de"
 name = "Melanie Fritz"
 email = "melanie.fritz@zi-mannheim.de"
 
+[[place.initiative]]
+name = "Deutschen Gesellschaft für Psychophysiologie und ihre Anwendung (DGPA) e.V."
+url = "https://www.dgpa.de"
+
+[[place.initiative.person]]
+name = "Peter Kirsch"
+email = "peter.kirsch@zi-mannheim.de"
+
+[[place.initiative.person]]
+name = "Marta Andreatta"
+email = "marta.andreatta@med.uni-tuebingen.de"
+
 [[place]]
 name = "Munich"
 postcode = 80331
