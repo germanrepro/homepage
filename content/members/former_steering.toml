@@ -106,3 +106,25 @@ image = "members/steering/schlauch.jpg"
 url = "https://www.dlr.de/sc/en/desktopdefault.aspx/tabid-1192/1635_read-25578/sortby-lastname/"
 twitter = "TobiasSchlauch"
 
+[[member]]
+name = "Lea Maria Ferguson"
+institution = "Helmholtz Association, Helmholtz Open Science Office"
+image = "members/steering/ferguson.png"
+url = "https://os.helmholtz.de/"
+mastodon = "https://openbiblio.social/@LeaMariaFer"
+
+[[member]]
+name = "Marcel Meistring"
+institution = "Helmholtz Association, Helmholtz Open Science Office"
+image = "members/steering/meistring.png"
+url = "https://os.helmholtz.de/"
+mastodon = "https://troet.cafe/@marcelmson"
+
+[[member]]
+name = "Tina Lonsdorf"
+institution = "Universität Bielefeld"
+image = "members/steering/lonsdorf.jpg"
+url = "https://lonsdorflab.com/"
+twitter = "tinalonsdorf"
+mastodon = "https://nerdculture.de/@tinalonsdorf"
+
