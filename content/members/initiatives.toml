@@ -616,3 +616,17 @@ url = "https://ub.uni-koeln.de/en/courses-consultations/specials/reproducibilite
 [[place.initiative.person]]
 name = "Elen Le Foll"
 email = "elefoll@uni-koeln.de"
+
+[[place]]
+name = "Oldenburg"
+postcode = 26121
+lat = 8.1831
+lon = 53.1467
+
+[[place.initiative]]
+name = "Open Science Interest Group (OSIG) of the Psychology Department at the Carl von Ossietzky Universität Oldenburg"
+url = "https://uol.de/psychologie/open-science/osig"
+
+[[place.initiative.person]]
+name = "Cassie Short"
+email = "cassie.ann.short@uni-oldenburg.de"
