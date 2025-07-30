@@ -598,12 +598,21 @@ lon = 50.9235
 
 [[place.initiative]]
 name = "ReproducibiliTea in the HumaniTeas"
-institution = "Universität Köln"
+institution = "Universität zu Köln"
 url = "https://ub.uni-koeln.de/en/courses-consultations/specials/reproducibilitea-in-the-humaniteas"
+# image = "content/members/initiatives/reproducibilitea-humaniteas.png"
 
 [[place.initiative.person]]
 name = "Elen Le Foll"
 email = "elefoll@uni-koeln.de"
+
+[[place.initiative.person]]
+name = "Denis Arnold"
+email = "arnold@ub.uni-koeln.de"
+
+[[place.initiative.person]]
+name = "Gabriele Schwiertz"
+email = "schwiertz@uni-koeln.de"
 
 [[place]]
 name = "Oldenburg"
