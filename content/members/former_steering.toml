@@ -1,130 +1,128 @@
 [[member]]
 name = "Ulrich Dirnagl"
 institution = "BIH QUEST-Center @ Charité Berlin"
-image = "members/steering/dirnagl.jpg"
-url = "https://expneuro.charite.de/en/metas/person_detail/person/address_detail/dirnagl-1/"
-twitter = "dirnagl"
+#image = "members/steering/dirnagl.jpg"
+#url = "https://expneuro.charite.de/en/metas/person_detail/person/address_detail/dirnagl-1/"
+#twitter = "dirnagl"
 
 [[member]]
 name = "Christian Fiebach"
 institution = "Goethe University Frankfurt"
-image = "members/steering/fiebach.jpg"
-url = "http://www.fiebachlab.org/"
-twitter = "FiebachLab"
+#image = "members/steering/fiebach.jpg"
+#url = "http://www.fiebachlab.org/"
+#twitter = "FiebachLab"
 
 [[member]]
 name = "Susann Fiedler"
 institution = "Network of Open Science Initiatives"
-image = "members/steering/fiedler.jpg"
-url = "https://sites.google.com/site/susannfiedler/"
-twitter = "susafiedler"
+#image = "members/steering/fiedler.jpg"
+#url = "https://sites.google.com/site/susannfiedler/"
+#twitter = "susafiedler"
 
 [[member]]
 name = "Felix Henninger"
 institution = "Ludwig-Maximilians-University Munich"
-image = "members/steering/henninger.jpg"
-url = "https://www.felixhenninger.com/"
-mastodon = "https://scholar.social/@felix"
-twitter = "felixhenninger"
+#image = "members/steering/henninger.jpg"
+#url = "https://www.felixhenninger.com/"
+#mastodon = "https://scholar.social/@felix"
+#twitter = "felixhenninger"
 
 [[member]]
 name = "Klaus Tochtermann"
 institution = "ZBW – Leibniz Information Centre for Economics"
-image = "members/steering/tochtermann.jpg"
-url = "https://www.zbw.eu/en/research/klaus-tochtermann/"
-twitter = "ktochtermann"
+#image = "members/steering/tochtermann.jpg"
+#url = "https://www.zbw.eu/en/research/klaus-tochtermann/"
+#twitter = "ktochtermann"
 
 [[member]]
 name = "Bernadette Fritzsch"
 institution = "Alfred-Wegener-Institute"
-image = "members/steering/fritzsch.jpg"
-url = "https://www.awi.de/en/about-us/organisation/staff/bernadette-fritzsch.html"
+#image = "members/steering/fritzsch.jpg"
+#url = "https://www.awi.de/en/about-us/organisation/staff/bernadette-fritzsch.html"
 
 [[member]]
 name = "Guido Scherp"
 institution = "ZBW – Leibniz Information Centre for Economics"
-image = "members/steering/scherp.jpg"
-url = "https://www.zbw.eu/en/research/science-2-0/guido-scherp"
-twitter = "guido_scherp"
-mastodon = "https://openbiblio.social/@GuidoScherp"
+#image = "members/steering/scherp.jpg"
+#url = "https://www.zbw.eu/en/research/science-2-0/guido-scherp"
+#twitter = "guido_scherp"
+#mastodon = "https://openbiblio.social/@GuidoScherp"
 
 [[member]]
 name = "Felix Schönbrodt"
 institution = "Ludwig-Maximilians-University Munich"
-image = "members/steering/schoenbrodt.jpg"
-url = "https://www.nicebread.de/"
-twitter = "nicebread303"
-mastodon = "https://scicomm.xyz/@nicebread"
+#image = "members/steering/schoenbrodt.jpg"
+#url = "https://www.nicebread.de/"
+#twitter = "nicebread303"
+#mastodon = "https://scicomm.xyz/@nicebread"
 
 [[member]]
 name = "Verena Heise"
 institution = "Freelance Open Science Researcher, Gladbeck"
-image = "members/steering/heise.jpg"
-url = "https://vheise.com/"
+#image = "members/steering/heise.jpg"
+#url = "https://vheise.com/"
 
 [[member]]
 name = "Tracy Weissgerber"
 institution = "BIH QUEST-Center @ Charité Berlin"
-image = "members/steering/weissgerber.jpg"
-url = "https://www.bihealth.org/de/translation/innovationstreiber/quest-center/teams/ag-weissgerber"
-twitter = "T_Weissgerber"
+#image = "members/steering/weissgerber.jpg"
+#url = "https://www.bihealth.org/de/translation/innovationstreiber/quest-center/teams/ag-weissgerber"
+#twitter = "T_Weissgerber"
 
 [[member]]
 name = "Rima-Maria Rahal"
 institution = "Network of Open Science Initiatives"
-image = "members/steering/rahal.jpg"
-url = "https://rimamrahal.wordpress.com/"
-twitter = "rimamrahal"
-mastodon = "https://nerdculture.de/@rmrahal"
+#image = "members/steering/rahal.jpg"
+#url = "https://rimamrahal.wordpress.com/"
+#twitter = "rimamrahal"
+#mastodon = "https://nerdculture.de/@rmrahal"
 
 [[member]]
 name = "Antonia Schrader"
 institution = "Helmholtz Association Open Science Office"
-image = "members/steering/schrader.jpg"
-url = "https://os.helmholtz.de/"
-twitter = "helmholtz_os"
-mastodon = "https://openbiblio.social/@AntoniaS"
+#url = "https://os.helmholtz.de/"
+#twitter = "helmholtz_os"
+#mastodon = "https://openbiblio.social/@AntoniaS"
 
 [[member]]
 name = "Ulf Toelch"
 institution = "BIH QUEST-Center @ Charité Berlin"
-image = "members/steering/toelch.jpg"
-twitter = "ulf_toelch"
-
+#image = "members/steering/toelch.jpg"
+#twitter = "ulf_toelch"
 
 [[member]]
 name = "Peter Steinbach"
 institution = "Helmholtz AI, Helmholtz Association"
-image = "members/steering/steinbach.jpg"
-url = "https://www.helmholtz.ai/themenmenue/our-research/consultant-teams/helmholtz-ai-consultants-hzdr/index.html"
-twitter = "psteinb_"
+#image = "members/steering/steinbach.jpg"
+#url = "https://www.helmholtz.ai/themenmenue/our-research/consultant-teams/helmholtz-ai-consultants-hzdr/index.html"
+#twitter = "psteinb_"
 
 [[member]]
 name = "Tobias Schlauch"
 institution = "Deutsches Zentrum für Luft- und Raumfahrt"
-image = "members/steering/schlauch.jpg"
-url = "https://www.dlr.de/sc/en/desktopdefault.aspx/tabid-1192/1635_read-25578/sortby-lastname/"
-twitter = "TobiasSchlauch"
+#image = "members/steering/schlauch.jpg"
+#url = "https://www.dlr.de/sc/en/desktopdefault.aspx/tabid-1192/1635_read-25578/sortby-lastname/"
+#twitter = "TobiasSchlauch"
 
 [[member]]
 name = "Lea Maria Ferguson"
 institution = "Helmholtz Association, Helmholtz Open Science Office"
-image = "members/steering/ferguson.png"
-url = "https://os.helmholtz.de/"
-mastodon = "https://openbiblio.social/@LeaMariaFer"
+#image = "members/steering/ferguson.png"
+#url = "https://os.helmholtz.de/"
+#mastodon = "https://openbiblio.social/@LeaMariaFer"
 
 [[member]]
 name = "Marcel Meistring"
 institution = "Helmholtz Association, Helmholtz Open Science Office"
-image = "members/steering/meistring.png"
-url = "https://os.helmholtz.de/"
-mastodon = "https://troet.cafe/@marcelmson"
+#image = "members/steering/meistring.png"
+#url = "https://os.helmholtz.de/"
+#mastodon = "https://troet.cafe/@marcelmson"
 
 [[member]]
 name = "Tina Lonsdorf"
 institution = "Universität Bielefeld"
-image = "members/steering/lonsdorf.jpg"
-url = "https://lonsdorflab.com/"
-twitter = "tinalonsdorf"
-mastodon = "https://nerdculture.de/@tinalonsdorf"
+#image = "members/steering/lonsdorf.jpg"
+#url = "https://lonsdorflab.com/"
+#twitter = "tinalonsdorf"
+#mastodon = "https://nerdculture.de/@tinalonsdorf"
 
