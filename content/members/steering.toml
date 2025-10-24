@@ -193,10 +193,10 @@ image = "members/steering/riedl.png"
 url = "https://www.uni-marburg.de/de/ub/personen/riedl-lydia-dr"
 mastodon = "https://fediscience.org/@lydiariedl"
 
-[[member]]
-name = "Ina Fassbender"
-institution = "Network of Open Science Initiatives (NOSI)"
-image = "members/steering/fassbender.jpg"
-url = "https://www.uni-siegen.de/lwf/departments/psychologie/professuren/forstmeier/team/fassbender.html"
+# [[member]]
+# name = "Ina Fassbender"
+# institution = "Network of Open Science Initiatives (NOSI)"
+# image = "members/steering/fassbender.jpg"
+# url = "https://www.uni-siegen.de/lwf/departments/psychologie/professuren/forstmeier/team/fassbender.html"
 
 
