@@ -126,3 +126,8 @@ institution = "Universität Bielefeld"
 #twitter = "tinalonsdorf"
 #mastodon = "https://nerdculture.de/@tinalonsdorf"
 
+[[member]]
+name = "Ina Fassbender"
+institution = "Network of Open Science Initiatives (NOSI)"
+# image = "members/steering/fassbender.jpg"
+# url = "https://www.uni-siegen.de/lwf/departments/psychologie/professuren/forstmeier/team/fassbender.html"
