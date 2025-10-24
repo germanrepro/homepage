@@ -185,11 +185,11 @@ lon = 51.481650
 name = "Open Science Initiative"
 institution = "Ruhr University Bochum"
 image = "members/initiatives/osi-rub.png"
-video = "https://youtu.be/W6r6vwIs4JQ"
+# video = "https://youtu.be/W6r6vwIs4JQ"
 
 [[place.initiative.person]]
-name = "Malte Elson"
-email = "malte.elson@rub.de"
+name = "Marie Hennecke"
+email = "Marie.Hennecke@ruhr-uni-bochum.de"
 
 [[place.initiative]]
 name = "Forschungs- und Behandlungszentrum für psychische Gesundheit (FBZ)"
