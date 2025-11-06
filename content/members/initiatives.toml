@@ -29,7 +29,7 @@ url = "https://www.dgps.de/schwerpunkte/transparente-wissenschaft/kommission-ope
 #video = "https://youtu.be/2t40ywHL0z0"
 
 [[place.initiative.person]]
-name = "Felix Schönbrodt"
+name = "Maximilian Frank"
 email = "openscience@dgps.de"
 
 [[place.initiative]]
@@ -110,8 +110,8 @@ image = "members/initiatives/screenit.png"
 video = "https://youtu.be/2b34KHQyW2A"
 
 [[place.initiative.person]]
-name = "Tracey Weissgerber"
-email = "tracey.weissgerber@charite.de"
+name = "Vladislav Nachev"
+email = "vladislav.nachev@charite.de"
 
 [[place.initiative]]
 name = "Clinical Psychological Intervention"
@@ -149,8 +149,8 @@ name = "Open Science Initiative of the Institute for Educational Quality Improve
 institution = "Humboldt-Universität zu Berlin"
 
 [[place.initiative.person]]
-name = "Claudia Neuendorf"
-email = "claudia.neuendorf@iqb.hu-berlin.de"
+name = "Aleksander Kocaj"
+email = "a.kocaj@iqb.hu-berlin.de"
 
 [[place]]
 name = "Rostock"
@@ -184,7 +184,8 @@ lon = 51.481650
 [[place.initiative]]
 name = "Open Science Initiative"
 institution = "Ruhr University Bochum"
-image = "members/initiatives/osi-rub.png"
+url = "https://www.psy.ruhr-uni-bochum.de/psy/fakultaet/open-science-initiative.html.de"
+# image = "members/initiatives/osi-rub.png"
 # video = "https://youtu.be/W6r6vwIs4JQ"
 
 [[place.initiative.person]]
@@ -268,10 +269,8 @@ name = "Gordon Feld"
 email = "gordon.feld@zi-mannheim.de"
 
 [[place.initiative.person]]
-name = "Tina Lonsdorf"
-email = "t.lonsdorf@uke.de"
-url = "https://lonsdorflab.com/"
-twitter = "tinalonsdorf"
+name = "Maria Bruntsch"
+email = "maria.bruntsch@uni-bielefeld.de"
 
 [[place.initiative]]
 name = "University of Mannheim"
@@ -303,16 +302,16 @@ postcode = 80331
 lat = 11.575277
 lon = 48.137222
 
-[[place.initiative]]
-name = "Open Science Initiative in Psychology (OSIP)"
-institution = "LMU Munich"
-url = "https://www.fak11.lmu.de/dep_psychologie/osc/index.html"
-image = "members/initiatives/osip.png"
-video = "https://youtu.be/TdDY_jLntP8"
+# [[place.initiative]]
+# name = "Open Science Initiative in Psychology (OSIP)"
+# institution = "LMU Munich"
+# url = "https://www.fak11.lmu.de/dep_psychologie/osc/index.html"
+# image = "members/initiatives/osip.png"
+# video = "https://youtu.be/TdDY_jLntP8"
 
-[[place.initiative.person]]
-name = "Angelika Stefan"
-email = "Angelika.Stefan@psy.lmu.de"
+# [[place.initiative.person]]
+# name = "Angelika Stefan"
+#email = "Angelika.Stefan@psy.lmu.de"
 
 [[place.initiative]]
 name = "LMU Open Science Center"
