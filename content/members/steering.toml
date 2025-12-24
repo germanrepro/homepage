@@ -139,10 +139,10 @@ twitter = "HeidiBaya"
 
 [[member]]
 name = "Daniel Mietchen"
-institution = "Leibniz Institute of Freshwater Ecology and Inland Fisheries"
+institution = "FIZ Karlsruhe — Leibniz Institute for Information Infrastructure"
 image = "members/steering/mietchen.jpg"
-url = "https://www.igb-berlin.de/profile/daniel-mietchen"
-twitter = "EvoMRI"
+url = "https://orcid.org/0000-0001-9488-1870"
+mastodon = "https://mastodon.social/@EvoMRI"
 
 [[member]]
 name = "David Philip Morgan"
