@@ -199,4 +199,22 @@ mastodon = "https://fediscience.org/@lydiariedl"
 # image = "members/steering/fassbender.jpg"
 # url = "https://www.uni-siegen.de/lwf/departments/psychologie/professuren/forstmeier/team/fassbender.html"
 
+[[member]]
+name = "Athar Khodabakhsh"
+institution = "Network of Open Science Initiatives (NOSI)"
+image = "members/steering/Athar.jpg"
+url = "https://hpi.de/renard/team/athar-khodabakhsh.html"
+
+[[member]]
+name = "Sebastian Ocklenburg"
+institution = "Interest Group for Open and Reproducible Science (IGOR)"
+image = "members/steering/Ocklenburg.jpeg"
+url = "https://www.medicalschool-hamburg.de/ueber-uns/team/team-fakultaet-humanwissenschaften/sebastian-ocklenburg/"
+
+[[member]]
+name = "Ruth von Brachel"
+institution = "Forschungs- und Behandlungszentrum für psychische Gesundheit (FBZ)"
+image = ""
+url = "https://fbz-bochum.de/person/dr-ruth-von-brachel"
+
 
