@@ -25,8 +25,6 @@ lon = 52.500000
 name = "Kommission Open Science der DGPs"
 institution = "Deutsche Gesellschaft für Psychologie"
 url = "https://www.dgps.de/schwerpunkte/transparente-wissenschaft/kommission-open-science/"
-#image = "members/initiatives/responsible-metrics.png"
-#video = "https://youtu.be/2t40ywHL0z0"
 
 [[place.initiative.person]]
 name = "Maximilian Frank"
@@ -35,8 +33,6 @@ email = "openscience@dgps.de"
 [[place.initiative]]
 name = "AG Open Science in der Klinischen Psychologie"
 institution = "Deutsche Gesellschaft für Psychologie"
-#image = "members/initiatives/responsible-metrics.png"
-#video = "https://youtu.be/2t40ywHL0z0"
 
 [[place.initiative.person]]
 name = "Jakob Fink-Lamotte"
@@ -46,16 +42,16 @@ email = "jakob.fink-lamotte@uni-potsdam.de"
 name = "Helen Niemeyer"
 email = "helen.niemeyer@fu-berlin.de"
 
-[[place.initiative]]
-name = "Responsible Metrics"
-institution = "BIH QUEST-Center @ Charité Berlin"
-url = "https://www.bihealth.org/en/translation/innovation-enabler/quest-center/projects/translational-bioethics/bravo"
-image = "members/initiatives/responsible-metrics.png"
-video = "https://youtu.be/2t40ywHL0z0"
+# [[place.initiative]]
+# name = "Responsible Metrics"
+# institution = "BIH QUEST-Center @ Charité Berlin"
+# url = "https://www.bihealth.org/en/translation/innovation-enabler/quest-center/projects/translational-bioethics/bravo"
+# image = "members/initiatives/responsible-metrics.png"
+# video = "https://youtu.be/2t40ywHL0z0"
 
-[[place.initiative.person]]
-name = "Responsible Metrics Team"
-email = "responsible-metrics@charite.de"
+# [[place.initiative.person]]
+# name = "Responsible Metrics Team"
+# email = "responsible-metrics@charite.de"
 
 #[[place.initiative]]
 #name = "SPOKES"
