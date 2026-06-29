@@ -640,3 +640,18 @@ email = "peter.kirsch@zi-mannheim.de"
 [[place.initiative.person]]
 name = "Marta Andreatta"
 email = "marta.andreatta@med.uni-tuebingen.de"
+
+[[place]]
+name = "Bielefeld"
+postcode = 33615
+lat = 8.534722
+lon = 52.021111
+
+[[place.initiative]]
+name = "Open Science Network Bielefeld"
+url = "https://www.uni-bielefeld.de/forschung/support/open-science-network/"
+# image = "content/members/initiatives/OSN_Bielefeld.png"
+
+[[place.initiative.person]]
+name = "Nina Schönfelder"
+email = "nina.schoenfelder@uni-bielefeld.de"
