@@ -8,7 +8,7 @@ class="container my-5 py-5{% if class %} {{ class }}{% endif %}"
 <h2>{{ title }}</h2>
 </div>
 <div class="col-lg-9 mt-1{% if body_class %} {{ body_class }}{% endif %}">
-{{ body | safe }}
+{% if body %}{{ body | safe }}{% endif %}
 <div class="card-columns logo-masonry mt-5">
 {% set data = load_data(path=data_path) %}
 {%- for member in data.members %}
