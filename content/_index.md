@@ -78,6 +78,13 @@ template = "landing.html"
   <p>Please click on any logo to view the respective organization's representatives in GRN.</p>
 {% end %}
 
+<!-- Steering Group -->
+{% landing_steering(
+  title="Steering Group", id="steering",
+  data_path="content/steering/steering.toml"
+) %}
+{% end %}
+
 <!-- Affiliate Networks -->
 {% landing_section(title="Affiliate Networks") %}
   <a href="https://www.ukrn.org/" target="_blank" rel="noreferrer"><strong>UK</strong> Reproducibility Network</a><br>
