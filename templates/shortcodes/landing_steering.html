@@ -34,16 +34,16 @@ data-bs-content="
 {%- endif %}
 "
 >
-{% if member.logo is ending_with(".svg") %}
+{% if member.image is ending_with(".svg") %}
 <img
-src="{{ get_url(path="/" ~ member.logo) }}"
+src="{{ get_url(path="/" ~ member.image) }}"
 width="300"
 loading="lazy"
 >
 {% else %}
 {{-
 media::picture(
-img=member.logo,
+img=member.image,
 widths=[300, 600],
 class="card-img-top my-3",
 attrs="width='300' loading='lazy'"
