@@ -76,8 +76,7 @@ template = "landing.html"
 {% end %}
 
 <!-- Steering Group -->
-{% landing_steering(title="Steering Group", id="steering", data_path="content/steering/steering.toml") %}
-{% end %}
+{{ landing_steering(title="Steering Group", id="steering", data_path="content/steering/steering.toml") }}
 
 <!-- Affiliate Networks -->
 {% landing_section(title="Affiliate Networks") %}
