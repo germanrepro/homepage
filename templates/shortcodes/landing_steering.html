@@ -11,7 +11,7 @@ class="container my-5 py-5{% if class %} {{ class }}{% endif %}"
 {% if body %}{{ body | safe }}{% endif %}
 <div class="card-columns logo-masonry mt-5">
 {% set data = load_data(path=data_path) %}
-{%- for member in data.members %}
+{%- for member in data.member %}
 <div class="card">
 <a
 tabindex="0"
