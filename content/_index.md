@@ -9,12 +9,12 @@ template = "landing.html"
 {% end %}
 
 <!-- Mission -->
-<!-- {% landing_section(title="Mission", id="mission") %}
+{% landing_section(title="Mission", id="mission") %}
   The German Reproducibility Network <span class="text-muted">(GRN)</span> is a <strong class="highlight-light">cross-disciplinary consortium that aims to increase trustworthiness and transparency of scientific research</strong> by investigating and encouraging the factors that contribute to robust research. We promote training activities and disseminate best practices, conduct and support meta-scientific research, and work with stakeholders to ensure coordination of efforts. GRN’s activities span multiple levels, including researchers, institutions and other stakeholders (e.g., funders, publishers, and Academic Societies).
 {% end %}
--->
+
 <!-- Audience groups -->
-<!-- {% landing_audience_groups() %}
+{% landing_audience_groups() %}
   <div class="card">
     <div class="card-header">
       <img
@@ -68,18 +68,17 @@ template = "landing.html"
     </div>
   </div>
 {% end %}
--->
+
 <!-- Members -->
-<!-- {% landing_members(title="Founding members", id="members", data_path="content/members/founding_members.toml") %}
+{% landing_members(title="Founding members", id="members", data_path="content/members/founding_members.toml") %}
   <img src="/members/founding_members/_team.jpg" class="rounded mb-4 w-100">
   <p>Please click on any logo to view the respective organization's representatives in GRN.</p>
 {% end %}
--->
 
 <!-- Steering Group -->
-<!-- {% landing_steering(title="Steering Group", id="steering", data_path="content/steering/steering.toml") %}
+{% landing_steering(title="Steering Group", id="steering", data_path="content/steering/steering.toml") %}
 {% end %}
--->
+
 <!-- Affiliate Networks -->
 {% landing_section(title="Affiliate Networks") %}
   <a href="https://www.ukrn.org/" target="_blank" rel="noreferrer"><strong>UK</strong> Reproducibility Network</a><br>
