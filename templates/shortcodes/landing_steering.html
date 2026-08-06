@@ -1,7 +1,59 @@
 {% import "macros/media.html" as media %}
 <div
-  {% if id %}id="{{ id }}"{% endif %}
-  class="container my-5 py-5{% if class %} {{ class }}{% endif %}"
+{% if id %}id="{{ id }}"{% endif %}
+class="container my-5 py-5{% if class %} {{ class }}{% endif %}"
 >
-  <div class="row">
-    <div class="col-lg-3">
+<div class="row">
+<div class="col-lg-3">
+<h2>{{ title }}</h2>
+</div>
+<div class="col-lg-9 mt-1{% if body_class %} {{ body_class }}{% endif %}">
+{{ body | safe }}
+<div class="card-columns logo-masonry mt-5">
+{% set data = load_data(path=data_path) %}
+{%- for member in data.members %}
+<div class="card">
+<a
+tabindex="0"
+role="button"
+data-bs-toggle="popover"
+data-bs-trigger="focus"
+data-bs-placement="bottom"
+data-bs-html="true"
+title="
+{%- if member.url -%}
+<a href='{{ member.url }}' target='_blank' rel='noopener noreferrer' class='float-end'>↗︎</a>
+{{ member.name }}
+{%- else -%}
+{{ member.name }}
+{%- endif -%}
+"
+data-bs-content="
+{%- if member.subtitle -%}
+<p class='text-muted small mt-2 mb-2'>{{ member.subtitle }}</p>
+{%- endif %}
+"
+>
+{% if member.logo is ending_with(".svg") %}
+<img
+src="{{ get_url(path="/" ~ member.logo) }}"
+width="300"
+loading="lazy"
+>
+{% else %}
+{{-
+media::picture(
+img=member.logo,
+widths=[300, 600],
+class="card-img-top my-3",
+attrs="width='300' loading='lazy'"
+)
+-}}
+{% endif %}
+</a>
+</div>
+{% endfor -%}
+</div>
+</div>
+</div>
+</div>
