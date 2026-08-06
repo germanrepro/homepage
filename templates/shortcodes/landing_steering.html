@@ -1,0 +1,7 @@
+{% import "macros/media.html" as media %}
+<div
+  {% if id %}id="{{ id }}"{% endif %}
+  class="container my-5 py-5{% if class %} {{ class }}{% endif %}"
+>
+  <div class="row">
+    <div class="col-lg-3">
