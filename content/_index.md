@@ -70,19 +70,13 @@ template = "landing.html"
 {% end %}
 
 <!-- Members -->
-{% landing_members(
-  title="Founding members", id="members",
-  data_path="content/members/founding_members.toml"
-) %}
+{% landing_members(title="Founding members", id="members", data_path="content/members/founding_members.toml") %}
   <img src="/members/founding_members/_team.jpg" class="rounded mb-4 w-100">
   <p>Please click on any logo to view the respective organization's representatives in GRN.</p>
 {% end %}
 
 <!-- Steering Group -->
-{% landing_steering(
-  title="Steering Group", id="steering",
-  data_path="content/steering/steering.toml"
-) %}
+{% landing_steering(title="Steering Group", id="steering", data_path="content/steering/steering.toml") %}
 {% end %}
 
 <!-- Affiliate Networks -->
