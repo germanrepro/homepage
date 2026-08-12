@@ -557,6 +557,17 @@ video = ""
 name = "Lukas Röseler"
 email = "lukas.roeseler@uni-muenster.de"
 
+[[place.initiative]]
+name = "Replication Research"
+institution = "Universität Münster"
+url = "https://www.replicationresearch.org/network/"
+image = ""
+video = ""
+
+[[place.initiative.person]]
+name = "Lukas Röseler"
+email = "contact@replicationresearch.org"
+
 
 [[place]]
 name = "Bayreuth"
