@@ -135,7 +135,6 @@ url = "https://www.bfr.bund.de/en/home.html"
 image = "members/initiatives/BfR.png"
 video = "https://www.youtube.com/watch?v=c8cGsMNRdU8"
 
-
 [[place.initiative.person]]
 name = "Céline Heinl"
 email = "celine.heinl@bfr.bund.de"
@@ -147,6 +146,17 @@ institution = "Humboldt-Universität zu Berlin"
 [[place.initiative.person]]
 name = "Aleksander Kocaj"
 email = "a.kocaj@iqb.hu-berlin.de"
+
+[[place.initiative]]
+name = "CODECHECK"
+url = "https://codecheck.org.uk/"
+image = "members/initiatives/Codechecker.png"
+video = "https://youtu.be/_nMzFhYro_U"
+
+[[place.initiative.person]]
+name = "Daniel Nüst"
+email = "team@cdchck.science"
+
 
 [[place]]
 name = "Rostock"
@@ -359,16 +369,6 @@ image = "members/initiatives/OSIP_TU_Dresden_resize.png"
 [[place.initiative.person]]
 name = "Stefan Scherbaum"
 email = "stefan.scherbaum@tu-dresden.de"
-
-[[place.initiative]]
-name = "CODECHECK"
-url = "https://codecheck.org.uk/"
-image = "members/initiatives/Codechecker.png"
-video = "https://youtu.be/_nMzFhYro_U"
-
-[[place.initiative.person]]
-name = "Daniel Nüst"
-email = "daniel.nuest@tu-dresden.de"
 
 
 [[place]]
