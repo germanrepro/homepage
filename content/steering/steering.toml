@@ -1,35 +1,35 @@
 # [[member]]
 # name = "Ulrich Dirnagl"
 # institution = "BIH QUEST-Center @ Charité Berlin"
-# image = "members/steering/dirnagl.jpg"
+# image = "steering/steering/dirnagl.jpg"
 # url = "https://expneuro.charite.de/en/metas/person_detail/person/address_detail/dirnagl-1/"
 # twitter = "dirnagl"
 
 # [[member]]
 # name = "Christian Fiebach"
 # institution = "Goethe University Frankfurt"
-# image = "members/steering/fiebach.jpg"
+# image = "steering/steering/fiebach.jpg"
 # url = "http://www.fiebachlab.org/"
 # twitter = "FiebachLab"
 
 # [[member]]
 # name = "Susann Fiedler"
 # institution = "Network of Open Science Initiatives"
-# image = "members/steering/fiedler.jpg"
+# image = "steering/steering/fiedler.jpg"
 # url = "https://sites.google.com/site/susannfiedler/"
 # twitter = "susafiedler"
 
 # [[member]]
 # name = "Tracy Weissgerber"
 # institution = "BIH QUEST-Center @ Charité Berlin"
-# image = "members/steering/weissgerber.jpg"
+# image = "steering/steering/weissgerber.jpg"
 # url = "https://www.bihealth.org/de/translation/innovationstreiber/quest-center/teams/ag-weissgerber"
 # twitter = "T_Weissgerber"
 
 [[member]]
 name = "Gordon Feld"
 institution = "Central Institute of Mental Health in Mannheim"
-image = "members/steering/feld.jpg"
+image = "steering/steering/feld.jpg"
 url = "https://www.zi-mannheim.de/forschung/personen/person/15954.html"
 twitter = "GordonFeld"
 mastodon = "https://mastodon.online/@GordonFeld"
@@ -37,7 +37,7 @@ mastodon = "https://mastodon.online/@GordonFeld"
 [[member]]
 name = "Maximilian Frank"
 institution = "LMU Munich & Psychologie-Fachschaften-Konferenz (PsyFaKo)"
-image = "members/steering/frank.jpg"
+image = "steering/steering/frank.jpg"
 url = "https://www.meta-rep.uni-muenchen.de/people/team_heene/frank/index.html"
 twitter = "epizyklen"
 mastodon = "https://nerdculture.de/@epizyklen"
@@ -45,20 +45,20 @@ mastodon = "https://nerdculture.de/@epizyklen"
 # [[member]]
 # name = "Bernadette Fritzsch"
 # institution = "Alfred-Wegener-Institute"
-# image = "members/steering/fritzsch.jpg"
+# image = "steering/steering/fritzsch.jpg"
 # url = "https://www.awi.de/en/about-us/organisation/staff/bernadette-fritzsch.html"
 
 # [[member]]
 # name = "Felix Henninger"
 # institution = "Ludwig-Maximilians-University Munich"
-# image = "members/steering/henninger.jpg"
+# image = "steering/steering/henninger.jpg"
 # url = "https://www.felixhenninger.com/"
 # twitter = "felixhenninger"
 
 # [[member]]
 # name = "Rima-Maria Rahal"
 # institution = "Network of Open Science Initiatives"
-# image = "members/steering/rahal.jpg"
+# image = "steering/steering/rahal.jpg"
 # url = "https://rimamrahal.wordpress.com/"
 # twitter = "rimamrahal"
 # mastodon = "https://nerdculture.de/@rmrahal"
@@ -66,7 +66,7 @@ mastodon = "https://nerdculture.de/@epizyklen"
 #[[member]]
 #name = "Guido Scherp"
 #institution = "ZBW – Leibniz Information Centre for Economics"
-#image = "members/steering/scherp.jpg"
+#image = "steering/steering/scherp.jpg"
 #url = "https://www.zbw.eu/en/research/science-2-0/guido-scherp"
 #twitter = "guido_scherp"
 #mastodon = "https://openbiblio.social/@GuidoScherp"
@@ -74,7 +74,7 @@ mastodon = "https://nerdculture.de/@epizyklen"
 #[[member]]
 #name = "Felix Schönbrodt"
 #institution = "Ludwig-Maximilians-University Munich"
-#image = "members/steering/schoenbrodt.jpg"
+#image = "steering/steering/schoenbrodt.jpg"
 #url = "https://www.nicebread.de/"
 #twitter = "nicebread303"
 #mastodon = "https://scicomm.xyz/@nicebread"
@@ -82,7 +82,7 @@ mastodon = "https://nerdculture.de/@epizyklen"
 # [[member]]
 # name = "Antonia Schrader"
 # institution = "Helmholtz Association Open Science Office"
-# image = "members/steering/schrader.jpg"
+# image = "steering/steering/schrader.jpg"
 # url = "https://os.helmholtz.de/"
 # twitter = "helmholtz_os"
 # mastodon = "https://openbiblio.social/@AntoniaS"
@@ -90,40 +90,40 @@ mastodon = "https://nerdculture.de/@epizyklen"
 #[[member]]
 #name = "Verena Heise"
 #institution = "Freelance Open Science Researcher, Gladbeck"
-#image = "members/steering/heise.jpg"
+#image = "steering/steering/heise.jpg"
 #url = "https://vheise.com/"
 
 # [[member]]
 # name = "Klaus Tochtermann"
 # institution = "ZBW – Leibniz Information Centre for Economics"
-# image = "members/steering/tochtermann.jpg"
+# image = "steering/steering/tochtermann.jpg"
 # url = "https://www.zbw.eu/en/research/klaus-tochtermann/"
 # twitter = "ktochtermann"
 
 # [[member]]
 # name = "Ulf Toelch"
 # institution = "BIH QUEST-Center @ Charité Berlin"
-# image = "members/steering/toelch.jpg"
+# image = "steering/steering/toelch.jpg"
 # twitter = "ulf_toelch"
 
 # [[member]]
 # name = "Peter Steinbach"
 # institution = "Helmholtz AI, Helmholtz Association"
-# image = "members/steering/steinbach.jpg"
+# image = "steering/steering/steinbach.jpg"
 # url = "https://www.helmholtz.ai/themenmenue/our-research/consultant-teams/helmholtz-ai-consultants-hzdr/index.html"
 # twitter = "psteinb_"
 
 # [[member]]
 # name = "Tobias Schlauch"
 # institution = "Deutsches Zentrum für Luft- und Raumfahrt"
-# image = "members/steering/schlauch.jpg"
+# image = "steering/steering/schlauch.jpg"
 # url = "https://www.dlr.de/sc/en/desktopdefault.aspx/tabid-1192/1635_read-25578/sortby-lastname/"
 # twitter = "TobiasSchlauch"
 
 # [[member]]
 # name = "Tina Lonsdorf"
 # institution = "Universität Bielefeld"
-# image = "members/steering/lonsdorf.jpg"
+# image = "steering/steering/lonsdorf.jpg"
 # url = "https://lonsdorflab.com/"
 # twitter = "tinalonsdorf"
 # mastodon = "https://nerdculture.de/@tinalonsdorf"
@@ -133,21 +133,21 @@ mastodon = "https://nerdculture.de/@epizyklen"
 [[member]]
 name = "Heidi Seibold"
 institution = "Open Science Freelancer"
-image = "members/steering/seibold.jpg"
+image = "steering/steering/seibold.jpg"
 url = "https://heidiseibold.ck.page/"
 twitter = "HeidiBaya"
 
 [[member]]
 name = "Daniel Mietchen"
 institution = "FIZ Karlsruhe — Leibniz Institute for Information Infrastructure"
-image = "members/steering/mietchen.jpg"
+image = "steering/steering/mietchen.jpg"
 url = "https://orcid.org/0000-0001-9488-1870"
 mastodon = "https://mastodon.social/@EvoMRI"
 
 [[member]]
 name = "David Philip Morgan"
 institution = "Universität Mannheim"
-image = "members/steering/morgan.png"
+image = "steering/steering/morgan.png"
 url = "https://www.uni-mannheim.de/open-science/open-science-office/"
 twitter = "David_Pmorgan"
 mastodon = "https://mastodon.world/@DPMorgan"
@@ -157,64 +157,64 @@ mastodon = "https://mastodon.world/@DPMorgan"
 [[member]]
 name = "Olmo van den Akker "
 institution = "BIH QUEST-Center @ Charité Berlin"
-image = "members/steering/olmo.jpg"
+image = "steering/steering/olmo.jpg"
 url = "https://www.bihealth.org/en/quest/teams/team/ag-strech"
 
 [[member]]
 name = "Silke Kniffert"
 institution = "BIH QUEST-Center @ Charité Berlin"
-image = "members/steering/kniffert.png"
+image = "steering/steering/kniffert.png"
 url = "https://www.bihealth.org/de/aktuell/ag-toelch-projektteam-ausbildung-training-qualitaet-in-der-forschung"
 
 [[member]]
 name = "Susann Auer"
 institution = "Reproducibility 4 Everyone (R4E)"
-image = "members/steering/auer.png"
+image = "steering/steering/auer.png"
 url = "https://www.repro4everyone.org/people"
 
 # [[member]]
 # name = "Lea Maria Ferguson"
 # institution = "Helmholtz Association, Helmholtz Open Science Office"
-# image = "members/steering/ferguson.png"
+# image = "steering/steering/ferguson.png"
 # url = "https://os.helmholtz.de/"
 # mastodon = "https://openbiblio.social/@LeaMariaFer"
 
 # [[member]]
 # name = "Marcel Meistring"
 # institution = "Helmholtz Association, Helmholtz Open Science Office"
-# image = "members/steering/meistring.png"
+# image = "steering/steering/meistring.png"
 # url = "https://os.helmholtz.de/"
 # mastodon = "https://troet.cafe/@marcelmson"
 
 [[member]]
 name = "Lydia Riedl"
 institution = "Network of Open Science Initiatives (NOSI)"
-image = "members/steering/riedl.png"
+image = "steering/steering/riedl.png"
 url = "https://www.uni-marburg.de/de/ub/personen/riedl-lydia-dr"
 mastodon = "https://fediscience.org/@lydiariedl"
 
 # [[member]]
 # name = "Ina Fassbender"
 # institution = "Network of Open Science Initiatives (NOSI)"
-# image = "members/steering/fassbender.jpg"
+# image = "steering/steering/fassbender.jpg"
 # url = "https://www.uni-siegen.de/lwf/departments/psychologie/professuren/forstmeier/team/fassbender.html"
 
 [[member]]
 name = "Athar Khodabakhsh"
 institution = "Network of Open Science Initiatives (NOSI)"
-image = "members/steering/Athar.jpg"
+image = "steering/steering/Athar.jpg"
 url = "https://hpi.de/renard/team/athar-khodabakhsh.html"
 
 [[member]]
 name = "Sebastian Ocklenburg"
 institution = "Interest Group for Open and Reproducible Science (IGOR)"
-image = "members/steering/Ocklenburg.jpeg"
+image = "steering/steering/Ocklenburg.jpeg"
 url = "https://www.medicalschool-hamburg.de/ueber-uns/team/team-fakultaet-humanwissenschaften/sebastian-ocklenburg/"
 
 [[member]]
 name = "Ruth von Brachel"
 institution = "Forschungs- und Behandlungszentrum für psychische Gesundheit (FBZ)"
-image = "members/steering/brachel.jpeg"
+image = "steering/steering/brachel.jpeg"
 url = "https://fbz-bochum.de/person/dr-ruth-von-brachel"
 
 
